@@ -1,0 +1,19 @@
+# Bases brutas do TSE/IBGE — nunca versionar (grandes, e algumas com campos
+# não divulgáveis antes de agregar)
+pipeline/exploratorio/Bases/
+pipeline/**/*.csv
+pipeline/**/*.xlsx
+!pipeline/exploratorio/Dashbord_candidaturas.Rmd
+
+# Ambiente R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp

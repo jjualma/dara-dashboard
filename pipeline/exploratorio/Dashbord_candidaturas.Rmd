@@ -1,0 +1,1266 @@
+---
+title: "Dashbord"
+author: "Ju Marques"
+date: "02-10-2025"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+rm(list = ls())
+
+gc()
+
+options(OutDec = ",")
+
+###Evita o acionamento de notação científica 
+options(scipen = 100, digits = 2)
+
+
+library(scales)
+library(readxl)
+library(dplyr)
+library(openxlsx)
+library(lubridate)
+library(dplyr)
+library(tidyverse)
+library(janitor)
+library(ggplot2)
+library(knitr)
+library(gtsummary)
+library(lubridate)
+library(reshape2)
+library(janitor)
+library(forcats)
+library(kableExtra)
+library(gt)
+library(flextable)
+
+
+label_number(big.mark = ".", decimal.mark = ",")(1234567)
+
+tabela_word <- function(tbl, caption = NULL, footnote = NULL) {
+  # Imprime caption como texto (Word)
+  if (!is.null(caption)) cat(caption, "\n\n")
+  
+  # Converte para gt
+  tbl_gt <- tbl %>% as_gt()
+  
+  # Adiciona nota de rodapé se fornecida
+  if (!is.null(footnote)) {
+    tbl_gt <- tbl_gt %>% tab_source_note(gt::md(footnote))
+  }
+  
+  return(tbl_gt)
+}
+
+
+### Formatação
+{
+  tabela_word <- function(tbl, caption = NULL, footnote = NULL){
+ft <- tbl %>%
+    as_flex_table() %>%
+    fontsize(size = 7, part = "all") %>%   # 👈 AQUI
+    padding(padding = 2, part = "all") %>%
+    autofit()
+  # adicionar caption
+  if (!is.null(caption)) {
+    ft <- set_caption(ft, caption = caption)
+  }
+
+  # adicionar footnote
+  if (!is.null(footnote)) {
+    ft <- add_footer_lines(ft, values = footnote)
+  }
+
+  return(ft)}
+    
+  }
+```
+
+```{r base_cand_2014, include=FALSE, message = FALSE, warning = FALSE}
+#####https://dadosabertos.tse.jus.br/dataset/
+bd_cand_2014 <- read_delim("Bases/consulta_cand_2014/consulta_cand_2014_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2014)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2014 <- bd_cand_2014 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+
+t <- bd_cand_2014 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2014 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+table(bd_cand_2014$DS_SIT_TOT_TURNO)
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+table(bd_cand_2014$DSC_GENERO, useNA = "always")
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+
+table(bd_cand_2014$DSC_COR_RACA)
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+
+
+```
+
+```{r base_cand_2016, include=FALSE, message = FALSE, warning = FALSE}
+#####https://dadosabertos.tse.jus.br/dataset/
+bd_cand_2016 <- read_delim("Bases/consulta_cand_2016/consulta_cand_2016_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2016)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2016 <- bd_cand_2016 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+
+t <- bd_cand_2016 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2016 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+table(bd_cand_2016$DS_SIT_TOT_TURNO)
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+table(bd_cand_2016$DSC_RESULTADO)
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+
+
+
+```
+
+```{r base_cand_2018, include=FALSE, message = FALSE, warning = FALSE}
+bd_cand_2018 <- read_delim("Bases/consulta_cand_2018/consulta_cand_2018_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2018)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2018 <- bd_cand_2018 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+t <- bd_cand_2018 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2018 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+table(bd_cand_2018$DS_SIT_TOT_TURNO)
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+```
+
+```{r base_cand_2020, include=FALSE, message = FALSE, warning = FALSE}
+bd_cand_2020 <- read_delim("Bases/consulta_cand_2020/consulta_cand_2020_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2020)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2020 <- bd_cand_2020 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+t <- bd_cand_2020 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2020 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+table(bd_cand_2020$DS_SIT_TOT_TURNO)
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+```
+
+```{r base_cand_2022, include=FALSE, message = FALSE, warning = FALSE}
+bd_cand_2022 <- read_delim("Bases/consulta_cand_2022/consulta_cand_2022_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2022)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2022 <- bd_cand_2022 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+t <- bd_cand_2022 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2022 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+table(bd_cand_2022$DS_SIT_TOT_TURNO)
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+
+```
+
+```{r base_cand_2024, include=FALSE, message = FALSE, warning = FALSE}
+bd_cand_2024 <- read_delim("Bases/consulta_cand_2024/consulta_cand_2024_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2024)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2024 <- bd_cand_2024 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+t <- bd_cand_2024 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2024 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+table(bd_cand_2024$DS_SIT_TOT_TURNO)
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+
+```
+
+```{r base_cand_2026, include=FALSE, message = FALSE, warning = FALSE}
+bd_cand_2026 <- read_delim("Bases/consulta_cand_2026/consulta_cand_2026_BRASIL.csv",
+                        delim = ";",
+                        escape_double = FALSE,
+                        col_types = cols(SQ_CANDIDATO = col_character()),
+                        trim_ws = TRUE,
+                        locale = locale(encoding = "ISO-8859-1"),
+                        progress = show_progress())
+
+###Acessa a estrutura da base
+glimpse(bd_cand_2026)
+
+
+###Filtra e seleciona variáveis
+bd_cand_2026 <- bd_cand_2026 %>%
+  select(ANO_ELEICAO,DS_ELEICAO,NR_TURNO,NR_PARTIDO,SG_UF,SG_UE,NM_UE,DS_CARGO,SQ_CANDIDATO,NM_CANDIDATO,NM_SOCIAL_CANDIDATO,NR_CANDIDATO,NR_CPF_CANDIDATO,
+    SG_PARTIDO,DS_GENERO,DS_GRAU_INSTRUCAO,
+    DS_ESTADO_CIVIL,DS_COR_RACA,DS_OCUPACAO,
+    DS_SITUACAO_CANDIDATURA,
+    DS_SIT_TOT_TURNO,
+    TP_AGREMIACAO,
+    SG_FEDERACAO,
+    NM_FEDERACAO,
+    NR_FEDERACAO,
+    SQ_COLIGACAO,
+    NM_COLIGACAO,
+    DS_COMPOSICAO_COLIGACAO,
+    SG_UF_NASCIMENTO,
+    DT_NASCIMENTO)
+
+t <- bd_cand_2026 %>%
+  group_by(DS_CARGO) %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  arrange(desc(NR_TURNO)) %>%
+  distinct(SQ_CANDIDATO, .keep_all = TRUE)
+
+t <- bd_cand_2026 %>%
+  count(SQ_CANDIDATO) %>%
+  filter(n > 1)
+
+table(bd_cand_2026$DS_SIT_TOT_TURNO)
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  mutate(
+    DSC_RESULTADO = case_when(
+    DS_SIT_TOT_TURNO == "#NULO#" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "#NULO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR MÉDIA" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "ELEITO POR QP" ~ "ELEITO",
+    DS_SIT_TOT_TURNO == "NÃO ELEITO" ~ "NÃO ELEITO",
+    DS_SIT_TOT_TURNO == "SUPLENTE" ~ "SUPLENTE",
+    TRUE ~ "Não respondeu"))
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  mutate(
+    DSC_GENERO = case_when(
+    DS_GENERO == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_GENERO == "NÃO INFORMADO" ~ "NAOINF",
+    DS_GENERO == "FEMININO" ~ "FEM",
+    DS_GENERO == "MASCULINO" ~ "MASC",
+    TRUE ~ "NAOINF"),
+    DSC_GENERO = factor(
+      DSC_GENERO,
+      levels = c("FEM","MASC","NAOINF")))
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  mutate(
+    DSC_COR_RACA = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "PARDA",
+    DS_COR_RACA == "PRETA" ~ "PRETA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  mutate(
+    DSC_COR_RACA2 = case_when(
+    DS_COR_RACA == "NÃO DIVULGÁVEL" ~ "NAOINF",
+    DS_COR_RACA == "NÃO INFORMADO" ~ "NAOINF",
+    DS_COR_RACA == "AMARELA" ~ "AMARELA",
+    DS_COR_RACA == "BRANCA" ~ "BRANCA",
+    DS_COR_RACA == "PARDA" ~ "NEGRA",
+    DS_COR_RACA == "PRETA" ~ "NEGRA",
+    DS_COR_RACA == "INDÍGENA" ~ "INDIGENA",
+    TRUE ~ "NAOINF"),
+    DSC_COR_RACA = factor(
+      DSC_COR_RACA,
+      levels = c("AMARELA","BRANCA","PARDA","PRETA",
+                 "INDIGENA","NAOINF")))
+
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  mutate(
+    DSC_GENERO_RACA = paste0(DSC_GENERO,DSC_COR_RACA2))
+
+```
+
+
+```{r base_cand, include=FALSE, message = FALSE, warning = FALSE}
+
+bd_cand_2014 <- bd_cand_2014 %>%
+  filter(DS_ELEICAO=="Eleições Gerais 2014")
+
+
+bd_cand_2016 <- bd_cand_2016 %>%
+  filter(DS_ELEICAO=="Eleições Municipais 2016")
+
+bd_cand_2018 <- bd_cand_2018 %>%
+  filter(DS_ELEICAO=="Eleição Geral Federal 2018" |
+         DS_ELEICAO=="Eleições Gerais Estaduais 2018")
+
+
+bd_cand_2020 <- bd_cand_2020 %>%
+  filter(DS_ELEICAO=="Eleições Municipais 2020" |
+         DS_ELEICAO=="Eleições Municipais 2020 - AP")
+
+bd_cand_2022 <- bd_cand_2022 %>%
+  filter(DS_ELEICAO=="Eleição Geral Federal 2022" |
+         DS_ELEICAO=="Eleições Gerais Estaduais 2022")
+
+bd_cand_2024 <- bd_cand_2024 %>%
+  filter(DS_ELEICAO=="Eleições Municipais 2024")
+
+bd_cand_2026 <- bd_cand_2026 %>%
+  filter(DS_ELEICAO=="Eleição Geral Federal 2026" |
+         DS_ELEICAO=="Eleições Gerais Estaduais 2026")
+
+t <- bd_cand_2026 %>%
+#  filter(DS_ELEICAO=="Eleições Municipais 2020") %>%
+  group_by(DS_ELEICAO,DS_CARGO) %>%
+  summarise(Total=n())
+
+t %>% print()
+
+bd_cand <- rbind(bd_cand_2014,bd_cand_2016,bd_cand_2018,bd_cand_2020,bd_cand_2022,bd_cand_2024,bd_cand_2026)
+
+write.table(bd_cand,"bd_cand_2014_2026.csv", sep=";", row.names = F, quote = F)
+
+#write.table(bd_cand_2022,"bd_cand_2022.csv", sep=";", row.names = F, quote = F)
+
+
+
+
+```
+
+
+```{r base_pop, include=FALSE, message = FALSE, warning = FALSE}
+
+####
+
+municipio_tse_ibge <- read_delim("Bases/municipio_tse_ibge.csv", 
+    delim = ";", escape_double = FALSE, locale = locale(encoding = "ISO-8859-1"), 
+    trim_ws = TRUE)
+
+
+
+municipio_tse_ibge$SG_UE <-municipio_tse_ibge$CD_MUNICIPIO_TSE
+
+municipio_tse_ibge$DT_GERACAO <- NULL
+municipio_tse_ibge$HH_GERACAO <- NULL
+municipio_tse_ibge$CD_UF_IBGE <- NULL
+municipio_tse_ibge$CD_UF_TSE <- NULL
+municipio_tse_ibge$NM_UF <- NULL
+
+uf_regiao <- data.frame(
+  SG_UF = c(
+    "RO", "AC", "AM", "RR", "PA", "AP", "TO",
+    "MA", "PI", "CE", "RN", "PB", "PE", "AL", "SE", "BA",
+    "MG", "ES", "RJ", "SP",
+    "PR", "SC", "RS",
+    "MS", "MT", "GO", "DF"
+  ),
+  REGIAO = c(
+    rep("Norte", 7),
+    rep("Nordeste", 9),
+    rep("Sudeste", 4),
+    rep("Sul", 3),
+    rep("Centro-Oeste", 4)
+  )
+)
+
+municipio_tse_ibge <- municipio_tse_ibge %>%
+  left_join(uf_regiao, by = "SG_UF")
+
+
+
+
+
+library(readxl)
+base_capitais <- read_excel("Bases/base_capitais.xlsx", 
+    col_types = c("text", "text", "numeric","text"))
+
+base_capitais$SG_UE <- NULL
+base_capitais$Município <- NULL
+base_capitais$SG_UF <- NULL
+
+base_capitais$CD_MUNICIPIO_IBGE<-base_capitais$`Código IBGE`
+
+base_capitais$`Código IBGE` <- NULL
+
+base_capitais$DSC_capital <-"sim"
+
+base_capitais <- base_capitais %>%
+    left_join(
+    municipio_tse_ibge %>%
+      select(
+        SG_UE,
+        CD_MUNICIPIO_IBGE),by = "CD_MUNICIPIO_IBGE")
+
+municipio_tse_ibge <- municipio_tse_ibge %>%
+  left_join(base_capitais, by = "CD_MUNICIPIO_IBGE")
+
+table(municipio_tse_ibge$DSC_capital, useNA = "always")
+
+municipio_tse_ibge$SG_UE<-municipio_tse_ibge$CD_MUNICIPIO_TSE
+
+
+#####
+library(readxl)
+pop_2010 <- read_excel("Bases/Tabela 9606_2010.xlsx")
+
+
+library(readxl)
+pop_2022 <- read_excel("Bases/Tabela 9606_2022.xlsx")
+
+
+library(tidyverse)
+library(stringi)
+library(janitor)
+
+# ============================================================
+# 1. Função para padronizar nomes de municípios
+# ============================================================
+
+padroniza_municipio <- function(x) {
+  
+  x %>%
+    as.character() %>%
+    stringi::stri_replace_all_regex("\\p{Z}+", " ") %>%  # normaliza espaços Unicode
+    str_squish() %>%                                      # remove espaços extras
+    str_to_upper() %>%
+    stringi::stri_trans_general("Latin-ASCII") %>%       # remove acentos
+    str_replace_all("[^A-Z0-9 ]", " ") %>%               # remove pontuação
+    str_squish()
+}
+
+# ============================================================
+# 2. Preparar a tabela de correspondência TSE x IBGE
+# ============================================================
+
+municipio_tse_ibge <- municipio_tse_ibge %>%
+  mutate(
+    NM_MUNICIPIO_IBGE_CHAVE_POP = padroniza_municipio(NM_MUNICIPIO_IBGE))
+
+municipio_tse_ibge <- municipio_tse_ibge %>%
+  mutate(
+    NM_MUNICIPIO_IBGE_CHAVE = padroniza_municipio(NM_MUNICIPIO_IBGE))
+
+
+
+
+# ============================================================
+# 3. Criar a chave na base que será associada
+# ============================================================
+
+pop_2010 <- pop_2010 %>%
+  mutate(
+    NM_MUNICIPIO_IBGE_CHAVE_POP = padroniza_municipio(NM_MUNICIPIO_IBGE_SIDRA))
+
+
+pop_2022 <- pop_2022 %>%
+  mutate(
+    NM_MUNICIPIO_IBGE_CHAVE_POP = padroniza_municipio(NM_MUNICIPIO_IBGE_SIDRA))
+
+# ---- 2) carrega a tabela de correção (de/para) 
+# baixe de_para_municipios.csv e ajuste o caminho abaixo
+de_para <- read_csv("Bases/de_para_municipios.csv", show_col_types = FALSE) %>%
+  select(SG_UF, CHAVE_POP_2010, CHAVE_TSE_IBGE)
+
+# ---- 3) corrige a chave do pop_2010 só onde há divergência conhecida 
+pop_2010 <- pop_2010 %>%
+  left_join(de_para, by = c("SG_UF" = "SG_UF",
+                             "NM_MUNICIPIO_IBGE_CHAVE_POP" = "CHAVE_POP_2010")) %>%
+  mutate(
+    NM_MUNICIPIO_IBGE_CHAVE_POP = coalesce(CHAVE_TSE_IBGE, NM_MUNICIPIO_IBGE_CHAVE_POP)
+  ) %>%
+  select(-CHAVE_TSE_IBGE)
+
+
+# ---- 3) corrige a chave do pop_2022 só onde há divergência conhecida 
+pop_2022 <- pop_2022 %>%
+  left_join(de_para, by = c("SG_UF" = "SG_UF",
+                             "NM_MUNICIPIO_IBGE_CHAVE_POP" = "CHAVE_POP_2010")) %>%
+  mutate(
+    NM_MUNICIPIO_IBGE_CHAVE_POP = coalesce(CHAVE_TSE_IBGE, NM_MUNICIPIO_IBGE_CHAVE_POP)
+  ) %>%
+  select(-CHAVE_TSE_IBGE)
+
+# ============================================================
+# 4. Associação pelo nome do município
+# ============================================================
+
+pop_2010 <- pop_2010 %>%
+  left_join(
+    municipio_tse_ibge %>%
+      select(
+        SG_UF,
+        CD_MUNICIPIO_IBGE,
+        NM_MUNICIPIO_IBGE,
+        NM_MUNICIPIO_IBGE_CHAVE_POP,
+        CD_MUNICIPIO_TSE,
+        SG_UE,
+        REGIAO,
+        DSC_capital),
+by = c("SG_UF" = "SG_UF","NM_MUNICIPIO_IBGE_CHAVE_POP"="NM_MUNICIPIO_IBGE_CHAVE_POP"))
+
+pop_2022 <- pop_2022 %>%
+  left_join(
+    municipio_tse_ibge %>%
+      select(
+        SG_UF,
+        CD_MUNICIPIO_IBGE,
+        NM_MUNICIPIO_IBGE,
+        NM_MUNICIPIO_IBGE_CHAVE_POP,
+        CD_MUNICIPIO_TSE,
+        SG_UE,
+        REGIAO,
+        DSC_capital),
+by = c("SG_UF" = "SG_UF","NM_MUNICIPIO_IBGE_CHAVE_POP"="NM_MUNICIPIO_IBGE_CHAVE_POP"))
+
+# ============================================================
+# 5. Verificar municípios que não foram associados
+# ============================================================
+
+municipios_nao_associados <- pop_2010 %>%
+  filter(is.na(NM_MUNICIPIO_IBGE)) %>%
+  distinct(
+    SG_UF,
+    NM_MUNICIPIO_IBGE_SIDRA,
+    NM_MUNICIPIO_IBGE,
+    NM_MUNICIPIO_IBGE_CHAVE_POP) %>%
+  arrange(SG_UF, NM_MUNICIPIO_IBGE_CHAVE_POP)
+
+# Visualizar
+View(municipios_nao_associados)
+
+
+###
+municipios_nao_associados <- pop_2022 %>%
+  filter(is.na(NM_MUNICIPIO_IBGE)) %>%
+  distinct(
+    SG_UF,
+    NM_MUNICIPIO_IBGE_SIDRA,
+    NM_MUNICIPIO_IBGE,
+    NM_MUNICIPIO_IBGE_CHAVE_POP) %>%
+  arrange(SG_UF, NM_MUNICIPIO_IBGE_CHAVE_POP)
+
+# Visualizar
+View(municipios_nao_associados)
+
+
+#####
+
+write.table(pop_2010,"pop_2010.csv", sep=";", row.names = F, quote = F)
+
+write.table(pop_2022,"pop_2022.csv", sep=";", row.names = F, quote = F)
+
+
+```
+
+```{r base_cand_ajustes, include=FALSE, message = FALSE, warning = FALSE}
+
+library(readr)
+bd_cand <- read_delim("bd_cand_2014_2026.csv", 
+    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+
+
+#####
+
+bd_cand <- bd_cand %>%
+  left_join(
+    uf_regiao %>%
+      select(
+        SG_UF,
+        REGIAO),
+by = c("SG_UF" = "SG_UF"))
+
+bd_cand <- bd_cand %>%
+  left_join(
+    base_capitais %>%
+      select(
+        CD_MUNICIPIO_IBGE,
+        DSC_capital,
+        SG_UE),
+by = c("SG_UE" = "SG_UE"))
+
+
+bd_cand <- bd_cand %>%
+  mutate(
+    DSC_capital = if_else(SG_UF == "DF", "sim", DSC_capital))
+
+####
+
+bd_cand2 <- bd_cand %>%
+  mutate(
+    SG_PARTIDO = case_when(
+      
+      # 10 - PRB → REPUBLICANOS
+      SG_PARTIDO == "PRB" ~ "PRB/REPUBLICANOS",
+      SG_PARTIDO == "REPUBLICANOS" ~ "PRB/REPUBLICANOS",
+      
+      # 15 - PMDB → MDB
+      SG_PARTIDO == "PMDB" ~ "PMDB/MDB",
+      SG_PARTIDO == "MDB" ~ "PMDB/MDB",
+      
+      # 23 - PPS → CIDADANIA
+      SG_PARTIDO == "PPS" ~ "PPS/CIDADANIA",
+      SG_PARTIDO == "CIDADANIA" ~ "PPS/CIDADANIA",
+      
+      # 27 - PSDC → DC
+      SG_PARTIDO == "PSDC" ~ "PSDC/DC",
+      SG_PARTIDO == "DC" ~ "PSDC/DC",
+      
+      # 33 - PMN → MOBILIZA
+      SG_PARTIDO == "PMN" ~ "PMN/MOBILIZA",
+      SG_PARTIDO == "MOBILIZA" ~ "PMN/MOBILIZA",
+      
+      # 36 - PTC → AGIR
+      SG_PARTIDO == "PTC" ~ "PTC/AGIR",
+      SG_PARTIDO == "AGIR" ~ "PTC/AGIR",
+      
+      # 70 - PT do B → AVANTE
+      SG_PARTIDO == "PT do B" ~ "PT do B/AVANTE",
+      SG_PARTIDO == "AVANTE" ~ "PT do B/AVANTE",
+      
+      # 77 - SD → SOLIDARIEDADE
+      SG_PARTIDO == "SD" ~ "SD/SOLIDARIEDADE",
+      SG_PARTIDO == "SOLIDARIEDADE" ~ "SD/SOLIDARIEDADE",
+
+      # 65 - PC do B / PCDOB
+      SG_PARTIDO == "PC do B" ~ "PCdoB",
+      SG_PARTIDO == "PCDOB" ~ "PCdoB",
+      
+      TRUE ~ SG_PARTIDO
+    )
+  )
+
+
+bd_cand2 <- bd_cand2 %>%
+  filter(DS_CARGO %in%
+           c("DEPUTADO DISTRITAL",
+             "DEPUTADO ESTADUAL","DEPUTADO FEDERAL","GOVERNADOR",
+             "PREFEITO","PRESIDENTE","SENADOR",
+             "VEREADOR"))
+
+bd_cand2$NM_COLIGACAO <- NULL
+bd_cand2$SQ_COLIGACAO <- NULL
+bd_cand2$DS_COMPOSICAO_COLIGACAO <- NULL
+
+table(bd_cand2$SG_PARTIDO)
+
+write.table(bd_cand2,"bd_cand_2014_2026_v2.csv", sep=";", row.names = F, quote = F)
+
+
+t <- bd_cand2 %>%
+  group_by(ANO_ELEICAO,SG_PARTIDO)%>%
+  summarise(total=n())
+  
+write.table(t,"partidos.csv", sep=";", row.names = F, quote = F)
+
+View(t)
+
+####
+
+library(readr)
+bd_cand2 <- read_delim("bd_cand_2014_2026_v2.csv", 
+    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+View(bd_cand2)
+
+
+
+t <- bd_cand2 %>%
+ filter(ANO_ELEICAO=="2022" | ANO_ELEICAO=="2024")
+
+write.table(t,"2022_2024.csv", sep=";", row.names = F, quote = F)
+
+
+
+
+```

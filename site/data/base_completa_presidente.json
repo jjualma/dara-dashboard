@@ -1,0 +1,534 @@
+{
+  "dados": [
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PCB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PCO",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PRTB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSB",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSC",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSDC/DC",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSOL",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PSTU",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2014,
+      "uf": "BR",
+      "partido": "PV",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "NOVO",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PATRIOTA",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PDT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PPL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PSDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PSDC/DC",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PSL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PSL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PSOL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PSTU",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 2
+    },
+    {
+      "ano": 2018,
+      "uf": "BR",
+      "partido": "REDE",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "NOVO",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PCB",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PDT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PROS",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PSDC/DC",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PSTU",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PTB",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "PTB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "UNIÃO",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2022,
+      "uf": "BR",
+      "partido": "UP",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "DEMOCRATA",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "MISSÃO",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "NOVO",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PCB",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PCO",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PSD",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PSDC/DC",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PSTU",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "PT do B/AVANTE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
+      "partido": "UP",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    }
+  ]
+}
