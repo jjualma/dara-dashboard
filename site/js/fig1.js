@@ -17,10 +17,11 @@ window.DaraFigs.fig1 = (function () {
   async function render(container, cargo, filtros) {
     container.html(""); resetPatternCache();
 
-    container.append("p").attr("class", "fig-note")
-      .text("O gráfico abaixo mostra, para cada ano eleitoral, a evolução de cada grupo racial e de gênero entre a candidatura (esquerda) e a eleição (direita) — quanto mais a linha sobe, mais aquele grupo ganhou espaço ao ser eleito; quanto mais desce, mais perdeu. Passe o mouse sobre um ponto para ver o número absoluto de candidaturas/eleitos.");
+    const headerZone = container.append("div").attr("class", "fig-header-zone fig-header-zone-curta");
+    headerZone.append("p").attr("class", "fig-note")
+      .text("A visualização abaixo mostra, para cada ano eleitoral, como a composição por raça e gênero se altera entre o conjunto de candidaturas e o de pessoas eleitas. A posição e a direção das linhas permitem identificar quais grupos ampliaram ou reduziram sua participação entre esses dois momentos. Passe o mouse sobre os pontos para consultar o número absoluto de candidaturas e de eleitos de cada grupo.");
 
-    renderLegendRacaGenero(container);
+    renderLegendRacaGeneroLinha(container);
 
     const municipioId = filtros && filtros.municipio && filtros.municipio !== "Todos" ? filtros.municipio : null;
     let linhas;

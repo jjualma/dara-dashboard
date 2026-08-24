@@ -49,8 +49,10 @@
   main{padding:26px 32px 60px; max-width:1240px; margin:0 auto;}
   .fig-header{margin-bottom:10px; min-height:2.4em;}
   .fig-header h2{margin:0; font-size:1.3rem; font-weight:800; color:var(--vinho); letter-spacing:-.2px;}
-  .fig-subtitulo{margin:14px 0 6px; font-size:1.02rem; font-weight:800; color:var(--vinho);}
-  .fig-note{font-size:.85rem; color:#333; line-height:1.55; margin:8px 0 16px; min-height:2.4em;}
+  .fig-header-zone-curta{height:75px;}
+  .fig-header-zone-longa{height:100px;}
+  .fig-subtitulo{margin:0 0 6px; font-size:1.02rem; font-weight:800; color:var(--vinho);}
+  .fig-note{font-size:.85rem; color:#333; line-height:1.55; margin:8px 0 0;}
   .fig-warning{font-size:.8rem; color:var(--vermelho); font-weight:700; margin:6px 0 12px;}
   .panels-row{display:flex; gap:20px; flex-wrap:wrap;}
   .panels-row-wide{display:grid; grid-template-columns:repeat(2, 1fr); gap:20px;}
@@ -59,7 +61,7 @@
   .panel h4{margin:0 0 4px; text-align:center; font-size:.9rem; font-weight:700; color:var(--vinho);}
   svg{width:100%; height:auto; display:block;}
   .legend{display:flex; flex-wrap:wrap; gap:14px; margin:16px 0 28px; align-items:center;}
-  .legend-item{display:flex; align-items:center; gap:5px; font-size:.82rem; color:#333;}
+  .legend-item{display:flex; align-items:center; gap:5px; font-size:.82rem; color:#333; white-space:nowrap; flex-shrink:0;}
   .legend-swatch{width:15px; height:14px; display:inline-block; border-radius:3px;}
   .legend-gender-note{font-weight:700; color:var(--vinho);}
   footer{padding:24px 32px 40px; font-size:.78rem; color:var(--terracota); text-align:center; opacity:.75;}
@@ -170,9 +172,9 @@
 <script>
 const FIGURAS = [
   { id: "fig1", tab: "Perfil Geral", titulo: "Perfil Geral: de candidatura a eleito, por raça e gênero" },
-  { id: "fig2", tab: "Visão por Estado", titulo: "Visão por Estado" },
+  { id: "fig2", tab: "Visão por Estado", titulo: "Visão por Estado: Razão de Representação Racial" },
   { id: "figPartidoComposicao", tab: "Composição Partidária", titulo: "Composição Partidária: raça e gênero por partido" },
-  { id: "fig9", tab: "Diversidade Partidária", titulo: "Diversidade Partidária: composição racial e de gênero por partido" },
+  { id: "fig9", tab: "Partidos em Contraste", titulo: "Partidos em Contraste: posição racial e de gênero por partido" },
 ];
 
 const tabsEl = d3.select("#tabs");

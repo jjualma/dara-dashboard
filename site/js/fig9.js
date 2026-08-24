@@ -34,8 +34,9 @@ window.DaraFigs.fig9 = (function () {
   async function render(container, cargo, filtros) {
     container.html(""); resetPatternCache();
 
-    container.append("p").attr("class", "fig-note")
-      .text("Os dois gráficos de cima posicionam cada partido por % de mulheres (eixo X) e % de candidaturas pretas e pardas somadas (eixo Y). Os dois de baixo cruzam % de candidaturas de homens brancos (eixo X) com % de candidaturas de mulheres negras (eixo Y). A linha vertical vermelha marca os 30% mínimos de candidaturas femininas exigidos por lei.");
+    const headerZone = container.append("div").attr("class", "fig-header-zone fig-header-zone-longa");
+    headerZone.append("p").attr("class", "fig-note")
+      .text("Os gráficos mostram onde os partidos se posicionam em relação ao perfil de diferentes grupos entre suas candidaturas e eleição. Nos dois gráficos superiores, o eixo horizontal mostra a porcentagem de mulheres e o eixo vertical, a porcentagem de pessoas pretas e pardas. Nos dois gráficos inferiores, são comparadas a porcentagem de homens brancos e a de mulheres pretas e pardas.");
 
     const partidoFiltro = filtros && filtros.partido;
     const municipioId = filtros && filtros.municipio && filtros.municipio !== "Todos" ? filtros.municipio : null;
@@ -176,10 +177,12 @@ window.DaraFigs.fig9 = (function () {
         .attr("aria-label", `Dispersão de mulheres e candidaturas negras por partido — ${tipo}, ${cargo}, ${anoAtual}`);
       const { x, y } = montaEixos(svg, W, H, M, "% de mulheres", "% de candidaturas negras");
 
-      svg.append("line").attr("x1", x(30)).attr("x2", x(30)).attr("y1", M.t).attr("y2", H - M.b)
-        .attr("stroke", DARA.vermelho).attr("stroke-width", 1.4).attr("stroke-dasharray", "5,3");
-      svg.append("text").attr("x", x(30)).attr("y", M.t - 3).attr("text-anchor", "middle")
-        .attr("font-size", 10).attr("font-weight", 700).attr("fill", DARA.vermelho).text("30% mulheres (piso legal)");
+      if (tipo === "Candidaturas") {
+        svg.append("line").attr("x1", x(30)).attr("x2", x(30)).attr("y1", M.t).attr("y2", H - M.b)
+          .attr("stroke", DARA.vermelho).attr("stroke-width", 1.4).attr("stroke-dasharray", "5,3");
+        svg.append("text").attr("x", x(30)).attr("y", M.t - 3).attr("text-anchor", "middle")
+          .attr("font-size", 10).attr("font-weight", 700).attr("fill", DARA.vermelho).text("30% mulheres (piso legal)");
+      }
 
       desenhaPontos(svg, x, y, dados, d => d.pct_mulheres, d => d.pct_negros, d =>
         `${d.partido} · ${tipo} · ${anoAtual}: ${d.pct_mulheres.toFixed(1)}% mulheres, ${d.pct_negros.toFixed(1)}% candidaturas negras (n≈${d.n})`);

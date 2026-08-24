@@ -228,6 +228,49 @@ function renderLegendRacaGenero(container) {
     item.append("span").text(raca);
   });
 
-  const genItem = leg.append("div").attr("class", "legend-item legend-gender-note");
-  genItem.append("span").text("◧ sólido = Mulheres  ◨ hachurado = Homens");
+  // ícone de verdade em vez de caractere Unicode ◧/◨ (que não diferencia visualmente
+  // sólido de hachurado em texto corrido) — mesma cor vinho neutra pros dois, só pra
+  // mostrar o padrão (a cor de verdade já está nos swatches de raça acima).
+  const itemF = leg.append("div").attr("class", "legend-item legend-gender-note");
+  const swF = itemF.append("svg").attr("width", 15).attr("height", 14);
+  swF.append("rect").attr("width", 15).attr("height", 14).attr("fill", DARA.vinho);
+  itemF.append("span").text("sólido = Mulheres");
+
+  const itemM = leg.append("div").attr("class", "legend-item legend-gender-note");
+  const swM = itemM.append("svg").attr("width", 15).attr("height", 14);
+  const dM = swM.append("defs");
+  const patternId = `hatch-legenda-${_patternSeq++}`;
+  const pattern = dM.append("pattern").attr("id", patternId).attr("width", 6).attr("height", 6)
+    .attr("patternUnits", "userSpaceOnUse").attr("patternTransform", "rotate(45)");
+  pattern.append("rect").attr("width", 6).attr("height", 6).attr("fill", DARA.vinho);
+  pattern.append("rect").attr("width", 2.4).attr("height", 6).attr("fill", DARA.offwhite).attr("opacity", 0.55);
+  swM.append("rect").attr("width", 15).attr("height", 14).attr("fill", `url(#${patternId})`);
+  itemM.append("span").text("hachurado = Homens");
+}
+
+// Variante da legenda pra gráficos que codificam gênero por TRAÇO de linha (sólida x
+// tracejada), não por preenchimento — ex.: Perfil Geral, que usa stroke-dasharray
+// "4,2.5" pra Masculino. O ícone é uma linha de verdade, com o mesmo dasharray do
+// gráfico, não um retângulo com hachura (que representaria preenchimento, não traço).
+function renderLegendRacaGeneroLinha(container) {
+  const leg = container.append("div").attr("class", "legend");
+  RACA_ORDEM.forEach(raca => {
+    const item = leg.append("div").attr("class", "legend-item");
+    const sw = item.append("svg").attr("width", 34).attr("height", 16);
+    sw.append("line").attr("x1", 1).attr("x2", 33).attr("y1", 8).attr("y2", 8)
+      .attr("stroke", RACA_COLOR[raca]).attr("stroke-width", 3.5).attr("stroke-linecap", "round");
+    item.append("span").text(raca);
+  });
+
+  const itemF = leg.append("div").attr("class", "legend-item legend-gender-note");
+  const swF = itemF.append("svg").attr("width", 22).attr("height", 14);
+  swF.append("line").attr("x1", 1).attr("x2", 21).attr("y1", 7).attr("y2", 7)
+    .attr("stroke", DARA.vinho).attr("stroke-width", 3.5).attr("stroke-linecap", "round");
+  itemF.append("span").text("sólido = Mulheres");
+
+  const itemM = leg.append("div").attr("class", "legend-item legend-gender-note");
+  const swM = itemM.append("svg").attr("width", 22).attr("height", 14);
+  swM.append("line").attr("x1", 1).attr("x2", 21).attr("y1", 7).attr("y2", 7)
+    .attr("stroke", DARA.vinho).attr("stroke-width", 3.5).attr("stroke-dasharray", "5,3.5").attr("stroke-linecap", "round");
+  itemM.append("span").text("tracejado = Homens");
 }

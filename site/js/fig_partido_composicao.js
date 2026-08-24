@@ -91,7 +91,8 @@ window.DaraFigs.figPartidoComposicao = (function () {
   async function render(container, cargo, filtros) {
     container.html(""); resetPatternCache();
 
-    container.append("p").attr("class", "fig-note")
+    const headerZone = container.append("div").attr("class", "fig-header-zone fig-header-zone-curta");
+    headerZone.append("p").attr("class", "fig-note")
       .text("O gráfico abaixo mostra, por partido, a composição de candidaturas e de eleitos por raça e gênero. Passe o mouse sobre um segmento para ver o percentual e o total.");
 
     const partidoFiltro = filtros && filtros.partido;

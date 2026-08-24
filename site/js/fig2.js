@@ -118,11 +118,14 @@ window.DaraFigs.fig2 = (function () {
 
     const municipal = CARGOS_MUNICIPAIS.has(cargo);
 
-    container.append("h3").attr("class", "fig-subtitulo").text("Razão de Representação Racial");
-    container.append("p").attr("class", "fig-note")
-      .text(municipal
-        ? "O gráfico abaixo compara, município a município, a proporção de eleitos de cada grupo racial com a proporção desse mesmo grupo na população local — quanto mais escuro o município, mais perto ou acima do equilíbrio proporcional (razão 1,0); tons claros indicam sub-representação. Selecione uma UF para ver o detalhamento por município daquele estado."
-        : "O gráfico abaixo compara, estado a estado, a proporção de eleitos de cada grupo racial com a proporção desse mesmo grupo na população local — quanto mais escuro o estado, mais perto ou acima do equilíbrio proporcional (razão 1,0); tons claros indicam sub-representação.");
+    const headerZone = container.append("div").attr("class", "fig-header-zone fig-header-zone-longa");
+    if (municipal) {
+      headerZone.append("p").attr("class", "fig-note")
+        .text("A visualização compara, em cada município, a proporção de eleitos de cada grupo racial com sua participação na população local. A razão (% eleitos / % população) 1,0 representa equilíbrio proporcional: valores abaixo de 1 indicam sub-representação, enquanto valores acima de 1 indicam sobre-representação. Passe o mouse sobre cada município para consultar a razão de representação do grupo selecionado. Selecione uma UF para ver o detalhamento por município daquele estado.");
+    } else {
+      headerZone.append("p").attr("class", "fig-note")
+        .text("A visualização compara, em cada estado, a proporção de eleitos de cada grupo racial com sua participação na população local. A razão (% eleitos / % população) 1,0 representa equilíbrio proporcional: valores abaixo de 1 indicam sub-representação, enquanto valores acima de 1 indicam sobre-representação. Passe o mouse sobre cada estado para consultar a razão de representação do grupo selecionado. Na sequência é possível visualizar o perfil das candidaturas e das pessoas eleitas de cada estado por raça e gênero.");
+    }
     if (cargo === "Presidente") {
       container.append("p").attr("class", "fig-warning")
         .text("Presidente é eleição de circunscrição nacional (não por UF) — o recorte por estado aqui aproxima o local de origem/candidatura.");
