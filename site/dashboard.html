@@ -23,15 +23,15 @@
   header img.logo{height:88px; width:auto; display:block;}
   header .header-text p{margin:2px 0 0; font-size:.9rem; color:var(--ciano); opacity:.9; font-weight:600;}
   .controls{
-    display:flex; gap:16px; align-items:flex-end; flex-wrap:wrap;
-    background:#fff; padding:14px 32px; border-bottom:3px solid var(--vinho);
+    display:flex; gap:10px; align-items:flex-end; flex-wrap:wrap;
+    background:#fff; padding:14px 20px; border-bottom:3px solid var(--vinho);
     position:sticky; top:0; z-index:5;
   }
   .filter-group{display:flex; flex-direction:column; gap:4px;}
   .filter-group label{font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.4px; color:var(--vinho);}
   select{
-    font-size:.9rem; padding:7px 12px; border:2px solid var(--vinho); border-radius:5px;
-    background:#fff; color:var(--vinho); font-weight:600; min-width:150px;
+    font-size:.85rem; padding:6px 8px; border:2px solid var(--vinho); border-radius:5px;
+    background:#fff; color:var(--vinho); font-weight:600; min-width:112px;
   }
   select:disabled{border-color:#ccc; color:#999; background:#f5f5f5; cursor:not-allowed;}
   .filter-hint{font-size:.7rem; color:#888; max-width:170px; flex-basis:100%; order:99;}
@@ -51,12 +51,25 @@
   .fig-header h2{margin:0; font-size:1.3rem; font-weight:800; color:var(--vinho); letter-spacing:-.2px;}
   .fig-header-zone-curta{height:75px;}
   .fig-header-zone-longa{height:100px;}
+  .fig-header-zone-financ-dinheiro{height:145px;}
   .fig-subtitulo{margin:0 0 6px; font-size:1.02rem; font-weight:800; color:var(--vinho);}
   .fig-note{font-size:.85rem; color:#333; line-height:1.55; margin:8px 0 0;}
   .fig-warning{font-size:.8rem; color:var(--vermelho); font-weight:700; margin:6px 0 12px;}
   .panels-row{display:flex; gap:20px; flex-wrap:wrap;}
   .panels-row-wide{display:grid; grid-template-columns:repeat(2, 1fr); gap:20px;}
   .panels-row-wide .panel-wide{min-width:0; width:100%;}
+  .subtabs{display:flex; flex-wrap:wrap; gap:2px; border-bottom:1px solid #ddd; margin-bottom:16px;}
+  .subtab-btn{
+    border:none; background:none; padding:9px 14px; font-size:.82rem; font-weight:700;
+    cursor:pointer; color:var(--vinho); border-bottom:3px solid transparent; opacity:.55;
+    font-family:inherit; transition:opacity .15s, border-color .15s;
+  }
+  .subtab-btn.active{opacity:1; border-bottom-color:var(--vermelho);}
+  .subtab-btn:hover{opacity:1;}
+  .financ-duplo{display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; margin-top:14px;}
+  .financ-bloco{background:#fff; border:1px solid #e6e6e6; border-radius:10px; padding:14px; box-shadow:0 1px 3px rgba(42,0,8,.06); margin-top:8px;}
+  .financ-bloco h4{margin:0 0 8px; font-size:.85rem; font-weight:700; color:var(--vinho);}
+  .financ-bloco-solo{max-width:560px; margin-left:auto; margin-right:auto;}
   .panel{background:#fff; border:1px solid #e6e6e6; border-radius:10px; padding:12px 10px 6px; box-shadow:0 1px 3px rgba(42,0,8,.06);}
   .panel h4{margin:0 0 4px; text-align:center; font-size:.9rem; font-weight:700; color:var(--vinho);}
   svg{width:100%; height:auto; display:block;}
@@ -117,6 +130,31 @@
   .stackbar-block{background:#fff; border:1px solid #e6e6e6; border-radius:10px; padding:14px; box-shadow:0 1px 3px rgba(42,0,8,.06);}
   .stackbar-title{margin:0 0 10px; font-size:.9rem; font-weight:700; color:var(--vinho);}
   .race-value{font-variant-numeric:tabular-nums;}
+
+  /* --- responsivo: tablet --- */
+  @media (max-width: 900px) {
+    main{padding:18px 16px 40px;}
+    .controls{padding:12px 16px; gap:8px;}
+    select{min-width:100px; font-size:.82rem;}
+    .panels-row-wide{grid-template-columns:1fr;}
+    .financ-duplo{grid-template-columns:1fr;}
+    nav.tabs{padding:10px 16px 0;}
+    .subtabs{padding:0;}
+  }
+  /* --- responsivo: celular --- */
+  @media (max-width: 560px) {
+    header{padding:16px 16px; gap:12px;}
+    header img.logo{height:56px;}
+    .controls{position:static;} /* sticky em tela pequena cobre espaço demais */
+    .filter-group{flex:1 1 45%;}
+    select{width:100%; min-width:0;}
+    .fig-header h2{font-size:1.08rem;}
+    .fig-header-zone-curta{height:auto; min-height:60px;}
+    .fig-header-zone-longa{height:auto; min-height:90px;}
+    .fig-header-zone-financ-dinheiro{height:auto; min-height:130px;}
+    .subtab-btn{padding:8px 10px; font-size:.76rem;}
+    nav.tabs button{padding:9px 11px; font-size:.78rem;}
+  }
 </style>
 </head>
 <body>
@@ -169,12 +207,14 @@
 <script src="js/fig2.js"></script>
 <script src="js/fig9.js"></script>
 <script src="js/fig_partido_composicao.js"></script>
+<script src="js/fig_financiamento.js"></script>
 <script>
 const FIGURAS = [
   { id: "fig1", tab: "Perfil Geral", titulo: "Perfil Geral: de candidatura a eleito, por raça e gênero" },
   { id: "fig2", tab: "Visão por Estado", titulo: "Visão por Estado: Razão de Representação Racial" },
   { id: "figPartidoComposicao", tab: "Composição Partidária", titulo: "Composição Partidária: raça e gênero por partido" },
   { id: "fig9", tab: "Partidos em Contraste", titulo: "Partidos em Contraste: posição racial e de gênero por partido" },
+  { id: "figFinanciamento", tab: "Financiamento", titulo: "Financiamento de Campanha: gênero e raça" },
 ];
 
 const tabsEl = d3.select("#tabs");
@@ -264,12 +304,16 @@ function atualizarCapitalState() {
 
 function updateCargoOptions() {
   // Presidente não tem dado na Razão de Representação (eleição nacional, não por UF)
-  // — escondido só nessa aba, continua disponível nas outras.
-  const opcoes = currentTab === "fig2" ? CARGOS_ORDEM.filter(c => c !== "Presidente") : CARGOS_ORDEM;
+  // — escondido só nessa aba, continua disponível nas outras. Financiamento só
+  // existe pros 5 cargos de eleição geral (2018/2022/2026) — Prefeito/Vereador são
+  // eleição municipal (2016/2020/2024), fora do escopo dessa aba.
+  const opcoes = currentTab === "fig2" ? CARGOS_ORDEM.filter(c => c !== "Presidente")
+    : currentTab === "figFinanciamento" ? DaraFigs.figFinanciamento.CARGOS_FINANCIAMENTO
+    : CARGOS_ORDEM;
   const atual = cargoSelect.property("value");
   cargoSelect.selectAll("option").data(opcoes).join("option")
     .attr("value", d => d).text(d => d);
-  cargoSelect.property("value", opcoes.includes(atual) ? atual : "Deputado Federal");
+  cargoSelect.property("value", opcoes.includes(atual) ? atual : (opcoes.includes("Deputado Federal") ? "Deputado Federal" : opcoes[0]));
 }
 
 async function showTab(id) {
