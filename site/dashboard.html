@@ -322,10 +322,10 @@ async function showTab(id) {
   mainEl.selectAll("section.fig-panel").classed("active", function () { return this.id === "panel-" + id; });
   updateCargoOptions();
   await updateMunicipioState();
-  // troca de aba sempre volta pro primeiro ano disponível do cargo atual — os
-  // outros filtros (UF, Região, Partido...) continuam como estavam.
+  // troca de aba sempre volta pro ano MAIS RECENTE disponível do cargo atual —
+  // os outros filtros (UF, Região, Partido...) continuam como estavam.
   const anosCargo = CARGO_ANOS[cargoSelect.property("value")] || [];
-  anoCompartilhado = anosCargo[0] || null;
+  anoCompartilhado = anosCargo[anosCargo.length - 1] || null;
   renderCurrent();
 }
 
@@ -354,7 +354,7 @@ function renderCurrent() {
 cargoSelect.on("change", async () => {
   await updateMunicipioState();
   const anosCargo = CARGO_ANOS[cargoSelect.property("value")] || [];
-  if (!anosCargo.includes(anoCompartilhado)) anoCompartilhado = anosCargo[0] || null;
+  if (!anosCargo.includes(anoCompartilhado)) anoCompartilhado = anosCargo[anosCargo.length - 1] || null;
   renderCurrent();
 });
 function popularUFs() {

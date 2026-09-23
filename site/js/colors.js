@@ -193,7 +193,7 @@ async function loadJSON(url) {
 function anoInicialDe(anosDisponiveis, filtros) {
   const preferido = filtros && filtros.anoInicial;
   if (preferido != null && anosDisponiveis.includes(preferido)) return preferido;
-  return anosDisponiveis[0];
+  return anosDisponiveis[anosDisponiveis.length - 1];
 }
 
 function avisaAnoMudou(filtros, ano) {

@@ -11,17 +11,45 @@ window.DaraFigs.figFinanciamento = (function () {
   const CARGOS_FINANCIAMENTO = ["Presidente", "Governador", "Senador", "Deputado Federal", "Deputado Estadual/Distrital", "Todos"];
   const ANO_PISO_LEGAL = 2026;
   const ANO_COM_LINHA_DO_TEMPO = 2026;
+  // Janela fixa da linha do tempo: sempre 10/08 a 21/09/2026, marcador a cada 3
+  // dias — independente de quais datas o dado realmente tem. Cada marcador
+  // busca o valor acumulado mais recente disponível até aquela data (o dado é
+  // um degrau: só muda quando chega receita nova, não existe linha pra todo dia).
+  const TIMELINE_INICIO = "2026-08-10";
+  const TIMELINE_FIM = "2026-09-21";
+  const TIMELINE_PASSO_DIAS = 3;
+
+  function gerarCheckpointsFixos() {
+    const checkpoints = [];
+    const fim = new Date(TIMELINE_FIM + "T00:00:00");
+    for (let d = new Date(TIMELINE_INICIO + "T00:00:00"); d <= fim; d.setDate(d.getDate() + TIMELINE_PASSO_DIAS)) {
+      checkpoints.push(new Date(d));
+    }
+    return checkpoints;
+  }
+  // acha, em datasOrdenadas (strings "YYYY-MM-DD", já ordenadas), a última data
+  // <= checkpointStr — é "o valor acumulado como estava nesse dia", igual olhar
+  // pra trás no degrau até achar o último ponto conhecido.
+  function ultimaAteData(datasOrdenadas, checkpointStr) {
+    let melhor = null;
+    for (const d of datasOrdenadas) { if (d <= checkpointStr) melhor = d; else break; }
+    return melhor;
+  }
 
   let subAbaAtual = "dinheiro"; // "dinheiro" | "partido" | "estado"
 
-  let _financCache = null, _financTimelineCache = null;
+  let _financCache = null, _financTimelinePrestacaoCache = null, _financTimelineReceitaCache = null;
   async function loadFinanciamento() {
     if (!_financCache) _financCache = (await loadJSON("data/financiamento.json")).dados;
     return _financCache;
   }
-  async function loadFinanciamentoTimeline() {
-    if (!_financTimelineCache) _financTimelineCache = (await loadJSON("data/financiamento_timeline_2026.json")).dados;
-    return _financTimelineCache;
+  async function loadFinanciamentoTimelinePrestacao() {
+    if (!_financTimelinePrestacaoCache) _financTimelinePrestacaoCache = (await loadJSON("data/financiamento_timeline_2026_dt_prestacao.json")).dados;
+    return _financTimelinePrestacaoCache;
+  }
+  async function loadFinanciamentoTimelineReceita() {
+    if (!_financTimelineReceitaCache) _financTimelineReceitaCache = (await loadJSON("data/financiamento_timeline_2026_dt_receita.json")).dados;
+    return _financTimelineReceitaCache;
   }
 
   function formatMM(valor) {
@@ -80,7 +108,9 @@ window.DaraFigs.figFinanciamento = (function () {
         .text("Presidente é eleição de circunscrição nacional (não por UF/Região) — os valores abaixo são sempre nacionais.");
     }
 
-    const [todasLinhas, todasTimeline] = await Promise.all([loadFinanciamento(), loadFinanciamentoTimeline()]);
+    const [todasLinhas, todasTimelinePrestacao, todasTimelineReceita] = await Promise.all([
+      loadFinanciamento(), loadFinanciamentoTimelinePrestacao(), loadFinanciamentoTimelineReceita(),
+    ]);
     let anoAtual = anoInicialDe(ANOS, filtros);
     let playing = false, timer = null;
 
@@ -109,19 +139,26 @@ window.DaraFigs.figFinanciamento = (function () {
     renderLegendaFinanciamento(container);
 
     const painelBarras = container.append("div").attr("class", "financ-bloco financ-bloco-solo");
-    const painelLinha = container.append("div").attr("class", "financ-bloco");
+    const painelLinhaReceita = container.append("div").attr("class", "financ-bloco");
+    const painelLinhaPrestacao = container.append("div").attr("class", "financ-bloco");
 
     function valorAgregado(ano) {
       const linhas = filtraFinanciamento(todasLinhas, cargo, filtros).filter(l => l.ano === ano);
       const total = d3.sum(linhas, l => l.valor_total);
       const valorM = d3.sum(linhas, l => l.valor_mulheres);
       const valorN = d3.sum(linhas, l => l.valor_negros);
-      return { total, pctM: total > 0 ? valorM / total * 100 : 0, pctN: total > 0 ? valorN / total * 100 : 0, valorM, valorN };
+      const valorB = d3.sum(linhas, l => l.valor_brancos);
+      return {
+        total, valorM, valorN, valorB,
+        pctM: total > 0 ? valorM / total * 100 : 0,
+        pctN: total > 0 ? valorN / total * 100 : 0,
+        pctB: total > 0 ? valorB / total * 100 : 0,
+      };
     }
 
     function desenhaBarras() {
       painelBarras.html("");
-      const { total, pctM, pctN, valorM, valorN } = valorAgregado(anoAtual);
+      const { total, pctM, pctN, pctB, valorM, valorN, valorB } = valorAgregado(anoAtual);
       if (total <= 0) {
         painelBarras.append("div").attr("class", "sem-dado-placeholder").text(`Sem receita registrada para ${anoAtual} nesse recorte.`);
         return;
@@ -133,10 +170,7 @@ window.DaraFigs.figFinanciamento = (function () {
       const util = W - M.l - M.r;
       const colW = util * 0.34;
       const gapEntre = util - colW * 2;
-      const colunas = [
-        { x: M.l, valor: pctM, valorRS: valorM, corBase: DARA.vinho, rotuloBaixo: "Mulheres", rotuloCima: "Homens" },
-        { x: M.l + colW + gapEntre, valor: pctN, valorRS: valorN, corBase: DARA.vermelho, rotuloBaixo: "Negros", rotuloCima: "Brancos" },
-      ];
+      const xGenero = M.l, xRaca = M.l + colW + gapEntre;
 
       svg.append("line").attr("x1", M.l - 10).attr("x2", W - M.r + 10).attr("y1", y(0)).attr("y2", y(0))
         .attr("stroke", DARA.vinho).attr("stroke-width", 1.4);
@@ -148,53 +182,89 @@ window.DaraFigs.figFinanciamento = (function () {
           .attr("font-size", 8).attr("font-weight", 700).attr("fill", "#333").text("Piso legal: 30%");
       }
 
-      colunas.forEach(col => {
-        const yBase = y(0), yTopo = y(100), ySplit = y(col.valor);
-        svg.append("rect").attr("x", col.x).attr("y", yTopo).attr("width", colW).attr("height", yBase - yTopo)
-          .attr("fill", DARA.offwhite).attr("stroke", col.corBase).attr("stroke-width", 1.4)
-          .append("title").text(`${col.rotuloCima}: ${(100 - col.valor).toFixed(1)}% (${formatMM(total - col.valorRS)})`);
-        const retanguloColorido = svg.append("rect").attr("x", col.x).attr("y", ySplit).attr("width", colW).attr("height", yBase - ySplit)
-          .attr("fill", col.corBase);
-        retanguloColorido.append("title").text(`${col.rotuloBaixo}: ${col.valor.toFixed(1)}% (${formatMM(col.valorRS)})`);
-        svg.append("text").attr("x", col.x + colW / 2).attr("y", (ySplit + yBase) / 2 + 4).attr("text-anchor", "middle")
-          .attr("font-size", 12).attr("font-weight", 800).attr("fill", "#fff").text(col.valor.toFixed(0) + "%");
-        svg.append("text").attr("x", col.x + colW / 2).attr("y", (ySplit + yBase) / 2 + 15).attr("text-anchor", "middle")
-          .attr("font-size", 8).attr("fill", "#fff").text(col.rotuloBaixo);
-        svg.append("text").attr("x", col.x + colW / 2).attr("y", (yTopo + ySplit) / 2).attr("text-anchor", "middle")
-          .attr("font-size", 12).attr("font-weight", 800).attr("fill", "#333").text((100 - col.valor).toFixed(0) + "%");
-        svg.append("text").attr("x", col.x + colW / 2).attr("y", (yTopo + ySplit) / 2 + 13).attr("text-anchor", "middle")
-          .attr("font-size", 8).attr("fill", "#666").text(col.rotuloCima);
-      });
+      // --- coluna Gênero: Mulheres/Homens somam 100%, continua igual a antes ---
+      {
+        const yBase = y(0), yTopo = y(100), ySplit = y(pctM);
+        svg.append("rect").attr("x", xGenero).attr("y", yTopo).attr("width", colW).attr("height", yBase - yTopo)
+          .attr("fill", DARA.offwhite).attr("stroke", DARA.vinho).attr("stroke-width", 1.4)
+          .append("title").text(`Homens: ${(100 - pctM).toFixed(1)}% (${formatMM(total - valorM)})`);
+        svg.append("rect").attr("x", xGenero).attr("y", ySplit).attr("width", colW).attr("height", yBase - ySplit)
+          .attr("fill", DARA.vinho)
+          .append("title").text(`Mulheres: ${pctM.toFixed(1)}% (${formatMM(valorM)})`);
+        svg.append("text").attr("x", xGenero + colW / 2).attr("y", (ySplit + yBase) / 2 + 4).attr("text-anchor", "middle")
+          .attr("font-size", 12).attr("font-weight", 800).attr("fill", "#fff").text(pctM.toFixed(0) + "%");
+        svg.append("text").attr("x", xGenero + colW / 2).attr("y", (ySplit + yBase) / 2 + 15).attr("text-anchor", "middle")
+          .attr("font-size", 8).attr("fill", "#fff").text("Mulheres");
+        svg.append("text").attr("x", xGenero + colW / 2).attr("y", (yTopo + ySplit) / 2).attr("text-anchor", "middle")
+          .attr("font-size", 12).attr("font-weight", 800).attr("fill", "#333").text((100 - pctM).toFixed(0) + "%");
+        svg.append("text").attr("x", xGenero + colW / 2).attr("y", (yTopo + ySplit) / 2 + 13).attr("text-anchor", "middle")
+          .attr("font-size", 8).attr("fill", "#666").text("Homens");
+      }
+
+      // --- coluna Raça: Negros ancorado embaixo, Brancos (valor real) ancorado em
+      // cima -- não somam 100% (Indígena/Amarela ficam no vão do meio, sem rótulo
+      // e sem preenchimento; contorno fino marca só a escala 0-100% da coluna) ---
+      {
+        const yBase = y(0), yTopo = y(100);
+        const yTopoNegros = y(pctN), yBaseBrancos = y(100 - pctB);
+        svg.append("rect").attr("x", xRaca).attr("y", yTopo).attr("width", colW).attr("height", yBase - yTopo)
+          .attr("fill", "none").attr("stroke", "#ccc").attr("stroke-width", 1);
+        svg.append("rect").attr("x", xRaca).attr("y", yTopoNegros).attr("width", colW).attr("height", yBase - yTopoNegros)
+          .attr("fill", DARA.vermelho)
+          .append("title").text(`Negros: ${pctN.toFixed(1)}% (${formatMM(valorN)})`);
+        svg.append("rect").attr("x", xRaca).attr("y", yTopo).attr("width", colW).attr("height", yBaseBrancos - yTopo)
+          .attr("fill", DARA.offwhite).attr("stroke", DARA.vermelho).attr("stroke-width", 1.4)
+          .append("title").text(`Brancos: ${pctB.toFixed(1)}% (${formatMM(valorB)})`);
+        if (yBase - yTopoNegros > 16) {
+          svg.append("text").attr("x", xRaca + colW / 2).attr("y", (yTopoNegros + yBase) / 2 + 4).attr("text-anchor", "middle")
+            .attr("font-size", 12).attr("font-weight", 800).attr("fill", "#fff").text(pctN.toFixed(0) + "%");
+          svg.append("text").attr("x", xRaca + colW / 2).attr("y", (yTopoNegros + yBase) / 2 + 15).attr("text-anchor", "middle")
+            .attr("font-size", 8).attr("fill", "#fff").text("Negros");
+        }
+        if (yBaseBrancos - yTopo > 16) {
+          svg.append("text").attr("x", xRaca + colW / 2).attr("y", (yTopo + yBaseBrancos) / 2).attr("text-anchor", "middle")
+            .attr("font-size", 12).attr("font-weight", 800).attr("fill", "#333").text(pctB.toFixed(0) + "%");
+          svg.append("text").attr("x", xRaca + colW / 2).attr("y", (yTopo + yBaseBrancos) / 2 + 13).attr("text-anchor", "middle")
+            .attr("font-size", 8).attr("fill", "#666").text("Brancos");
+        }
+      }
       painelBarras.append("p").attr("class", "financ-total-nota").text(`Receita total no recorte: ${formatMM(total)}`);
     }
 
-    function desenhaLinha() {
-      painelLinha.html("");
+    function desenhaLinha(painel, todasLinhasTL, titulo) {
+      painel.html("");
+      const h = painel.append("h4");
+      h.append("span").text(titulo);
+      h.append("span").style("color", "#888").style("font-size", ".75em").style("font-weight", "400")
+        .text(" — Ref. arquivo TSE (21/09)");
       if (anoAtual !== ANO_COM_LINHA_DO_TEMPO) {
-        painelLinha.append("div").attr("class", "sem-dado-placeholder")
+        painel.append("div").attr("class", "sem-dado-placeholder")
           .text(`A evolução ao longo da campanha está disponível só pra ${ANO_COM_LINHA_DO_TEMPO}.`);
         return;
       }
-      const linhasTL = filtraFinanciamento(todasTimeline, cargo, filtros);
+      const linhasTL = filtraFinanciamento(todasLinhasTL, cargo, filtros);
       const porData = d3.rollup(linhasTL,
-        v => ({ total: d3.sum(v, l => l.valor_total), valorM: d3.sum(v, l => l.valor_mulheres), valorN: d3.sum(v, l => l.valor_negros) }),
+        v => ({ total: d3.sum(v, l => l.valor_total), valorM: d3.sum(v, l => l.valor_mulheres), valorN: d3.sum(v, l => l.valor_negros), valorB: d3.sum(v, l => l.valor_brancos) }),
         l => l.data);
-      const datas = [...porData.keys()].sort();
-      if (!datas.length) {
-        painelLinha.append("div").attr("class", "sem-dado-placeholder").text("Sem dado de evolução pra esse recorte em 2026.");
+      const datasComDado = [...porData.keys()].sort();
+      if (!datasComDado.length) {
+        painel.append("div").attr("class", "sem-dado-placeholder").text("Sem dado de evolução pra esse recorte em 2026.");
         return;
       }
-      const pontos = datas.map(d => {
-        const { total, valorM, valorN } = porData.get(d);
+      const checkpoints = gerarCheckpointsFixos();
+      const pontos = checkpoints.map(cp => {
+        const cpStr = cp.toISOString().slice(0, 10);
+        const dataConhecida = ultimaAteData(datasComDado, cpStr);
+        const v = dataConhecida ? porData.get(dataConhecida) : { total: 0, valorM: 0, valorN: 0, valorB: 0 };
         return {
-          data: new Date(d + "T00:00:00"), total, valorM, valorN,
-          pctM: total > 0 ? valorM / total * 100 : 0, pctN: total > 0 ? valorN / total * 100 : 0,
+          data: cp, total: v.total, valorM: v.valorM, valorN: v.valorN,
+          pctM: v.total > 0 ? v.valorM / v.total * 100 : 0, pctN: v.total > 0 ? v.valorN / v.total * 100 : 0,
         };
       });
 
       const W = 640, H = 260, M = { t: 30, r: 90, b: 46, l: 50 };
-      const svg = painelLinha.append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
-        .attr("aria-label", "Evolução da receita de campanha ao longo do tempo");
+      const svg = painel.append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
+        .attr("aria-label", titulo);
       const maxY = Math.max(35, ...pontos.map(p => p.pctM), ...pontos.map(p => p.pctN)) * 1.15;
       const x = d3.scaleLinear().domain([0, pontos.length - 1]).range([M.l, W - M.r]);
       const y = v => H - M.b - (v / maxY) * (H - M.t - M.b);
@@ -205,14 +275,10 @@ window.DaraFigs.figFinanciamento = (function () {
       if (anoAtual === ANO_PISO_LEGAL) {
         svg.append("line").attr("x1", M.l).attr("x2", W - M.r).attr("y1", y(30)).attr("y2", y(30))
           .attr("stroke", "#333").attr("stroke-width", 1.2).attr("stroke-dasharray", "6,4");
-        // rótulo fixo no topo do gráfico, fora da área onde os dados são desenhados —
-        // antes ficava colado na própria linha tracejada, e como a série pode cruzar
-        // ali perto (ex.: bem no início da campanha), o texto ficava por cima do dado.
         svg.append("text").attr("x", M.l).attr("y", 12)
           .attr("font-size", 9).attr("font-weight", 700).attr("fill", "#333").text("Piso legal: 30%");
       }
 
-      // até ~12 rótulos de data no eixo, senão fica ilegível quando tem muitas datas
       const passo = Math.max(1, Math.ceil(pontos.length / 12));
       svg.append("g").attr("transform", `translate(0,${H - M.b})`)
         .call(d3.axisBottom(x).tickValues(pontos.map((_, i) => i).filter(i => i % passo === 0 || i === pontos.length - 1))
@@ -230,9 +296,6 @@ window.DaraFigs.figFinanciamento = (function () {
       linha("pctM", "valorM", DARA.vinho, "Mulheres");
       linha("pctN", "valorN", DARA.vermelho, "Negros");
 
-      // quando os dois valores finais ficam próximos, os rótulos colidem (texto de
-      // um em cima do outro) — afasta os dois simetricamente, com uma linha fina
-      // ligando ao ponto real quando o rótulo precisa se deslocar.
       const yFinalM = y(pontos[pontos.length - 1].pctM);
       const yFinalN = y(pontos[pontos.length - 1].pctN);
       const minGap = 13;
@@ -253,7 +316,11 @@ window.DaraFigs.figFinanciamento = (function () {
       });
     }
 
-    function redraw() { desenhaBarras(); desenhaLinha(); }
+    function redraw() {
+      desenhaBarras();
+      desenhaLinha(painelLinhaReceita, todasTimelineReceita, "Acumulado por dia das receitas públicas recebidas com referência na data da receita");
+      desenhaLinha(painelLinhaPrestacao, todasTimelinePrestacao, "Acumulado por dia das receitas públicas recebidas com referência na data de prestação de contas");
+    }
     redraw();
   }
 
@@ -314,10 +381,12 @@ window.DaraFigs.figFinanciamento = (function () {
       const total = d3.sum(linhasBrutas, l => l.valor_total);
       const valorM = d3.sum(linhasBrutas, l => l.valor_mulheres);
       const valorN = d3.sum(linhasBrutas, l => l.valor_negros);
+      const valorB = d3.sum(linhasBrutas, l => l.valor_brancos);
       return {
         rotulo, destacado, total,
         mulheres: total > 0 ? valorM / total * 100 : 0, negros: total > 0 ? valorN / total * 100 : 0,
-        valorM, valorN,
+        brancos: total > 0 ? valorB / total * 100 : 0,
+        valorM, valorN, valorB,
       };
     }
 
@@ -349,7 +418,10 @@ window.DaraFigs.figFinanciamento = (function () {
         painel.append("div").attr("class", "sem-dado-placeholder").text(`Sem receita registrada para ${anoAtual}.`);
         return;
       }
-      const rowH = 20, gap = 6, M = { t: 24, r: 16, b: 10, l: 90 };
+      // margem esquerda 115 (era 90) -- sigla composta como "SD/SOLIDARIEDADE" ou
+      // "PRB/REPUBLICANOS" (16 caracteres, existe de verdade na base) estourava a
+      // margem antiga e cortava o começo do nome.
+      const rowH = 20, gap = 6, M = { t: 24, r: 16, b: 10, l: 115 };
       const W = 420, H = M.t + M.b + linhas.length * (rowH + gap);
       const svg = painel.append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", titulo);
       const x = v => M.l + (v / 100) * (W - M.l - M.r);
@@ -372,10 +444,9 @@ window.DaraFigs.figFinanciamento = (function () {
         const wMin = (v / 100) * (W - M.l - M.r);
         const wResto = (W - M.l - M.r) - wMin;
         const valorResto = linha.total - linha[campoValor];
-        const rotuloResto = campoPct === "mulheres" ? "Homens" : "Brancos";
         g.append("rect").attr("x", M.l).attr("y", y).attr("width", W - M.l - M.r).attr("height", rowH)
           .attr("fill", DARA.offwhite).attr("stroke", corBase).attr("stroke-width", 1.2)
-          .append("title").text(`${linha.rotulo} · ${rotuloResto}: ${(100 - v).toFixed(1)}% (${formatMM(valorResto)})`);
+          .append("title").text(`${linha.rotulo} · Homens: ${(100 - v).toFixed(1)}% (${formatMM(valorResto)})`);
         g.append("rect").attr("x", M.l).attr("y", y).attr("width", wMin).attr("height", rowH).attr("fill", corBase)
           .append("title").text(`${linha.rotulo}: ${v.toFixed(1)}% (${formatMM(linha[campoValor])})`);
         if (wMin > 22) {
@@ -389,10 +460,67 @@ window.DaraFigs.figFinanciamento = (function () {
       });
     }
 
+    // painel de Raça: Negros (esquerda) e Brancos (direita, valor REAL, não mais
+    // 100%-negros) — não somam 100%, vão em branco no meio sem preenchimento nem
+    // rótulo (Indígena/Amarela ficam ali, sem serem nomeados).
+    function desenhaPainelRaca(painel, linhas, titulo) {
+      painel.html("");
+      painel.append("h4").text(titulo);
+      if (!linhas.length || !linhas.some(l => l.total > 0)) {
+        painel.append("div").attr("class", "sem-dado-placeholder").text(`Sem receita registrada para ${anoAtual}.`);
+        return;
+      }
+      const rowH = 20, gap = 6, M = { t: 24, r: 16, b: 10, l: 115 };
+      const W = 420, H = M.t + M.b + linhas.length * (rowH + gap);
+      const svg = painel.append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", titulo);
+      const x = v => M.l + (v / 100) * (W - M.l - M.r);
+
+      if (anoAtual === ANO_PISO_LEGAL) {
+        svg.append("line").attr("x1", x(30)).attr("x2", x(30)).attr("y1", M.t - 14).attr("y2", H - M.b)
+          .attr("stroke", "#333").attr("stroke-width", 1.2).attr("stroke-dasharray", "5,3");
+        svg.append("text").attr("x", x(30)).attr("y", M.t - 16).attr("text-anchor", "middle")
+          .attr("font-size", 9).attr("font-weight", 700).attr("fill", "#333").text("Piso legal: 30%");
+      }
+
+      linhas.forEach((linha, i) => {
+        const y = M.t + i * (rowH + gap);
+        const opacidade = linhas.some(l => l.destacado) && !linha.destacado ? 0.25 : 1;
+        const g = svg.append("g").attr("opacity", opacidade);
+        g.append("text").attr("x", M.l - 8).attr("y", y + rowH / 2 + 4).attr("text-anchor", "end")
+          .attr("font-size", 10).attr("font-weight", 700).attr("fill", DARA.vinho).text(linha.rotulo);
+        if (linha.total <= 0) return;
+        const wFaixa = W - M.l - M.r;
+        const wN = (linha.negros / 100) * wFaixa;
+        const xB = M.l + wFaixa - (linha.brancos / 100) * wFaixa;
+        const wB = (linha.brancos / 100) * wFaixa;
+        // contorno fino da escala 0-100% inteira, o vão do meio fica só com esse
+        // contorno, sem preenchimento nenhum
+        g.append("rect").attr("x", M.l).attr("y", y).attr("width", wFaixa).attr("height", rowH)
+          .attr("fill", "none").attr("stroke", "#ccc").attr("stroke-width", 1);
+        g.append("rect").attr("x", M.l).attr("y", y).attr("width", wN).attr("height", rowH).attr("fill", DARA.vermelho)
+          .append("title").text(`${linha.rotulo} · Negros: ${linha.negros.toFixed(1)}% (${formatMM(linha.valorN)})`);
+        g.append("rect").attr("x", xB).attr("y", y).attr("width", wB).attr("height", rowH)
+          .attr("fill", DARA.offwhite).attr("stroke", DARA.vermelho).attr("stroke-width", 1.2)
+          .append("title").text(`${linha.rotulo} · Brancos: ${linha.brancos.toFixed(1)}% (${formatMM(linha.valorB)})`);
+        if (wN > 22) {
+          g.append("text").attr("x", M.l + wN / 2).attr("y", y + rowH / 2 + 4).attr("text-anchor", "middle")
+            .attr("font-size", 9.5).attr("font-weight", 700).attr("fill", "#fff").text(linha.negros.toFixed(0) + "%");
+        }
+        if (wB > 22) {
+          g.append("text").attr("x", xB + wB / 2).attr("y", y + rowH / 2 + 4).attr("text-anchor", "middle")
+            .attr("font-size", 9.5).attr("font-weight", 700).attr("fill", "#666").text(linha.brancos.toFixed(0) + "%");
+        }
+      });
+    }
+
     function redraw() {
-      const linhas = linhasDoAno();
+      let linhas = linhasDoAno();
+      // "por partido" some com quem não tinha receita naquele ano (partido que
+      // ainda não existia, ou já não existe mais) — "por estado" continua
+      // mostrando toda UF, mesmo sem receita, já que UF não "deixa de existir".
+      if (agruparPor === "partido") linhas = linhas.filter(l => l.total > 0);
       desenhaPainel(painelGenero, linhas, "mulheres", "valorM", DARA.vinho, "Mulheres");
-      desenhaPainel(painelRaca, linhas, "negros", "valorN", DARA.vermelho, "Negros");
+      desenhaPainelRaca(painelRaca, linhas, "Negros / Brancos");
     }
     redraw();
   }
