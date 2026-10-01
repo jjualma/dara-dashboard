@@ -52,6 +52,7 @@
   .fig-header-zone-curta{height:75px;}
   .fig-header-zone-longa{height:100px;}
   .fig-header-zone-financ-dinheiro{height:145px;}
+  .fig-header-zone-hetero{height:145px;}
   .fig-subtitulo{margin:0 0 6px; font-size:1.02rem; font-weight:800; color:var(--vinho);}
   .fig-note{font-size:.85rem; color:#333; line-height:1.55; margin:8px 0 0;}
   .fig-warning{font-size:.8rem; color:var(--vermelho); font-weight:700; margin:6px 0 12px;}
@@ -152,6 +153,7 @@
     .fig-header-zone-curta{height:auto; min-height:60px;}
     .fig-header-zone-longa{height:auto; min-height:90px;}
     .fig-header-zone-financ-dinheiro{height:auto; min-height:130px;}
+    .fig-header-zone-hetero{height:auto; min-height:130px;}
     .subtab-btn{padding:8px 10px; font-size:.76rem;}
     nav.tabs button{padding:9px 11px; font-size:.78rem;}
   }
@@ -208,6 +210,7 @@
 <script src="js/fig9.js"></script>
 <script src="js/fig_partido_composicao.js"></script>
 <script src="js/fig_financiamento.js"></script>
+<script src="js/fig_heteroclassificacao.js"></script>
 <script>
 const FIGURAS = [
   { id: "fig1", tab: "Perfil Geral", titulo: "Perfil Geral: de candidatura a eleito, por raça e gênero" },
@@ -215,6 +218,7 @@ const FIGURAS = [
   { id: "figPartidoComposicao", tab: "Composição Partidária", titulo: "Composição Partidária: raça e gênero por partido" },
   { id: "fig9", tab: "Partidos em Contraste", titulo: "Partidos em Contraste: posição racial e de gênero por partido" },
   { id: "figFinanciamento", tab: "Financiamento", titulo: "Financiamento de Campanha: gênero e raça" },
+  { id: "figHeteroclassificacao", tab: "Heteroclassificação", titulo: "Heteroclassificação Racial de Candidaturas" },
 ];
 
 const tabsEl = d3.select("#tabs");
@@ -306,14 +310,18 @@ function updateCargoOptions() {
   // Presidente não tem dado na Razão de Representação (eleição nacional, não por UF)
   // — escondido só nessa aba, continua disponível nas outras. Financiamento só
   // existe pros 5 cargos de eleição geral (2018/2022/2026) — Prefeito/Vereador são
-  // eleição municipal (2016/2020/2024), fora do escopo dessa aba.
-  const opcoes = currentTab === "fig2" ? CARGOS_ORDEM.filter(c => c !== "Presidente")
+  // eleição municipal (2016/2020/2024), fora do escopo dessa aba. Heteroclassificação
+  // só tem dado de Deputado Federal — travado, sem dropdown funcional.
+  const travadoDepFederal = currentTab === "figHeteroclassificacao";
+  const opcoes = travadoDepFederal ? ["Deputado Federal"]
+    : currentTab === "fig2" ? CARGOS_ORDEM.filter(c => c !== "Presidente")
     : currentTab === "figFinanciamento" ? DaraFigs.figFinanciamento.CARGOS_FINANCIAMENTO
     : CARGOS_ORDEM;
   const atual = cargoSelect.property("value");
   cargoSelect.selectAll("option").data(opcoes).join("option")
     .attr("value", d => d).text(d => d);
   cargoSelect.property("value", opcoes.includes(atual) ? atual : (opcoes.includes("Deputado Federal") ? "Deputado Federal" : opcoes[0]));
+  cargoSelect.property("disabled", travadoDepFederal);
 }
 
 async function showTab(id) {
