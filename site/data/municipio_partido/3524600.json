@@ -75,6 +75,15 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2020,
       "partido": "PSD",
       "raca": "Branca",
       "genero": "Masculino",
@@ -101,15 +110,6 @@
     },
     {
       "cargo": "Prefeito",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
       "ano": 2024,
       "partido": "PL",
       "raca": "Branca",
@@ -120,7 +120,7 @@
     {
       "cargo": "Prefeito",
       "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
+      "partido": "PODE",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -132,7 +132,7 @@
       "partido": "PRB/REPUBLICANOS",
       "raca": "Parda",
       "genero": "Masculino",
-      "etapa": "Eleitos",
+      "etapa": "Candidaturas",
       "n": 1
     },
     {
@@ -149,15 +149,6 @@
       "ano": 2024,
       "partido": "PT",
       "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 1
@@ -606,7 +597,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Preta",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -615,7 +606,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Feminino",
       "etapa": "Candidaturas",
@@ -624,7 +615,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -759,6 +750,51 @@
     {
       "cargo": "Vereador",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 6
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
       "partido": "PPS/CIDADANIA",
       "raca": "Preta",
       "genero": "Feminino",
@@ -929,51 +965,6 @@
     },
     {
       "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 6
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
       "ano": 2024,
       "partido": "PL",
       "raca": "Preta",
@@ -1096,6 +1087,51 @@
       "raca": "Amarela",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 6
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "n": 1
     },
     {
@@ -1295,51 +1331,6 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 5
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 6
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
     },
     {
       "cargo": "Vereador",

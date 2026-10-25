@@ -7179,9 +7179,9 @@
       "municipio_nome": "Manoel Urbano",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 30.6,
-      "razao": 0.73
+      "razao": 0.36
     },
     {
       "cargo": "Vereador",
@@ -7190,9 +7190,9 @@
       "municipio_nome": "Manoel Urbano",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 77.78,
       "pct_populacao": 33.47,
-      "razao": 1.99
+      "razao": 2.32
     },
     {
       "cargo": "Vereador",

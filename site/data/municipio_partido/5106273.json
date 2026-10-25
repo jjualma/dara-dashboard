@@ -859,19 +859,10 @@
       "cargo": "Vereador",
       "ano": 2024,
       "partido": "UNIÃO",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "UNIÃO",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 1
+      "n": 2
     }
   ]
 }

@@ -48,6 +48,15 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2020,
       "partido": "PRB/REPUBLICANOS",
       "raca": "Parda",
       "genero": "Masculino",
@@ -67,15 +76,6 @@
       "cargo": "Prefeito",
       "ano": 2020,
       "partido": "PSDB",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2020,
-      "partido": "PTN/PODE",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -390,6 +390,24 @@
     {
       "cargo": "Vereador",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
       "partido": "PSDB",
       "raca": "Parda",
       "genero": "Feminino",
@@ -420,24 +438,6 @@
       "partido": "PT",
       "raca": "Branca",
       "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 1
     },

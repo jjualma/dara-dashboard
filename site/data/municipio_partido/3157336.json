@@ -1011,15 +1011,6 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PMN/MOBILIZA",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
       "partido": "PRD",
       "raca": "Preta",
       "genero": "Masculino",
@@ -1178,6 +1169,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PSDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",

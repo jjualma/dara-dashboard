@@ -30,28 +30,28 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2020,
       "partido": "PSD",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
       "n": 1
     },
     {

@@ -525,7 +525,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Preta",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -534,7 +534,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Parda",
       "genero": "Feminino",
       "etapa": "Candidaturas",
@@ -1003,7 +1003,7 @@
       "cargo": "Vereador",
       "ano": 2024,
       "partido": "PMDB/MDB",
-      "raca": "Parda",
+      "raca": "Preta",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "n": 1

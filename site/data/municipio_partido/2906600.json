@@ -664,7 +664,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 4
+      "n": 3
     },
     {
       "cargo": "Vereador",
@@ -751,15 +751,6 @@
       "cargo": "Vereador",
       "ano": 2024,
       "partido": "PT do B/AVANTE",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PT do B/AVANTE",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
@@ -800,6 +791,24 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 3
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "SD/SOLIDARIEDADE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "SD/SOLIDARIEDADE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",

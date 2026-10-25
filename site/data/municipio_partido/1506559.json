@@ -799,7 +799,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 5
+      "n": 3
     },
     {
       "cargo": "Vereador",
@@ -835,7 +835,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 3
+      "n": 2
     },
     {
       "cargo": "Vereador",
@@ -872,6 +872,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PSD",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -971,6 +980,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "UNIÃO",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 2
     }
   ]
 }

@@ -17420,9 +17420,9 @@
       "municipio_nome": "Anhumas",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 44.44,
       "pct_populacao": 19.81,
-      "razao": 1.68
+      "razao": 2.24
     },
     {
       "cargo": "Vereador",
@@ -17431,9 +17431,9 @@
       "municipio_nome": "Anhumas",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 22.22,
       "pct_populacao": 27.59,
-      "razao": 1.21
+      "razao": 0.81
     },
     {
       "cargo": "Vereador",
@@ -19290,9 +19290,9 @@
       "municipio_nome": "Apiaí",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 9.09,
       "pct_populacao": 24.63,
-      "razao": 0.74
+      "razao": 0.37
     },
     {
       "cargo": "Vereador",
@@ -19301,9 +19301,9 @@
       "municipio_nome": "Apiaí",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 27.27,
       "pct_populacao": 23.8,
-      "razao": 0.76
+      "razao": 1.15
     },
     {
       "cargo": "Vereador",
@@ -19928,9 +19928,9 @@
       "municipio_nome": "Araçariguama",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 4.77,
-      "razao": 1.91
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -19961,9 +19961,9 @@
       "municipio_nome": "Araçariguama",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 18.18,
       "pct_populacao": 23.79,
-      "razao": 0.38
+      "razao": 0.76
     },
     {
       "cargo": "Vereador",
@@ -21558,116 +21558,6 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.33,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 4.72,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 4.8,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 18.12,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 18.69,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 28.36,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 25.11,
-      "razao": 3.98
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.09,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3503000",
-      "municipio_nome": "Aramina",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.11,
       "razao": 0
     },
     {
@@ -28541,9 +28431,9 @@
       "municipio_nome": "Artur Nogueira",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 8.33,
+      "pct_eleitos": 16.67,
       "pct_populacao": 29.52,
-      "razao": 0.28
+      "razao": 0.56
     },
     {
       "cargo": "Vereador",
@@ -28552,9 +28442,9 @@
       "municipio_nome": "Artur Nogueira",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 58.33,
       "pct_populacao": 27.07,
-      "razao": 2.46
+      "razao": 2.15
     },
     {
       "cargo": "Vereador",
@@ -31452,116 +31342,6 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.26,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 1.77,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.07,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 14.53,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 14.63,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 100,
-      "pct_populacao": 34.03,
-      "razao": 2.94
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 32.34,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.01,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.01,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3504206",
-      "municipio_nome": "Auriflama",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.34,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
       "municipio_id": "3504206",
       "municipio_nome": "Auriflama",
       "raca": "Amarela",
@@ -40300,9 +40080,9 @@
       "municipio_nome": "Barra Do Turvo",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 44.44,
       "pct_populacao": 25.49,
-      "razao": 2.18
+      "razao": 1.74
     },
     {
       "cargo": "Vereador",
@@ -40311,9 +40091,9 @@
       "municipio_nome": "Barra Do Turvo",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 20.39,
-      "razao": 1.09
+      "razao": 1.63
     },
     {
       "cargo": "Vereador",
@@ -57641,6 +57421,116 @@
       "razao": 0
     },
     {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 2.92,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 3.7,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 22.22,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 25.26,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 23.78,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 20.31,
+      "razao": 4.92
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.74,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3507753",
+      "municipio_nome": "Brejo Alegre",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 1.05,
+      "razao": 0
+    },
+    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3507753",
@@ -57889,9 +57779,9 @@
       "municipio_nome": "Brejo Alegre",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 22.22,
-      "razao": 0.5
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -57900,9 +57790,9 @@
       "municipio_nome": "Brejo Alegre",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 25.26,
-      "razao": 0.88
+      "razao": 1.32
     },
     {
       "cargo": "Vereador",
@@ -87561,116 +87451,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.81,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 3.09,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 18.56,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 18.56,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 29.95,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 26.55,
-      "razao": 3.77
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.1,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.03,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.16,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3512001",
-      "municipio_nome": "Colina",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.18,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3512001",
@@ -106861,9 +106641,9 @@
       "municipio_nome": "Eldorado",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 19.06,
-      "razao": 0.58
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -106872,9 +106652,9 @@
       "municipio_nome": "Eldorado",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 44.44,
       "pct_populacao": 18.03,
-      "razao": 1.85
+      "razao": 2.46
     },
     {
       "cargo": "Vereador",
@@ -109490,9 +109270,9 @@
       "municipio_nome": "Embu",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 42.86,
+      "pct_eleitos": 38.1,
       "pct_populacao": 23.34,
-      "razao": 1.84
+      "razao": 1.63
     },
     {
       "cargo": "Vereador",
@@ -109512,9 +109292,9 @@
       "municipio_nome": "Embu",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 23.81,
+      "pct_eleitos": 28.57,
       "pct_populacao": 17.81,
-      "razao": 1.34
+      "razao": 1.6
     },
     {
       "cargo": "Vereador",
@@ -114110,9 +113890,9 @@
       "municipio_nome": "Estrela Do Norte",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 0,
       "pct_populacao": 22.79,
-      "razao": 0.97
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -114132,9 +113912,9 @@
       "municipio_nome": "Estrela Do Norte",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 100,
       "pct_populacao": 23.05,
-      "razao": 3.37
+      "razao": 4.34
     },
     {
       "cargo": "Vereador",
@@ -138711,6 +138491,116 @@
       "razao": 0
     },
     {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 3.18,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 3.98,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 19.6,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 20.82,
+      "razao": 4.8
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 25.14,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 23.72,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.04,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.03,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 1.76,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3518859",
+      "municipio_nome": "Guatapará",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 1.73,
+      "razao": 0
+    },
+    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3518859",
@@ -139258,116 +139148,6 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.25,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 3.58,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 4.17,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 19.48,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 21.88,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 25.48,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 25.04,
-      "razao": 3.99
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.21,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3518909",
-      "municipio_nome": "Guzolândia",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.16,
       "razao": 0
     },
     {
@@ -141588,9 +141368,9 @@
       "municipio_nome": "Hortolândia",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 15.79,
+      "pct_eleitos": 21.05,
       "pct_populacao": 4.99,
-      "razao": 3.16
+      "razao": 4.22
     },
     {
       "cargo": "Vereador",
@@ -141610,9 +141390,9 @@
       "municipio_nome": "Hortolândia",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 26.32,
+      "pct_eleitos": 21.05,
       "pct_populacao": 20.96,
-      "razao": 1.26
+      "razao": 1
     },
     {
       "cargo": "Vereador",
@@ -152071,9 +151851,9 @@
       "municipio_nome": "Ilha Comprida",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 11.11,
       "pct_populacao": 28.65,
-      "razao": 1.16
+      "razao": 0.39
     },
     {
       "cargo": "Vereador",
@@ -152082,9 +151862,9 @@
       "municipio_nome": "Ilha Comprida",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 66.67,
       "pct_populacao": 26.98,
-      "razao": 1.65
+      "razao": 2.47
     },
     {
       "cargo": "Vereador",
@@ -154040,9 +153820,9 @@
       "municipio_nome": "Indiana",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 16.64,
-      "razao": 0
+      "razao": 0.67
     },
     {
       "cargo": "Vereador",
@@ -154062,9 +153842,9 @@
       "municipio_nome": "Indiana",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 55.56,
       "pct_populacao": 30.51,
-      "razao": 2.19
+      "razao": 1.82
     },
     {
       "cargo": "Vereador",
@@ -164600,9 +164380,9 @@
       "municipio_nome": "Itanhaém",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 60,
+      "pct_eleitos": 70,
       "pct_populacao": 18.95,
-      "razao": 3.17
+      "razao": 3.69
     },
     {
       "cargo": "Vereador",
@@ -164622,9 +164402,9 @@
       "municipio_nome": "Itanhaém",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 30,
+      "pct_eleitos": 20,
       "pct_populacao": 24.25,
-      "razao": 1.24
+      "razao": 0.82
     },
     {
       "cargo": "Vereador",
@@ -181611,116 +181391,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 1.85,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.28,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 21.76,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 22.52,
-      "razao": 4.44
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 26.61,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 24.51,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.19,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3524600",
-      "municipio_nome": "Jacupiranga",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.19,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3524600",
@@ -190851,116 +190521,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.73,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.89,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 11.73,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 11.92,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 36.81,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 32.94,
-      "razao": 3.04
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.03,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.47,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3525904",
-      "municipio_nome": "Jundiaí",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.44,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3525904",
@@ -193178,9 +192738,9 @@
       "municipio_nome": "Juquitiba",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 9.09,
       "pct_populacao": 3.25,
-      "razao": 0
+      "razao": 2.8
     },
     {
       "cargo": "Vereador",
@@ -193200,9 +192760,9 @@
       "municipio_nome": "Juquitiba",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 19.77,
-      "razao": 0.46
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -205421,9 +204981,9 @@
       "municipio_nome": "Macatuba",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 31.13,
-      "razao": 0.29
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -205432,9 +204992,9 @@
       "municipio_nome": "Macatuba",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 45.45,
+      "pct_eleitos": 54.55,
       "pct_populacao": 29.43,
-      "razao": 1.54
+      "razao": 1.85
     },
     {
       "cargo": "Vereador",
@@ -206358,6 +205918,116 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.55,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 1.56,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 2.17,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 15.39,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 15.62,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 33.56,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 31.11,
+      "razao": 3.21
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.03,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.28,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3528205",
+      "municipio_nome": "Macedônia",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.28,
       "razao": 0
     },
     {
@@ -208512,9 +208182,9 @@
       "municipio_nome": "Mairiporã",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 61.54,
+      "pct_eleitos": 69.23,
       "pct_populacao": 27.19,
-      "razao": 2.26
+      "razao": 2.55
     },
     {
       "cargo": "Vereador",
@@ -208556,9 +208226,9 @@
       "municipio_nome": "Mairiporã",
       "raca": "Amarela",
       "genero": "Masculino",
-      "pct_eleitos": 7.69,
+      "pct_eleitos": 0,
       "pct_populacao": 0.37,
-      "razao": 20.78
+      "razao": 0
     },
     {
       "cargo": "Prefeito",
@@ -212450,9 +212120,9 @@
       "municipio_nome": "Marília",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 18.75,
+      "pct_eleitos": 17.65,
       "pct_populacao": 15.69,
-      "razao": 1.2
+      "razao": 1.12
     },
     {
       "cargo": "Vereador",
@@ -212461,9 +212131,9 @@
       "municipio_nome": "Marília",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 18.75,
+      "pct_eleitos": 23.53,
       "pct_populacao": 31.89,
-      "razao": 0.59
+      "razao": 0.74
     },
     {
       "cargo": "Vereador",
@@ -212472,9 +212142,9 @@
       "municipio_nome": "Marília",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 62.5,
+      "pct_eleitos": 58.82,
       "pct_populacao": 28.04,
-      "razao": 2.23
+      "razao": 2.1
     },
     {
       "cargo": "Vereador",
@@ -213398,6 +213068,116 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.52,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 2.61,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 3.12,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 17.33,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 20.18,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 28.34,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 27.81,
+      "razao": 3.6
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.02,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.02,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.27,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3529203",
+      "municipio_nome": "Martinópolis",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.3,
       "razao": 0
     },
     {
@@ -217411,9 +217191,9 @@
       "municipio_nome": "Miguelópolis",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 18.18,
       "pct_populacao": 27.93,
-      "razao": 0.33
+      "razao": 0.65
     },
     {
       "cargo": "Vereador",
@@ -217422,9 +217202,9 @@
       "municipio_nome": "Miguelópolis",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 81.82,
+      "pct_eleitos": 72.73,
       "pct_populacao": 25.57,
-      "razao": 3.2
+      "razao": 2.84
     },
     {
       "cargo": "Vereador",
@@ -220108,116 +219888,6 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.93,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.19,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.86,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 23.6,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 23.28,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 23.66,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 22.81,
-      "razao": 4.38
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.03,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.03,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.78,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3530201",
-      "municipio_nome": "Mirante Do Paranapanema",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.75,
       "razao": 0
     },
     {
@@ -225941,6 +225611,116 @@
       "razao": 0
     },
     {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 7.02,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 8.2,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 18.87,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 20.41,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 22.73,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 21.69,
+      "razao": 4.61
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.37,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.41,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.15,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3531100",
+      "municipio_nome": "Mongaguá",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.15,
+      "razao": 0
+    },
+    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3531100",
@@ -226200,9 +225980,9 @@
       "municipio_nome": "Mongaguá",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 25,
+      "pct_eleitos": 33.33,
       "pct_populacao": 20.41,
-      "razao": 1.22
+      "razao": 1.63
     },
     {
       "cargo": "Vereador",
@@ -226222,9 +226002,9 @@
       "municipio_nome": "Mongaguá",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 58.33,
       "pct_populacao": 21.69,
-      "razao": 3.07
+      "razao": 2.69
     },
     {
       "cargo": "Vereador",
@@ -259629,9 +259409,9 @@
       "municipio_nome": "Paraguaçu Paulista",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 7.69,
+      "pct_eleitos": 0,
       "pct_populacao": 17.77,
-      "razao": 0.43
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -259640,9 +259420,9 @@
       "municipio_nome": "Paraguaçu Paulista",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 23.08,
+      "pct_eleitos": 30.77,
       "pct_populacao": 19.12,
-      "razao": 1.21
+      "razao": 1.61
     },
     {
       "cargo": "Vereador",
@@ -292288,9 +292068,9 @@
       "municipio_nome": "Pontalinda",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 4.7,
-      "razao": 2.36
+      "razao": 4.73
     },
     {
       "cargo": "Vereador",
@@ -292332,9 +292112,9 @@
       "municipio_nome": "Pontalinda",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 66.67,
       "pct_populacao": 24.62,
-      "razao": 3.16
+      "razao": 2.71
     },
     {
       "cargo": "Vereador",
@@ -296160,9 +295940,9 @@
       "municipio_nome": "Potim",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 9.09,
       "pct_populacao": 23.2,
-      "razao": 0.78
+      "razao": 0.39
     },
     {
       "cargo": "Vereador",
@@ -296182,9 +295962,9 @@
       "municipio_nome": "Potim",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 45.45,
+      "pct_eleitos": 54.55,
       "pct_populacao": 28.81,
-      "razao": 1.58
+      "razao": 1.89
     },
     {
       "cargo": "Vereador",
@@ -333758,9 +333538,9 @@
       "municipio_nome": "Santa Bárbara D'Oeste",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 10.53,
+      "pct_eleitos": 15.79,
       "pct_populacao": 2.86,
-      "razao": 3.68
+      "razao": 5.52
     },
     {
       "cargo": "Vereador",
@@ -333780,9 +333560,9 @@
       "municipio_nome": "Santa Bárbara D'Oeste",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 10.53,
+      "pct_eleitos": 5.26,
       "pct_populacao": 14.47,
-      "razao": 0.73
+      "razao": 0.36
     },
     {
       "cargo": "Vereador",
@@ -368611,116 +368391,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 2.83,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 3.22,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 12.06,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 13.37,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 35.25,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 33.22,
-      "razao": 3.01
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.01,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3550803",
-      "municipio_nome": "São Sebastião Da Grama",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.02,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3550803",
@@ -369640,9 +369310,9 @@
       "municipio_nome": "São Simão",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 14.46,
-      "razao": 1.54
+      "razao": 0.77
     },
     {
       "cargo": "Vereador",
@@ -369662,9 +369332,9 @@
       "municipio_nome": "São Simão",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 55.56,
       "pct_populacao": 30.33,
-      "razao": 1.47
+      "razao": 1.83
     },
     {
       "cargo": "Vereador",
@@ -374821,9 +374491,9 @@
       "municipio_nome": "Sertãozinho",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 5.26,
+      "pct_eleitos": 0,
       "pct_populacao": 27.04,
-      "razao": 0.19
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -374832,9 +374502,9 @@
       "municipio_nome": "Sertãozinho",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 57.89,
+      "pct_eleitos": 63.16,
       "pct_populacao": 24.5,
-      "razao": 2.36
+      "razao": 2.58
     },
     {
       "cargo": "Vereador",
@@ -384688,9 +384358,9 @@
       "municipio_nome": "Taiaçu",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 2.7,
-      "razao": 0
+      "razao": 4.11
     },
     {
       "cargo": "Vereador",
@@ -384710,9 +384380,9 @@
       "municipio_nome": "Taiaçu",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 17.02,
-      "razao": 0.65
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -387900,9 +387570,9 @@
       "municipio_nome": "Tapiratiba",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 17.31,
-      "razao": 1.28
+      "razao": 1.93
     },
     {
       "cargo": "Vereador",
@@ -387922,9 +387592,9 @@
       "municipio_nome": "Tapiratiba",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 44.44,
       "pct_populacao": 28.08,
-      "razao": 1.98
+      "razao": 1.58
     },
     {
       "cargo": "Vereador",

@@ -593,6 +593,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "SD/SOLIDARIEDADE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     }
   ]
 }

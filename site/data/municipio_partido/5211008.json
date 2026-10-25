@@ -48,7 +48,7 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
-      "partido": "PTN/PODE",
+      "partido": "PODE",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -381,7 +381,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",

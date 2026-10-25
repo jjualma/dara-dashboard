@@ -3208,9 +3208,9 @@
       "municipio_nome": "Água Fria",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 16.46,
-      "razao": 0.67
+      "razao": 1.35
     },
     {
       "cargo": "Vereador",
@@ -3230,9 +3230,9 @@
       "municipio_nome": "Água Fria",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 66.67,
       "pct_populacao": 27.96,
-      "razao": 2.78
+      "razao": 2.38
     },
     {
       "cargo": "Vereador",
@@ -9808,9 +9808,9 @@
       "municipio_nome": "Andaraí",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 14.56,
-      "razao": 0.76
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -9852,9 +9852,9 @@
       "municipio_nome": "Andaraí",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 3.96,
-      "razao": 0
+      "razao": 2.81
     },
     {
       "cargo": "Vereador",
@@ -13108,9 +13108,9 @@
       "municipio_nome": "Antônio Cardoso",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 22.22,
       "pct_populacao": 26.59,
-      "razao": 1.25
+      "razao": 0.84
     },
     {
       "cargo": "Vereador",
@@ -13130,9 +13130,9 @@
       "municipio_nome": "Antônio Cardoso",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 55.56,
       "pct_populacao": 19.56,
-      "razao": 2.27
+      "razao": 2.84
     },
     {
       "cargo": "Vereador",
@@ -41378,9 +41378,9 @@
       "municipio_nome": "Caculé",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 18.18,
       "pct_populacao": 5.3,
-      "razao": 1.72
+      "razao": 3.43
     },
     {
       "cargo": "Vereador",
@@ -41389,9 +41389,9 @@
       "municipio_nome": "Caculé",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 28.36,
-      "razao": 0.32
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -42720,9 +42720,9 @@
       "municipio_nome": "Caetanos",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 72.73,
+      "pct_eleitos": 81.82,
       "pct_populacao": 31.78,
-      "razao": 2.29
+      "razao": 2.57
     },
     {
       "cargo": "Vereador",
@@ -42742,9 +42742,9 @@
       "municipio_nome": "Caetanos",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 18.18,
       "pct_populacao": 17.24,
-      "razao": 1.58
+      "razao": 1.05
     },
     {
       "cargo": "Vereador",
@@ -48000,9 +48000,9 @@
       "municipio_nome": "Campo Alegre De Lourdes",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 23.08,
+      "pct_eleitos": 30.77,
       "pct_populacao": 33.61,
-      "razao": 0.69
+      "razao": 0.92
     },
     {
       "cargo": "Vereador",
@@ -48011,9 +48011,9 @@
       "municipio_nome": "Campo Alegre De Lourdes",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 7.69,
       "pct_populacao": 11.3,
-      "razao": 1.36
+      "razao": 0.68
     },
     {
       "cargo": "Vereador",
@@ -52620,9 +52620,9 @@
       "municipio_nome": "Candiba",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 44.44,
       "pct_populacao": 29.93,
-      "razao": 1.86
+      "razao": 1.48
     },
     {
       "cargo": "Vereador",
@@ -52642,9 +52642,9 @@
       "municipio_nome": "Candiba",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 44.44,
       "pct_populacao": 13.79,
-      "razao": 2.42
+      "razao": 3.22
     },
     {
       "cargo": "Vereador",
@@ -78888,9 +78888,9 @@
       "municipio_nome": "Dias D'Ávila",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 20,
+      "pct_eleitos": 6.67,
       "pct_populacao": 14.43,
-      "razao": 1.39
+      "razao": 0.46
     },
     {
       "cargo": "Vereador",
@@ -78910,9 +78910,9 @@
       "municipio_nome": "Dias D'Ávila",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 60,
+      "pct_eleitos": 66.67,
       "pct_populacao": 26.7,
-      "razao": 2.25
+      "razao": 2.5
     },
     {
       "cargo": "Vereador",
@@ -78921,9 +78921,9 @@
       "municipio_nome": "Dias D'Ávila",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 6.67,
       "pct_populacao": 7.24,
-      "razao": 0
+      "razao": 0.92
     },
     {
       "cargo": "Vereador",
@@ -86038,9 +86038,9 @@
       "municipio_nome": "Feira De Santana",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 23.81,
+      "pct_eleitos": 28.57,
       "pct_populacao": 11.34,
-      "razao": 2.1
+      "razao": 2.52
     },
     {
       "cargo": "Vereador",
@@ -86060,9 +86060,9 @@
       "municipio_nome": "Feira De Santana",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 57.14,
+      "pct_eleitos": 52.38,
       "pct_populacao": 26.31,
-      "razao": 2.17
+      "razao": 1.99
     },
     {
       "cargo": "Vereador",
@@ -107708,9 +107708,9 @@
       "municipio_nome": "Ilhéus",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 28.57,
+      "pct_eleitos": 38.1,
       "pct_populacao": 11.25,
-      "razao": 2.54
+      "razao": 3.39
     },
     {
       "cargo": "Vereador",
@@ -107730,9 +107730,9 @@
       "municipio_nome": "Ilhéus",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 42.86,
+      "pct_eleitos": 38.1,
       "pct_populacao": 26.39,
-      "razao": 1.62
+      "razao": 1.44
     },
     {
       "cargo": "Vereador",
@@ -107774,9 +107774,9 @@
       "municipio_nome": "Ilhéus",
       "raca": "Indígena",
       "genero": "Masculino",
-      "pct_eleitos": 4.76,
+      "pct_eleitos": 0,
       "pct_populacao": 2.18,
-      "razao": 2.18
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -127530,9 +127530,9 @@
       "municipio_nome": "Itapetinga",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 46.67,
+      "pct_eleitos": 40,
       "pct_populacao": 28.95,
-      "razao": 1.61
+      "razao": 1.38
     },
     {
       "cargo": "Vereador",
@@ -127552,9 +127552,9 @@
       "municipio_nome": "Itapetinga",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 20,
+      "pct_eleitos": 26.67,
       "pct_populacao": 10.75,
-      "razao": 1.86
+      "razao": 2.48
     },
     {
       "cargo": "Vereador",
@@ -151818,9 +151818,9 @@
       "municipio_nome": "Lauro De Freitas",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 38.1,
       "pct_populacao": 14.39,
-      "razao": 2.32
+      "razao": 2.65
     },
     {
       "cargo": "Vereador",
@@ -151840,9 +151840,9 @@
       "municipio_nome": "Lauro De Freitas",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 47.62,
+      "pct_eleitos": 38.1,
       "pct_populacao": 23.16,
-      "razao": 2.06
+      "razao": 1.65
     },
     {
       "cargo": "Vereador",
@@ -151862,9 +151862,9 @@
       "municipio_nome": "Lauro De Freitas",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 9.52,
+      "pct_eleitos": 14.29,
       "pct_populacao": 9.06,
-      "razao": 1.05
+      "razao": 1.58
     },
     {
       "cargo": "Vereador",
@@ -157098,9 +157098,9 @@
       "municipio_nome": "Macururé",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 22.22,
       "pct_populacao": 4.37,
-      "razao": 7.63
+      "razao": 5.08
     },
     {
       "cargo": "Vereador",
@@ -157109,9 +157109,9 @@
       "municipio_nome": "Macururé",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 38.57,
-      "razao": 0
+      "razao": 0.29
     },
     {
       "cargo": "Vereador",
@@ -159617,9 +159617,9 @@
       "municipio_nome": "Mairi",
       "raca": "Preta",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 9.22,
-      "razao": 0.99
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -159628,9 +159628,9 @@
       "municipio_nome": "Mairi",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 36.36,
       "pct_populacao": 8.79,
-      "razao": 3.1
+      "razao": 4.14
     },
     {
       "cargo": "Vereador",
@@ -167570,9 +167570,9 @@
       "municipio_nome": "Medeiros Neto",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 45.45,
+      "pct_eleitos": 54.55,
       "pct_populacao": 34.22,
-      "razao": 1.33
+      "razao": 1.59
     },
     {
       "cargo": "Vereador",
@@ -167581,9 +167581,9 @@
       "municipio_nome": "Medeiros Neto",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 12.3,
-      "razao": 0.74
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -192628,9 +192628,9 @@
       "municipio_nome": "Pau Brasil",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 9.47,
-      "razao": 0
+      "razao": 1.17
     },
     {
       "cargo": "Vereador",
@@ -192650,9 +192650,9 @@
       "municipio_nome": "Pau Brasil",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 44.44,
       "pct_populacao": 20.67,
-      "razao": 2.69
+      "razao": 2.15
     },
     {
       "cargo": "Vereador",
@@ -196588,9 +196588,9 @@
       "municipio_nome": "Pilão Arcado",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 7.69,
+      "pct_eleitos": 0,
       "pct_populacao": 6.43,
-      "razao": 1.2
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -196610,9 +196610,9 @@
       "municipio_nome": "Pilão Arcado",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 84.62,
+      "pct_eleitos": 83.33,
       "pct_populacao": 34.61,
-      "razao": 2.44
+      "razao": 2.41
     },
     {
       "cargo": "Vereador",
@@ -196632,9 +196632,9 @@
       "municipio_nome": "Pilão Arcado",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 7.69,
+      "pct_eleitos": 16.67,
       "pct_populacao": 9.91,
-      "razao": 0.78
+      "razao": 1.68
     },
     {
       "cargo": "Vereador",
@@ -200559,9 +200559,9 @@
       "municipio_nome": "Piritiba",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 33.66,
-      "razao": 0.27
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -200570,9 +200570,9 @@
       "municipio_nome": "Piritiba",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 54.55,
+      "pct_eleitos": 72.73,
       "pct_populacao": 31.75,
-      "razao": 1.72
+      "razao": 2.29
     },
     {
       "cargo": "Vereador",
@@ -200592,9 +200592,9 @@
       "municipio_nome": "Piritiba",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 9.09,
       "pct_populacao": 9.64,
-      "razao": 1.89
+      "razao": 0.94
     },
     {
       "cargo": "Vereador",
@@ -228840,9 +228840,9 @@
       "municipio_nome": "Santa Teresinha",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 66.67,
       "pct_populacao": 29.24,
-      "razao": 1.9
+      "razao": 2.28
     },
     {
       "cargo": "Vereador",
@@ -228862,9 +228862,9 @@
       "municipio_nome": "Santa Teresinha",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 8.01,
-      "razao": 2.77
+      "razao": 1.39
     },
     {
       "cargo": "Vereador",
@@ -230820,9 +230820,9 @@
       "municipio_nome": "Santo Estêvão",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 40,
       "pct_populacao": 27.75,
-      "razao": 1.2
+      "razao": 1.44
     },
     {
       "cargo": "Vereador",
@@ -230842,9 +230842,9 @@
       "municipio_nome": "Santo Estêvão",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 26.67,
+      "pct_eleitos": 20,
       "pct_populacao": 5.57,
-      "razao": 4.79
+      "razao": 3.59
     },
     {
       "cargo": "Vereador",
@@ -244658,9 +244658,9 @@
       "municipio_nome": "Sento Sé",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 7.69,
       "pct_populacao": 8.56,
-      "razao": 0
+      "razao": 0.9
     },
     {
       "cargo": "Vereador",
@@ -244680,9 +244680,9 @@
       "municipio_nome": "Sento Sé",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 69.23,
+      "pct_eleitos": 61.54,
       "pct_populacao": 32.98,
-      "razao": 2.1
+      "razao": 1.87
     },
     {
       "cargo": "Vereador",
@@ -259178,9 +259178,9 @@
       "municipio_nome": "Tucano",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 13.33,
+      "pct_eleitos": 7.69,
       "pct_populacao": 5.7,
-      "razao": 2.34
+      "razao": 1.35
     },
     {
       "cargo": "Vereador",
@@ -259189,9 +259189,9 @@
       "municipio_nome": "Tucano",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 6.67,
+      "pct_eleitos": 7.69,
       "pct_populacao": 29.52,
-      "razao": 0.23
+      "razao": 0.26
     },
     {
       "cargo": "Vereador",
@@ -259200,9 +259200,9 @@
       "municipio_nome": "Tucano",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 46.67,
+      "pct_eleitos": 46.15,
       "pct_populacao": 29.4,
-      "razao": 1.59
+      "razao": 1.57
     },
     {
       "cargo": "Vereador",
@@ -259211,9 +259211,9 @@
       "municipio_nome": "Tucano",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 6.67,
+      "pct_eleitos": 7.69,
       "pct_populacao": 15.43,
-      "razao": 0.43
+      "razao": 0.5
     },
     {
       "cargo": "Vereador",
@@ -259222,9 +259222,9 @@
       "municipio_nome": "Tucano",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 26.67,
+      "pct_eleitos": 30.77,
       "pct_populacao": 14.22,
-      "razao": 1.88
+      "razao": 2.16
     },
     {
       "cargo": "Vereador",
@@ -268440,9 +268440,9 @@
       "municipio_nome": "Várzea Do Poço",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 22.22,
       "pct_populacao": 27.97,
-      "razao": 1.19
+      "razao": 0.79
     },
     {
       "cargo": "Vereador",
@@ -268462,9 +268462,9 @@
       "municipio_nome": "Várzea Do Poço",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 55.56,
       "pct_populacao": 14.07,
-      "razao": 3.16
+      "razao": 3.95
     },
     {
       "cargo": "Vereador",
@@ -271751,9 +271751,9 @@
       "municipio_nome": "Vitória Da Conquista",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 17.39,
+      "pct_eleitos": 13.04,
       "pct_populacao": 15.99,
-      "razao": 1.09
+      "razao": 0.82
     },
     {
       "cargo": "Vereador",
@@ -271762,9 +271762,9 @@
       "municipio_nome": "Vitória Da Conquista",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 30.43,
+      "pct_eleitos": 34.78,
       "pct_populacao": 13.52,
-      "razao": 2.25
+      "razao": 2.57
     },
     {
       "cargo": "Vereador",

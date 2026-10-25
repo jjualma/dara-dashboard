@@ -75,18 +75,18 @@
     {
       "cargo": "Prefeito",
       "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Parda",
-      "genero": "Masculino",
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Feminino",
       "etapa": "Candidaturas",
       "n": 1
     },
     {
       "cargo": "Prefeito",
       "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Feminino",
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Parda",
+      "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 1
     },

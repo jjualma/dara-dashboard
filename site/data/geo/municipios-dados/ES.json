@@ -10358,9 +10358,9 @@
       "municipio_nome": "Cachoeiro De Itapemirim",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 5.56,
       "pct_populacao": 5.9,
-      "razao": 0
+      "razao": 0.94
     },
     {
       "cargo": "Vereador",
@@ -10402,9 +10402,9 @@
       "municipio_nome": "Cachoeiro De Itapemirim",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 83.33,
+      "pct_eleitos": 77.78,
       "pct_populacao": 21,
-      "razao": 3.97
+      "razao": 3.7
     },
     {
       "cargo": "Vereador",
@@ -11711,9 +11711,9 @@
       "municipio_nome": "Castelo",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 7.69,
       "pct_populacao": 29.96,
-      "razao": 0.51
+      "razao": 0.26
     },
     {
       "cargo": "Vereador",
@@ -11722,9 +11722,9 @@
       "municipio_nome": "Castelo",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 76.92,
+      "pct_eleitos": 84.62,
       "pct_populacao": 28.66,
-      "razao": 2.68
+      "razao": 2.95
     },
     {
       "cargo": "Vereador",
@@ -12338,9 +12338,9 @@
       "municipio_nome": "Colatina",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 13.33,
+      "pct_eleitos": 6.67,
       "pct_populacao": 4.29,
-      "razao": 3.11
+      "razao": 1.55
     },
     {
       "cargo": "Vereador",
@@ -12360,9 +12360,9 @@
       "municipio_nome": "Colatina",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 20,
+      "pct_eleitos": 26.67,
       "pct_populacao": 23.77,
-      "razao": 0.84
+      "razao": 1.12
     },
     {
       "cargo": "Vereador",
@@ -18949,9 +18949,9 @@
       "municipio_nome": "Guarapari",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.76,
+      "pct_eleitos": 5.88,
       "pct_populacao": 26.55,
-      "razao": 0.44
+      "razao": 0.22
     },
     {
       "cargo": "Vereador",
@@ -18982,9 +18982,9 @@
       "municipio_nome": "Guarapari",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 29.41,
+      "pct_eleitos": 35.29,
       "pct_populacao": 17.39,
-      "razao": 1.69
+      "razao": 2.03
     },
     {
       "cargo": "Vereador",
@@ -38281,116 +38281,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 6.27,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 6.77,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 25.07,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 25.38,
-      "razao": 3.94
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 18.72,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 17.64,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.03,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.01,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3204302",
-      "municipio_nome": "Presidente Kennedy",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.07,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3204302",
@@ -41950,9 +41840,9 @@
       "municipio_nome": "Santa Teresa",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 18.18,
       "pct_populacao": 16.6,
-      "razao": 0.55
+      "razao": 1.1
     },
     {
       "cargo": "Vereador",
@@ -41972,9 +41862,9 @@
       "municipio_nome": "Santa Teresa",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 81.82,
+      "pct_eleitos": 72.73,
       "pct_populacao": 29.88,
-      "razao": 2.74
+      "razao": 2.43
     },
     {
       "cargo": "Vereador",

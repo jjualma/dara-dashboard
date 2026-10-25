@@ -597,6 +597,24 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 3
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
       "partido": "UNIÃO",
       "raca": "Preta",
       "genero": "Masculino",
@@ -674,24 +692,6 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "UNIÃO",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "UNIÃO",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 3
     }
   ]
 }

@@ -795,6 +795,15 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
+      "partido": "PP",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
       "partido": "PRB/REPUBLICANOS",
       "raca": "Preta",
       "genero": "Masculino",
@@ -961,7 +970,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 4
+      "n": 3
     }
   ]
 }

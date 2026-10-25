@@ -3521,6 +3521,116 @@
       "razao": 0
     },
     {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 8.11,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 8.32,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 31.19,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 28.09,
+      "razao": 3.56
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 12.69,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 11.29,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.12,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.13,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.02,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2800605",
+      "municipio_nome": "Barra Dos Coqueiros",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.04,
+      "razao": 0
+    },
+    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "2800605",
@@ -14298,116 +14408,6 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.38,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 10.73,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 9.68,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 34.51,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 29.54,
-      "razao": 3.39
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 7.61,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 7.9,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "2802502",
-      "municipio_nome": "General Maynard",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.03,
       "razao": 0
     },
     {

@@ -84,15 +84,6 @@
     {
       "cargo": "Prefeito",
       "ano": 2024,
-      "partido": "PSD",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
       "partido": "PT",
       "raca": "Parda",
       "genero": "Feminino",

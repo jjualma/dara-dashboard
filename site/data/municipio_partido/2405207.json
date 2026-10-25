@@ -282,7 +282,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -291,7 +291,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
@@ -337,15 +337,6 @@
       "cargo": "Vereador",
       "ano": 2020,
       "partido": "PL",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PL",
       "raca": "Branca",
       "genero": "Feminino",
       "etapa": "Eleitos",
@@ -381,15 +372,6 @@
     {
       "cargo": "Vereador",
       "ano": 2020,
-      "partido": "PSB",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
       "partido": "PSDB",
       "raca": "Parda",
       "genero": "Masculino",
@@ -420,15 +402,6 @@
       "partido": "PSDB",
       "raca": "Parda",
       "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PSDB",
-      "raca": "Branca",
-      "genero": "Feminino",
       "etapa": "Eleitos",
       "n": 1
     },
@@ -480,6 +453,33 @@
     {
       "cargo": "Vereador",
       "ano": 2020,
+      "partido": "PSOL",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PSOL",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 4
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PSOL",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
       "partido": "PT",
       "raca": "Branca",
       "genero": "Feminino",
@@ -493,15 +493,6 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PT",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
       "n": 1
     },
     {

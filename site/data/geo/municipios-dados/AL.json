@@ -1239,9 +1239,9 @@
       "municipio_nome": "Anadia",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 27.27,
       "pct_populacao": 30.11,
-      "razao": 0.37
+      "razao": 0.91
     },
     {
       "cargo": "Vereador",
@@ -1250,9 +1250,9 @@
       "municipio_nome": "Anadia",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 54.55,
       "pct_populacao": 27.94,
-      "razao": 2.39
+      "razao": 1.95
     },
     {
       "cargo": "Vereador",
@@ -1261,9 +1261,9 @@
       "municipio_nome": "Anadia",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 9.09,
       "pct_populacao": 16.7,
-      "razao": 0.67
+      "razao": 0.54
     },
     {
       "cargo": "Vereador",
@@ -1272,9 +1272,9 @@
       "municipio_nome": "Anadia",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 9.09,
       "pct_populacao": 14.62,
-      "razao": 0.76
+      "razao": 0.62
     },
     {
       "cargo": "Vereador",
@@ -10358,9 +10358,9 @@
       "municipio_nome": "Campo Grande",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 4.86,
-      "razao": 0
+      "razao": 2.29
     },
     {
       "cargo": "Vereador",
@@ -10380,9 +10380,9 @@
       "municipio_nome": "Campo Grande",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 33.33,
       "pct_populacao": 32.97,
-      "razao": 1.69
+      "razao": 1.01
     },
     {
       "cargo": "Vereador",
@@ -10402,9 +10402,9 @@
       "municipio_nome": "Campo Grande",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 11.61,
-      "razao": 0.96
+      "razao": 1.91
     },
     {
       "cargo": "Vereador",
@@ -16320,9 +16320,9 @@
       "municipio_nome": "Craíbas",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 63.64,
+      "pct_eleitos": 72.73,
       "pct_populacao": 32.39,
-      "razao": 1.96
+      "razao": 2.25
     },
     {
       "cargo": "Vereador",
@@ -16342,9 +16342,9 @@
       "municipio_nome": "Craíbas",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 18.18,
       "pct_populacao": 13.25,
-      "razao": 2.06
+      "razao": 1.37
     },
     {
       "cargo": "Vereador",
@@ -20808,9 +20808,9 @@
       "municipio_nome": "Girau Do Ponciano",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 1.94,
-      "razao": 0
+      "razao": 5.73
     },
     {
       "cargo": "Vereador",
@@ -20852,9 +20852,9 @@
       "municipio_nome": "Girau Do Ponciano",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 9.73,
-      "razao": 1.14
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -25538,9 +25538,9 @@
       "municipio_nome": "Japaratinga",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 7.74,
-      "razao": 1.44
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -25549,9 +25549,9 @@
       "municipio_nome": "Japaratinga",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 31.74,
-      "razao": 0.7
+      "razao": 1.05
     },
     {
       "cargo": "Vereador",

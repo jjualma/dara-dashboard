@@ -826,7 +826,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -872,6 +872,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 3
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PSOL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",

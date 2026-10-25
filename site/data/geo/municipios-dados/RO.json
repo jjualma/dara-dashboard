@@ -13130,9 +13130,9 @@
       "municipio_nome": "Rolim De Moura",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 33.33,
       "pct_populacao": 27.77,
-      "razao": 1.6
+      "razao": 1.2
     },
     {
       "cargo": "Vereador",
@@ -13152,9 +13152,9 @@
       "municipio_nome": "Rolim De Moura",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 17.3,
-      "razao": 0.64
+      "razao": 1.28
     },
     {
       "cargo": "Vereador",
@@ -14439,9 +14439,9 @@
       "municipio_nome": "Vilhena",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 8.33,
+      "pct_eleitos": 0,
       "pct_populacao": 26.59,
-      "razao": 0.31
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -14472,9 +14472,9 @@
       "municipio_nome": "Vilhena",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 41.67,
+      "pct_eleitos": 50,
       "pct_populacao": 18.97,
-      "razao": 2.2
+      "razao": 2.64
     },
     {
       "cargo": "Vereador",

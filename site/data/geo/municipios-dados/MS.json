@@ -6601,6 +6601,116 @@
       "razao": 0
     },
     {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 2.57,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 3.11,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 24.71,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 25.79,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 20.91,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 22.27,
+      "razao": 4.49
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.18,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.18,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.2,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "5001508",
+      "municipio_nome": "Bandeirantes",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.09,
+      "razao": 0
+    },
+    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "5001508",
@@ -6860,9 +6970,9 @@
       "municipio_nome": "Bandeirantes",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 44.44,
       "pct_populacao": 25.79,
-      "razao": 2.15
+      "razao": 1.72
     },
     {
       "cargo": "Vereador",
@@ -6882,9 +6992,9 @@
       "municipio_nome": "Bandeirantes",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 22.27,
-      "razao": 1
+      "razao": 1.5
     },
     {
       "cargo": "Vereador",

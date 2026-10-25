@@ -92318,7 +92318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 31
+      "n": 32
     },
     {
       "ano": 2016,
@@ -92518,7 +92518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 12
+      "n": 13
     },
     {
       "ano": 2016,
@@ -92885,10 +92885,20 @@
       "uf": "RJ",
       "partido": "PDT",
       "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2016,
+      "uf": "RJ",
+      "partido": "PDT",
+      "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 15
+      "n": 16
     },
     {
       "ano": 2016,
@@ -92908,7 +92918,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 37
+      "n": 38
     },
     {
       "ano": 2016,
@@ -93088,7 +93098,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 23
+      "n": 24
     },
     {
       "ano": 2016,
@@ -93254,11 +93264,21 @@
       "ano": 2016,
       "uf": "RJ",
       "partido": "PMB",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 2
+    },
+    {
+      "ano": 2016,
+      "uf": "RJ",
+      "partido": "PMB",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 6
     },
     {
       "ano": 2016,
@@ -93438,7 +93458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 28
     },
     {
       "ano": 2016,
@@ -93478,7 +93498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 101
+      "n": 102
     },
     {
       "ano": 2016,
@@ -93818,7 +93838,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 22
+      "n": 23
     },
     {
       "ano": 2016,
@@ -93848,7 +93868,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 66
+      "n": 68
     },
     {
       "ano": 2016,
@@ -94118,7 +94138,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 10
     },
     {
       "ano": 2016,
@@ -94288,7 +94308,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 10
     },
     {
       "ano": 2016,
@@ -94298,7 +94318,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2016,
@@ -94448,7 +94468,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2016,
@@ -94498,7 +94518,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 5
     },
     {
       "ano": 2016,
@@ -95068,7 +95088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 11
     },
     {
       "ano": 2016,
@@ -95238,7 +95258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 44
+      "n": 46
     },
     {
       "ano": 2016,
@@ -95838,7 +95858,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 8
     },
     {
       "ano": 2016,
@@ -95878,7 +95898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2016,
@@ -96068,7 +96088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 14
+      "n": 15
     },
     {
       "ano": 2016,
@@ -96658,7 +96678,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2016,
@@ -96678,7 +96698,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 6
     },
     {
       "ano": 2016,
@@ -96848,7 +96868,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2016,
@@ -97078,7 +97098,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 42
+      "n": 43
     },
     {
       "ano": 2016,
@@ -97398,7 +97418,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2016,
@@ -97418,7 +97438,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 14
+      "n": 16
     },
     {
       "ano": 2016,
@@ -97608,7 +97628,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 21
+      "n": 23
     },
     {
       "ano": 2016,
@@ -97928,7 +97948,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 14
     },
     {
       "ano": 2016,
@@ -140498,7 +140518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 101
+      "n": 100
     },
     {
       "ano": 2020,
@@ -141878,7 +141898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 10
     },
     {
       "ano": 2020,
@@ -142288,7 +142308,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 4
     },
     {
       "ano": 2020,
@@ -142308,7 +142328,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 34
+      "n": 36
     },
     {
       "ano": 2020,
@@ -142498,7 +142518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 22
+      "n": 21
     },
     {
       "ano": 2020,
@@ -152808,7 +152828,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2020,
@@ -155298,7 +155318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 34
+      "n": 33
     },
     {
       "ano": 2020,
@@ -155888,7 +155908,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 36
+      "n": 35
     },
     {
       "ano": 2020,
@@ -156128,7 +156148,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 515
+      "n": 516
     },
     {
       "ano": 2020,
@@ -174618,7 +174638,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 125
+      "n": 124
     },
     {
       "ano": 2020,
@@ -176968,7 +176988,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 38
+      "n": 37
     },
     {
       "ano": 2020,
@@ -178298,7 +178318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 37
+      "n": 38
     },
     {
       "ano": 2020,
@@ -178318,7 +178338,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 12
     },
     {
       "ano": 2020,
@@ -178488,7 +178508,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 42
+      "n": 41
     },
     {
       "ano": 2020,
@@ -196348,7 +196368,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 99
+      "n": 100
     },
     {
       "ano": 2020,
@@ -198096,16 +198116,6 @@
       "partido": "PRTB",
       "raca": "Branca",
       "genero": "Feminino",
-      "etapa": "Eleitos",
-      "capital": false,
-      "n": 1
-    },
-    {
-      "ano": 2020,
-      "uf": "PA",
-      "partido": "PRTB",
-      "raca": "Branca",
-      "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
       "n": 1
@@ -201718,7 +201728,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 74
+      "n": 73
     },
     {
       "ano": 2020,
@@ -201738,7 +201748,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 59
+      "n": 58
     },
     {
       "ano": 2020,
@@ -203608,7 +203618,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 44
+      "n": 47
     },
     {
       "ano": 2020,
@@ -204768,7 +204778,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 10
     },
     {
       "ano": 2020,
@@ -226978,7 +226988,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 69
+      "n": 68
     },
     {
       "ano": 2020,
@@ -228428,7 +228438,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 43
+      "n": 42
     },
     {
       "ano": 2020,
@@ -228988,7 +228998,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 90
+      "n": 89
     },
     {
       "ano": 2020,
@@ -229008,7 +229018,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 28
+      "n": 27
     },
     {
       "ano": 2020,
@@ -229454,8 +229464,28 @@
       "ano": 2020,
       "uf": "RN",
       "partido": "PSOL",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2020,
+      "uf": "RN",
+      "partido": "PSOL",
       "raca": "Parda",
       "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 5
+    },
+    {
+      "ano": 2020,
+      "uf": "RN",
+      "partido": "PSOL",
+      "raca": "Branca",
+      "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
       "n": 1
@@ -229708,7 +229738,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 7
     },
     {
       "ano": 2020,
@@ -239678,7 +239708,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 954
+      "n": 955
     },
     {
       "ano": 2020,
@@ -262628,7 +262658,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 7
     },
     {
       "ano": 2024,
@@ -263018,7 +263048,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 12
+      "n": 13
     },
     {
       "ano": 2024,
@@ -264684,6 +264714,16 @@
       "ano": 2024,
       "uf": "AL",
       "partido": "PDT",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "AL",
+      "partido": "PDT",
       "raca": "Parda",
       "genero": "Feminino",
       "etapa": "Eleitos",
@@ -264698,7 +264738,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 20
+      "n": 22
     },
     {
       "ano": 2024,
@@ -264718,7 +264758,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 15
+      "n": 16
     },
     {
       "ano": 2024,
@@ -265188,7 +265228,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2024,
@@ -265198,7 +265238,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 160
+      "n": 165
     },
     {
       "ano": 2024,
@@ -265628,7 +265668,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 21
+      "n": 22
     },
     {
       "ano": 2024,
@@ -265638,7 +265678,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 96
+      "n": 95
     },
     {
       "ano": 2024,
@@ -265668,7 +265708,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 62
+      "n": 61
     },
     {
       "ano": 2024,
@@ -265958,7 +265998,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 26
+      "n": 22
     },
     {
       "ano": 2024,
@@ -266208,7 +266248,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 9
     },
     {
       "ano": 2024,
@@ -266218,7 +266258,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 16
+      "n": 17
     },
     {
       "ano": 2024,
@@ -266228,7 +266268,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 101
+      "n": 98
     },
     {
       "ano": 2024,
@@ -266838,7 +266878,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 12
     },
     {
       "ano": 2024,
@@ -267418,7 +267458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 23
     },
     {
       "ano": 2024,
@@ -268128,7 +268168,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -268148,7 +268188,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 22
+      "n": 25
     },
     {
       "ano": 2024,
@@ -268548,7 +268588,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 4
     },
     {
       "ano": 2024,
@@ -268568,7 +268608,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 60
+      "n": 59
     },
     {
       "ano": 2024,
@@ -268938,7 +268978,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 14
+      "n": 13
     },
     {
       "ano": 2024,
@@ -268988,7 +269028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 4
+      "n": 5
     },
     {
       "ano": 2024,
@@ -269158,7 +269198,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 8
     },
     {
       "ano": 2024,
@@ -269995,16 +270035,6 @@
       "uf": "AM",
       "partido": "PSB",
       "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "capital": true,
-      "n": 1
-    },
-    {
-      "ano": 2024,
-      "uf": "AM",
-      "partido": "PSB",
-      "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
@@ -270208,7 +270238,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 14
     },
     {
       "ano": 2024,
@@ -270218,7 +270248,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 57
+      "n": 59
     },
     {
       "ano": 2024,
@@ -270428,7 +270458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 17
+      "n": 16
     },
     {
       "ano": 2024,
@@ -270448,7 +270478,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 1
     },
     {
       "ano": 2024,
@@ -270624,10 +270654,10 @@
       "ano": 2024,
       "uf": "AM",
       "partido": "PSDC/DC",
-      "raca": "Branca",
-      "genero": "Feminino",
+      "raca": "Parda",
+      "genero": "Masculino",
       "etapa": "Eleitos",
-      "capital": false,
+      "capital": true,
       "n": 1
     },
     {
@@ -270635,7 +270665,7 @@
       "uf": "AM",
       "partido": "PSDC/DC",
       "raca": "Branca",
-      "genero": "Masculino",
+      "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
       "n": 1
@@ -270988,7 +271018,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 12
     },
     {
       "ano": 2024,
@@ -271198,7 +271228,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 19
     },
     {
       "ano": 2024,
@@ -271813,6 +271843,16 @@
     {
       "ano": 2024,
       "uf": "AM",
+      "partido": "SD/SOLIDARIEDADE",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "AM",
       "partido": "UNIÃO",
       "raca": "Preta",
       "genero": "Feminino",
@@ -271988,7 +272028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 99
+      "n": 98
     },
     {
       "ano": 2024,
@@ -275138,7 +275178,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 19
+      "n": 18
     },
     {
       "ano": 2024,
@@ -275168,7 +275208,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 92
+      "n": 93
     },
     {
       "ano": 2024,
@@ -275188,7 +275228,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 42
+      "n": 41
     },
     {
       "ano": 2024,
@@ -275206,16 +275246,6 @@
       "partido": "PCdoB",
       "raca": "Indígena",
       "genero": "Feminino",
-      "etapa": "Eleitos",
-      "capital": false,
-      "n": 1
-    },
-    {
-      "ano": 2024,
-      "uf": "BA",
-      "partido": "PCdoB",
-      "raca": "Indígena",
-      "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
       "n": 1
@@ -275408,7 +275438,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 22
+      "n": 21
     },
     {
       "ano": 2024,
@@ -275858,7 +275888,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 11
     },
     {
       "ano": 2024,
@@ -276048,7 +276078,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2024,
@@ -276058,7 +276088,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 35
+      "n": 34
     },
     {
       "ano": 2024,
@@ -276068,7 +276098,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 195
+      "n": 193
     },
     {
       "ano": 2024,
@@ -276078,7 +276108,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 17
+      "n": 16
     },
     {
       "ano": 2024,
@@ -276088,7 +276118,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 71
+      "n": 69
     },
     {
       "ano": 2024,
@@ -276488,7 +276518,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 7
+      "n": 6
     },
     {
       "ano": 2024,
@@ -276498,7 +276528,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 29
+      "n": 30
     },
     {
       "ano": 2024,
@@ -276748,7 +276778,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 55
+      "n": 54
     },
     {
       "ano": 2024,
@@ -276778,7 +276808,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 218
+      "n": 216
     },
     {
       "ano": 2024,
@@ -276967,16 +276997,6 @@
       "raca": "Amarela",
       "genero": "Feminino",
       "etapa": "Candidaturas",
-      "capital": false,
-      "n": 1
-    },
-    {
-      "ano": 2024,
-      "uf": "BA",
-      "partido": "PPS/CIDADANIA",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -277188,7 +277208,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 28
     },
     {
       "ano": 2024,
@@ -277218,7 +277238,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 93
+      "n": 94
     },
     {
       "ano": 2024,
@@ -277808,7 +277828,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 39
+      "n": 42
     },
     {
       "ano": 2024,
@@ -277828,7 +277848,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 26
     },
     {
       "ano": 2024,
@@ -277838,7 +277858,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 129
+      "n": 131
     },
     {
       "ano": 2024,
@@ -278048,7 +278068,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 90
+      "n": 93
     },
     {
       "ano": 2024,
@@ -278058,7 +278078,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 80
+      "n": 81
     },
     {
       "ano": 2024,
@@ -278068,7 +278088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 496
+      "n": 494
     },
     {
       "ano": 2024,
@@ -278088,7 +278108,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 40
+      "n": 41
     },
     {
       "ano": 2024,
@@ -278098,7 +278118,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 198
+      "n": 202
     },
     {
       "ano": 2024,
@@ -278318,7 +278338,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 87
+      "n": 86
     },
     {
       "ano": 2024,
@@ -278558,7 +278578,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2024,
@@ -278758,7 +278778,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 4
+      "n": 3
     },
     {
       "ano": 2024,
@@ -278998,7 +279018,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 69
+      "n": 68
     },
     {
       "ano": 2024,
@@ -279018,7 +279038,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 201
+      "n": 199
     },
     {
       "ano": 2024,
@@ -279028,7 +279048,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 23
     },
     {
       "ano": 2024,
@@ -279038,7 +279058,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 70
+      "n": 68
     },
     {
       "ano": 2024,
@@ -279238,7 +279258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 44
+      "n": 43
     },
     {
       "ano": 2024,
@@ -279278,7 +279298,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 81
+      "n": 83
     },
     {
       "ano": 2024,
@@ -279638,7 +279658,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 4
     },
     {
       "ano": 2024,
@@ -280048,7 +280068,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 82
+      "n": 84
     },
     {
       "ano": 2024,
@@ -280068,7 +280088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 30
+      "n": 31
     },
     {
       "ano": 2024,
@@ -280258,7 +280278,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 50
+      "n": 49
     },
     {
       "ano": 2024,
@@ -280868,7 +280888,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 17
     },
     {
       "ano": 2024,
@@ -281348,7 +281368,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 12
     },
     {
       "ano": 2024,
@@ -281368,7 +281388,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 23
+      "n": 22
     },
     {
       "ano": 2024,
@@ -281378,7 +281398,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 59
+      "n": 61
     },
     {
       "ano": 2024,
@@ -281738,7 +281758,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 26
+      "n": 25
     },
     {
       "ano": 2024,
@@ -281918,7 +281938,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 66
+      "n": 68
     },
     {
       "ano": 2024,
@@ -281948,7 +281968,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 47
+      "n": 48
     },
     {
       "ano": 2024,
@@ -282238,7 +282258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 71
+      "n": 75
     },
     {
       "ano": 2024,
@@ -282448,7 +282468,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": true,
-      "n": 3
+      "n": 2
     },
     {
       "ano": 2024,
@@ -282788,7 +282808,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 56
+      "n": 54
     },
     {
       "ano": 2024,
@@ -282808,7 +282828,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 208
+      "n": 205
     },
     {
       "ano": 2024,
@@ -282818,7 +282838,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 61
+      "n": 63
     },
     {
       "ano": 2024,
@@ -282828,7 +282848,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 149
+      "n": 145
     },
     {
       "ano": 2024,
@@ -283078,7 +283098,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 76
+      "n": 77
     },
     {
       "ano": 2024,
@@ -283288,7 +283308,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 17
     },
     {
       "ano": 2024,
@@ -283308,7 +283328,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2024,
@@ -283928,7 +283948,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 166
+      "n": 167
     },
     {
       "ano": 2024,
@@ -283958,7 +283978,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 92
+      "n": 94
     },
     {
       "ano": 2024,
@@ -284168,7 +284188,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 4
+      "n": 3
     },
     {
       "ano": 2024,
@@ -284329,6 +284349,16 @@
       "etapa": "Eleitos",
       "capital": false,
       "n": 3
+    },
+    {
+      "ano": 2024,
+      "uf": "CE",
+      "partido": "PTC/AGIR",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": true,
+      "n": 1
     },
     {
       "ano": 2024,
@@ -284658,7 +284688,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 1
     },
     {
       "ano": 2024,
@@ -284968,7 +284998,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 51
+      "n": 50
     },
     {
       "ano": 2024,
@@ -285428,7 +285458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 4
     },
     {
       "ano": 2024,
@@ -285638,7 +285668,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 32
+      "n": 31
     },
     {
       "ano": 2024,
@@ -285868,7 +285898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 7
+      "n": 6
     },
     {
       "ano": 2024,
@@ -286178,7 +286208,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 40
+      "n": 41
     },
     {
       "ano": 2024,
@@ -286208,7 +286238,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 63
+      "n": 64
     },
     {
       "ano": 2024,
@@ -286428,7 +286458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 59
+      "n": 58
     },
     {
       "ano": 2024,
@@ -287228,7 +287258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 67
+      "n": 68
     },
     {
       "ano": 2024,
@@ -287328,7 +287358,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 14
     },
     {
       "ano": 2024,
@@ -287338,7 +287368,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 4
     },
     {
       "ano": 2024,
@@ -287628,7 +287658,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 1
     },
     {
       "ano": 2024,
@@ -289278,7 +289308,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 67
+      "n": 70
     },
     {
       "ano": 2024,
@@ -289298,7 +289328,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2024,
@@ -289468,7 +289498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 15
+      "n": 16
     },
     {
       "ano": 2024,
@@ -289478,7 +289508,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 12
     },
     {
       "ano": 2024,
@@ -289488,7 +289518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 85
+      "n": 87
     },
     {
       "ano": 2024,
@@ -289508,7 +289538,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 28
     },
     {
       "ano": 2024,
@@ -289518,7 +289548,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 87
+      "n": 91
     },
     {
       "ano": 2024,
@@ -289828,7 +289858,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 28
+      "n": 30
     },
     {
       "ano": 2024,
@@ -289848,7 +289878,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 204
+      "n": 211
     },
     {
       "ano": 2024,
@@ -289878,7 +289908,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 150
+      "n": 156
     },
     {
       "ano": 2024,
@@ -290065,10 +290095,20 @@
       "uf": "GO",
       "partido": "PMN/MOBILIZA",
       "raca": "Branca",
-      "genero": "Masculino",
+      "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
       "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "GO",
+      "partido": "PMN/MOBILIZA",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 2
     },
     {
       "ano": 2024,
@@ -290238,7 +290278,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 51
+      "n": 54
     },
     {
       "ano": 2024,
@@ -290268,7 +290308,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 47
+      "n": 49
     },
     {
       "ano": 2024,
@@ -290438,7 +290478,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 20
+      "n": 21
     },
     {
       "ano": 2024,
@@ -290458,7 +290498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 108
+      "n": 115
     },
     {
       "ano": 2024,
@@ -290488,7 +290528,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 109
+      "n": 111
     },
     {
       "ano": 2024,
@@ -290618,7 +290658,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 3
     },
     {
       "ano": 2024,
@@ -290778,7 +290818,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 8
     },
     {
       "ano": 2024,
@@ -290798,7 +290838,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 34
+      "n": 36
     },
     {
       "ano": 2024,
@@ -291048,7 +291088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 48
+      "n": 49
     },
     {
       "ano": 2024,
@@ -291068,7 +291108,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 23
+      "n": 25
     },
     {
       "ano": 2024,
@@ -291078,6 +291118,16 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": true,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "GO",
+      "partido": "PRD",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
       "n": 1
     },
     {
@@ -291398,7 +291448,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -291428,7 +291478,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 22
+      "n": 25
     },
     {
       "ano": 2024,
@@ -291448,7 +291498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 17
+      "n": 18
     },
     {
       "ano": 2024,
@@ -291628,7 +291678,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 7
     },
     {
       "ano": 2024,
@@ -291638,7 +291688,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 62
+      "n": 63
     },
     {
       "ano": 2024,
@@ -291648,7 +291698,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 7
     },
     {
       "ano": 2024,
@@ -291658,7 +291708,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 42
+      "n": 41
     },
     {
       "ano": 2024,
@@ -291808,7 +291858,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 4
     },
     {
       "ano": 2024,
@@ -291858,7 +291908,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 29
+      "n": 31
     },
     {
       "ano": 2024,
@@ -292068,7 +292118,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 6
     },
     {
       "ano": 2024,
@@ -292445,6 +292495,16 @@
       "uf": "GO",
       "partido": "PT",
       "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "GO",
+      "partido": "PT",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
@@ -292604,11 +292664,21 @@
       "ano": 2024,
       "uf": "GO",
       "partido": "PT do B/AVANTE",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "GO",
+      "partido": "PT do B/AVANTE",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 13
     },
     {
       "ano": 2024,
@@ -292618,7 +292688,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2024,
@@ -292628,7 +292698,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 12
     },
     {
       "ano": 2024,
@@ -292818,7 +292888,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 15
+      "n": 14
     },
     {
       "ano": 2024,
@@ -292828,7 +292898,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 4
+      "n": 5
     },
     {
       "ano": 2024,
@@ -292838,7 +292908,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 10
     },
     {
       "ano": 2024,
@@ -292968,7 +293038,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2024,
@@ -293278,7 +293348,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 37
+      "n": 38
     },
     {
       "ano": 2024,
@@ -293298,7 +293368,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 6
     },
     {
       "ano": 2024,
@@ -293308,7 +293378,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 28
+      "n": 29
     },
     {
       "ano": 2024,
@@ -293498,7 +293568,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 29
+      "n": 32
     },
     {
       "ano": 2024,
@@ -293508,7 +293578,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 46
+      "n": 47
     },
     {
       "ano": 2024,
@@ -293528,7 +293598,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 189
+      "n": 193
     },
     {
       "ano": 2024,
@@ -293538,7 +293608,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 38
+      "n": 40
     },
     {
       "ano": 2024,
@@ -293548,7 +293618,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 167
+      "n": 169
     },
     {
       "ano": 2024,
@@ -294368,7 +294438,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 22
     },
     {
       "ano": 2024,
@@ -294758,7 +294828,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 133
+      "n": 132
     },
     {
       "ano": 2024,
@@ -295408,7 +295478,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 128
+      "n": 126
     },
     {
       "ano": 2024,
@@ -295588,7 +295658,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2024,
@@ -295828,7 +295898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 37
+      "n": 38
     },
     {
       "ano": 2024,
@@ -296828,7 +296898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 19
+      "n": 18
     },
     {
       "ano": 2024,
@@ -297538,7 +297608,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 43
+      "n": 45
     },
     {
       "ano": 2024,
@@ -297678,7 +297748,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 9
     },
     {
       "ano": 2024,
@@ -298338,7 +298408,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 52
+      "n": 51
     },
     {
       "ano": 2024,
@@ -298998,7 +299068,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 135
+      "n": 136
     },
     {
       "ano": 2024,
@@ -299228,7 +299298,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 42
+      "n": 44
     },
     {
       "ano": 2024,
@@ -299248,7 +299318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 184
+      "n": 185
     },
     {
       "ano": 2024,
@@ -299288,7 +299358,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 323
+      "n": 325
     },
     {
       "ano": 2024,
@@ -299688,7 +299758,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 57
+      "n": 56
     },
     {
       "ano": 2024,
@@ -299718,7 +299788,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 248
+      "n": 250
     },
     {
       "ano": 2024,
@@ -299728,7 +299798,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 88
+      "n": 89
     },
     {
       "ano": 2024,
@@ -299738,7 +299808,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 376
+      "n": 378
     },
     {
       "ano": 2024,
@@ -299958,7 +300028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 80
+      "n": 82
     },
     {
       "ano": 2024,
@@ -299978,7 +300048,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 100
+      "n": 98
     },
     {
       "ano": 2024,
@@ -300438,7 +300508,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 220
+      "n": 221
     },
     {
       "ano": 2024,
@@ -300478,7 +300548,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 314
+      "n": 316
     },
     {
       "ano": 2024,
@@ -300668,7 +300738,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 41
+      "n": 42
     },
     {
       "ano": 2024,
@@ -300878,7 +300948,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 53
+      "n": 52
     },
     {
       "ano": 2024,
@@ -300898,7 +300968,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 240
+      "n": 241
     },
     {
       "ano": 2024,
@@ -301178,7 +301248,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 150
+      "n": 151
     },
     {
       "ano": 2024,
@@ -301198,7 +301268,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 201
+      "n": 200
     },
     {
       "ano": 2024,
@@ -301578,7 +301648,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 109
+      "n": 111
     },
     {
       "ano": 2024,
@@ -301828,7 +301898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 295
+      "n": 296
     },
     {
       "ano": 2024,
@@ -301858,7 +301928,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 450
+      "n": 447
     },
     {
       "ano": 2024,
@@ -302088,7 +302158,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 175
+      "n": 174
     },
     {
       "ano": 2024,
@@ -302108,7 +302178,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 253
+      "n": 252
     },
     {
       "ano": 2024,
@@ -302808,7 +302878,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 123
+      "n": 120
     },
     {
       "ano": 2024,
@@ -303068,7 +303138,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 26
     },
     {
       "ano": 2024,
@@ -303078,7 +303148,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 194
+      "n": 193
     },
     {
       "ano": 2024,
@@ -303098,7 +303168,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 203
+      "n": 202
     },
     {
       "ano": 2024,
@@ -303558,7 +303628,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 49
+      "n": 48
     },
     {
       "ano": 2024,
@@ -303758,7 +303828,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 26
     },
     {
       "ano": 2024,
@@ -303978,7 +304048,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 133
+      "n": 132
     },
     {
       "ano": 2024,
@@ -304008,7 +304078,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 118
+      "n": 117
     },
     {
       "ano": 2024,
@@ -304198,7 +304268,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 43
+      "n": 42
     },
     {
       "ano": 2024,
@@ -304218,7 +304288,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 190
+      "n": 189
     },
     {
       "ano": 2024,
@@ -306898,7 +306968,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 69
+      "n": 68
     },
     {
       "ano": 2024,
@@ -308268,7 +308338,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 31
+      "n": 32
     },
     {
       "ano": 2024,
@@ -308888,7 +308958,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 68
+      "n": 67
     },
     {
       "ano": 2024,
@@ -308928,7 +308998,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 76
+      "n": 75
     },
     {
       "ano": 2024,
@@ -309278,7 +309348,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 78
+      "n": 80
     },
     {
       "ano": 2024,
@@ -309308,7 +309378,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 54
+      "n": 56
     },
     {
       "ano": 2024,
@@ -309768,7 +309838,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 9
     },
     {
       "ano": 2024,
@@ -309778,7 +309848,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 25
+      "n": 24
     },
     {
       "ano": 2024,
@@ -310178,7 +310248,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 19
+      "n": 18
     },
     {
       "ano": 2024,
@@ -311268,7 +311338,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 27
+      "n": 26
     },
     {
       "ano": 2024,
@@ -312448,7 +312518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 20
+      "n": 19
     },
     {
       "ano": 2024,
@@ -312468,7 +312538,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 134
+      "n": 137
     },
     {
       "ano": 2024,
@@ -312958,7 +313028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 56
+      "n": 55
     },
     {
       "ano": 2024,
@@ -312998,7 +313068,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 21
+      "n": 19
     },
     {
       "ano": 2024,
@@ -313168,7 +313238,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 6
     },
     {
       "ano": 2024,
@@ -313178,7 +313248,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 2
     },
     {
       "ano": 2024,
@@ -313188,7 +313258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 37
+      "n": 36
     },
     {
       "ano": 2024,
@@ -313488,7 +313558,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 71
+      "n": 70
     },
     {
       "ano": 2024,
@@ -313508,7 +313578,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 246
+      "n": 248
     },
     {
       "ano": 2024,
@@ -313528,7 +313598,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 25
     },
     {
       "ano": 2024,
@@ -313718,7 +313788,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2024,
@@ -313738,7 +313808,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 17
+      "n": 16
     },
     {
       "ano": 2024,
@@ -313958,7 +314028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 12
+      "n": 13
     },
     {
       "ano": 2024,
@@ -313978,7 +314048,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 72
+      "n": 75
     },
     {
       "ano": 2024,
@@ -314388,17 +314458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
-    },
-    {
-      "ano": 2024,
-      "uf": "PA",
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "capital": false,
-      "n": 1
+      "n": 9
     },
     {
       "ano": 2024,
@@ -314578,7 +314638,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 21
+      "n": 23
     },
     {
       "ano": 2024,
@@ -314938,7 +314998,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 8
     },
     {
       "ano": 2024,
@@ -314948,7 +315008,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 56
+      "n": 57
     },
     {
       "ano": 2024,
@@ -314958,7 +315018,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 1
     },
     {
       "ano": 2024,
@@ -315188,7 +315248,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 19
+      "n": 20
     },
     {
       "ano": 2024,
@@ -315198,7 +315258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 123
+      "n": 128
     },
     {
       "ano": 2024,
@@ -315428,7 +315488,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2024,
@@ -315458,7 +315518,17 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 12
+    },
+    {
+      "ano": 2024,
+      "uf": "PA",
+      "partido": "PSDB",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
     },
     {
       "ano": 2024,
@@ -315658,7 +315728,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -316248,7 +316318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 30
+      "n": 28
     },
     {
       "ano": 2024,
@@ -316788,7 +316858,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 1
     },
     {
       "ano": 2024,
@@ -317128,7 +317198,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 123
+      "n": 124
     },
     {
       "ano": 2024,
@@ -317159,6 +317229,16 @@
       "etapa": "Eleitos",
       "capital": false,
       "n": 40
+    },
+    {
+      "ano": 2024,
+      "uf": "PA",
+      "partido": "UNIÃO",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 2
     },
     {
       "ano": 2024,
@@ -317878,7 +317958,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 48
+      "n": 47
     },
     {
       "ano": 2024,
@@ -317908,7 +317988,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 46
+      "n": 44
     },
     {
       "ano": 2024,
@@ -318128,7 +318208,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 112
+      "n": 113
     },
     {
       "ano": 2024,
@@ -318148,7 +318228,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 70
+      "n": 71
     },
     {
       "ano": 2024,
@@ -318768,7 +318848,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 67
+      "n": 66
     },
     {
       "ano": 2024,
@@ -318798,7 +318878,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 77
+      "n": 78
     },
     {
       "ano": 2024,
@@ -319028,7 +319108,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 44
+      "n": 43
     },
     {
       "ano": 2024,
@@ -319068,7 +319148,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 195
+      "n": 194
     },
     {
       "ano": 2024,
@@ -320238,7 +320318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 12
+      "n": 13
     },
     {
       "ano": 2024,
@@ -320928,7 +321008,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 6
     },
     {
       "ano": 2024,
@@ -321118,7 +321198,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 25
     },
     {
       "ano": 2024,
@@ -321138,7 +321218,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 11
+      "n": 12
     },
     {
       "ano": 2024,
@@ -321288,7 +321368,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 12
     },
     {
       "ano": 2024,
@@ -321308,7 +321388,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 69
+      "n": 70
     },
     {
       "ano": 2024,
@@ -322128,7 +322208,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 29
+      "n": 30
     },
     {
       "ano": 2024,
@@ -322148,7 +322228,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 23
     },
     {
       "ano": 2024,
@@ -322438,7 +322518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 58
+      "n": 59
     },
     {
       "ano": 2024,
@@ -322448,7 +322528,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2024,
@@ -322458,7 +322538,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 51
+      "n": 53
     },
     {
       "ano": 2024,
@@ -322478,7 +322558,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -322648,7 +322728,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 2
+      "n": 3
     },
     {
       "ano": 2024,
@@ -322748,7 +322828,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 7
+      "n": 8
     },
     {
       "ano": 2024,
@@ -322788,7 +322868,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 52
+      "n": 51
     },
     {
       "ano": 2024,
@@ -322978,7 +323058,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 15
+      "n": 14
     },
     {
       "ano": 2024,
@@ -322988,7 +323068,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 26
+      "n": 25
     },
     {
       "ano": 2024,
@@ -322998,7 +323078,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 94
+      "n": 93
     },
     {
       "ano": 2024,
@@ -323028,7 +323108,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 71
+      "n": 70
     },
     {
       "ano": 2024,
@@ -323308,7 +323388,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 12
     },
     {
       "ano": 2024,
@@ -323328,7 +323408,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 97
+      "n": 95
     },
     {
       "ano": 2024,
@@ -323618,7 +323698,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 7
     },
     {
       "ano": 2024,
@@ -323868,7 +323948,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 16
+      "n": 17
     },
     {
       "ano": 2024,
@@ -323898,7 +323978,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 119
+      "n": 117
     },
     {
       "ano": 2024,
@@ -323938,7 +324018,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 126
+      "n": 125
     },
     {
       "ano": 2024,
@@ -324338,7 +324418,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 14
     },
     {
       "ano": 2024,
@@ -324358,7 +324438,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 93
+      "n": 91
     },
     {
       "ano": 2024,
@@ -324978,7 +325058,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 53
+      "n": 56
     },
     {
       "ano": 2024,
@@ -325008,7 +325088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2024,
@@ -325815,6 +325895,16 @@
       "uf": "PE",
       "partido": "SD/SOLIDARIEDADE",
       "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "PE",
+      "partido": "SD/SOLIDARIEDADE",
+      "raca": "Preta",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
@@ -325988,7 +326078,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 52
+      "n": 53
     },
     {
       "ano": 2024,
@@ -326008,7 +326098,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 25
+      "n": 26
     },
     {
       "ano": 2024,
@@ -327418,7 +327508,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 127
+      "n": 125
     },
     {
       "ano": 2024,
@@ -328368,7 +328458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 229
+      "n": 232
     },
     {
       "ano": 2024,
@@ -328388,7 +328478,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 32
+      "n": 33
     },
     {
       "ano": 2024,
@@ -328938,7 +329028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 31
+      "n": 32
     },
     {
       "ano": 2024,
@@ -328948,7 +329038,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 68
+      "n": 69
     },
     {
       "ano": 2024,
@@ -328968,7 +329058,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 240
+      "n": 241
     },
     {
       "ano": 2024,
@@ -328988,7 +329078,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 44
+      "n": 45
     },
     {
       "ano": 2024,
@@ -329588,7 +329678,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 7
+      "n": 8
     },
     {
       "ano": 2024,
@@ -329608,7 +329698,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 26
     },
     {
       "ano": 2024,
@@ -330038,7 +330128,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 16
+      "n": 17
     },
     {
       "ano": 2024,
@@ -330318,7 +330408,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 6
     },
     {
       "ano": 2024,
@@ -330358,7 +330448,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 47
+      "n": 48
     },
     {
       "ano": 2024,
@@ -330558,7 +330648,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 64
+      "n": 62
     },
     {
       "ano": 2024,
@@ -330568,7 +330658,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 61
+      "n": 62
     },
     {
       "ano": 2024,
@@ -330588,7 +330678,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 305
+      "n": 310
     },
     {
       "ano": 2024,
@@ -330968,7 +331058,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 67
+      "n": 65
     },
     {
       "ano": 2024,
@@ -330978,7 +331068,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 54
+      "n": 53
     },
     {
       "ano": 2024,
@@ -330988,7 +331078,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 245
+      "n": 246
     },
     {
       "ano": 2024,
@@ -331328,7 +331418,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2024,
@@ -331348,7 +331438,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 110
+      "n": 109
     },
     {
       "ano": 2024,
@@ -331548,7 +331638,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 25
     },
     {
       "ano": 2024,
@@ -331568,7 +331658,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 86
+      "n": 90
     },
     {
       "ano": 2024,
@@ -331588,7 +331678,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 84
+      "n": 83
     },
     {
       "ano": 2024,
@@ -331608,7 +331698,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": true,
-      "n": 2
+      "n": 1
     },
     {
       "ano": 2024,
@@ -331808,7 +331898,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 8
     },
     {
       "ano": 2024,
@@ -331828,7 +331918,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 31
+      "n": 30
     },
     {
       "ano": 2024,
@@ -332028,7 +332118,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 7
+      "n": 6
     },
     {
       "ano": 2024,
@@ -332038,7 +332128,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 42
+      "n": 43
     },
     {
       "ano": 2024,
@@ -332068,7 +332158,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 161
+      "n": 159
     },
     {
       "ano": 2024,
@@ -332278,7 +332368,17 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 45
+      "n": 44
+    },
+    {
+      "ano": 2024,
+      "uf": "PR",
+      "partido": "PRD",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": true,
+      "n": 1
     },
     {
       "ano": 2024,
@@ -332638,7 +332738,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 9
     },
     {
       "ano": 2024,
@@ -332648,7 +332748,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 23
+      "n": 26
     },
     {
       "ano": 2024,
@@ -332678,7 +332778,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 122
+      "n": 126
     },
     {
       "ano": 2024,
@@ -332928,7 +333028,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 486
+      "n": 489
     },
     {
       "ano": 2024,
@@ -333118,7 +333218,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 77
+      "n": 80
     },
     {
       "ano": 2024,
@@ -333278,7 +333378,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 7
     },
     {
       "ano": 2024,
@@ -333678,7 +333778,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 64
+      "n": 63
     },
     {
       "ano": 2024,
@@ -333818,7 +333918,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 2
     },
     {
       "ano": 2024,
@@ -333828,7 +333928,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 7
     },
     {
       "ano": 2024,
@@ -333838,7 +333938,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 24
+      "n": 25
     },
     {
       "ano": 2024,
@@ -334008,7 +334108,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -334028,7 +334128,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 7
     },
     {
       "ano": 2024,
@@ -334218,7 +334318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 19
+      "n": 18
     },
     {
       "ano": 2024,
@@ -334548,7 +334648,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 38
+      "n": 41
     },
     {
       "ano": 2024,
@@ -334768,7 +334868,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 218
+      "n": 220
     },
     {
       "ano": 2024,
@@ -335588,7 +335688,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 12
     },
     {
       "ano": 2024,
@@ -335968,7 +336068,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 69
+      "n": 68
     },
     {
       "ano": 2024,
@@ -336138,7 +336238,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 7
     },
     {
       "ano": 2024,
@@ -338908,7 +339008,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 12
+      "n": 13
     },
     {
       "ano": 2024,
@@ -339173,6 +339273,16 @@
     {
       "ano": 2024,
       "uf": "RJ",
+      "partido": "REDE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "RJ",
       "partido": "SD/SOLIDARIEDADE",
       "raca": "Preta",
       "genero": "Feminino",
@@ -339358,7 +339468,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 8
+      "n": 7
     },
     {
       "ano": 2024,
@@ -339548,7 +339658,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 7
     },
     {
       "ano": 2024,
@@ -339558,7 +339668,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 77
+      "n": 78
     },
     {
       "ano": 2024,
@@ -340138,7 +340248,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 48
+      "n": 47
     },
     {
       "ano": 2024,
@@ -340158,7 +340268,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 60
+      "n": 59
     },
     {
       "ano": 2024,
@@ -340358,7 +340468,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 128
+      "n": 129
     },
     {
       "ano": 2024,
@@ -340368,7 +340478,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2024,
@@ -340378,7 +340488,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 137
+      "n": 138
     },
     {
       "ano": 2024,
@@ -340818,7 +340928,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 84
+      "n": 85
     },
     {
       "ano": 2024,
@@ -341388,7 +341498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -341798,7 +341908,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 83
+      "n": 81
     },
     {
       "ano": 2024,
@@ -341818,7 +341928,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 61
+      "n": 62
     },
     {
       "ano": 2024,
@@ -342118,6 +342228,16 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": true,
+      "n": 1
+    },
+    {
+      "ano": 2024,
+      "uf": "RN",
+      "partido": "PSOL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
       "n": 1
     },
     {
@@ -342548,7 +342668,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 4
     },
     {
       "ano": 2024,
@@ -342568,7 +342688,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2024,
@@ -343028,7 +343148,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 4
     },
     {
       "ano": 2024,
@@ -343078,7 +343198,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 11
     },
     {
       "ano": 2024,
@@ -343298,7 +343418,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 91
+      "n": 90
     },
     {
       "ano": 2024,
@@ -343338,7 +343458,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 100
+      "n": 99
     },
     {
       "ano": 2024,
@@ -343368,7 +343488,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 2
     },
     {
       "ano": 2024,
@@ -343378,7 +343498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 2
     },
     {
       "ano": 2024,
@@ -343978,7 +344098,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 40
+      "n": 39
     },
     {
       "ano": 2024,
@@ -344478,7 +344598,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 11
     },
     {
       "ano": 2024,
@@ -345198,7 +345318,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 5
+      "n": 6
     },
     {
       "ano": 2024,
@@ -347068,7 +347188,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 17
+      "n": 16
     },
     {
       "ano": 2024,
@@ -350588,7 +350708,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 297
+      "n": 296
     },
     {
       "ano": 2024,
@@ -351028,7 +351148,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 3
+      "n": 4
     },
     {
       "ano": 2024,
@@ -351248,7 +351368,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 55
+      "n": 56
     },
     {
       "ano": 2024,
@@ -351278,7 +351398,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 939
+      "n": 938
     },
     {
       "ano": 2024,
@@ -351698,7 +351818,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 151
+      "n": 152
     },
     {
       "ano": 2024,
@@ -352548,7 +352668,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 223
+      "n": 222
     },
     {
       "ano": 2024,
@@ -352998,7 +353118,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 13
+      "n": 12
     },
     {
       "ano": 2024,
@@ -353718,7 +353838,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 165
+      "n": 166
     },
     {
       "ano": 2024,
@@ -354358,7 +354478,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 99
+      "n": 98
     },
     {
       "ano": 2024,
@@ -354378,7 +354498,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 428
+      "n": 429
     },
     {
       "ano": 2024,
@@ -355968,7 +356088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 287
+      "n": 288
     },
     {
       "ano": 2024,
@@ -357228,7 +357348,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 106
+      "n": 105
     },
     {
       "ano": 2024,
@@ -361848,7 +361968,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 19
     },
     {
       "ano": 2024,
@@ -361868,7 +361988,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 61
+      "n": 60
     },
     {
       "ano": 2024,
@@ -362088,7 +362208,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 151
+      "n": 148
     },
     {
       "ano": 2024,
@@ -362108,7 +362228,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 152
+      "n": 150
     },
     {
       "ano": 2024,
@@ -362128,7 +362248,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 629
+      "n": 631
     },
     {
       "ano": 2024,
@@ -362528,7 +362648,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 121
+      "n": 120
     },
     {
       "ano": 2024,
@@ -362548,7 +362668,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 95
+      "n": 96
     },
     {
       "ano": 2024,
@@ -362568,7 +362688,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 479
+      "n": 483
     },
     {
       "ano": 2024,
@@ -362585,16 +362705,6 @@
       "uf": "SP",
       "partido": "PMDB/MDB",
       "raca": "Indígena",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "capital": false,
-      "n": 1
-    },
-    {
-      "ano": 2024,
-      "uf": "SP",
-      "partido": "PMDB/MDB",
-      "raca": "Amarela",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
@@ -362978,7 +363088,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 35
+      "n": 34
     },
     {
       "ano": 2024,
@@ -362998,7 +363108,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 91
+      "n": 92
     },
     {
       "ano": 2024,
@@ -363038,7 +363148,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 291
+      "n": 290
     },
     {
       "ano": 2024,
@@ -363248,7 +363358,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 106
+      "n": 105
     },
     {
       "ano": 2024,
@@ -363258,7 +363368,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 67
+      "n": 68
     },
     {
       "ano": 2024,
@@ -363278,7 +363388,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 349
+      "n": 347
     },
     {
       "ano": 2024,
@@ -363458,7 +363568,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 48
+      "n": 49
     },
     {
       "ano": 2024,
@@ -363658,7 +363768,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 59
+      "n": 60
     },
     {
       "ano": 2024,
@@ -363938,7 +364048,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 88
+      "n": 93
     },
     {
       "ano": 2024,
@@ -364148,7 +364258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 14
+      "n": 15
     },
     {
       "ano": 2024,
@@ -364358,7 +364468,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 20
+      "n": 22
     },
     {
       "ano": 2024,
@@ -364378,7 +364488,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 49
+      "n": 51
     },
     {
       "ano": 2024,
@@ -364388,7 +364498,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 39
+      "n": 40
     },
     {
       "ano": 2024,
@@ -364408,7 +364518,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 174
+      "n": 173
     },
     {
       "ano": 2024,
@@ -364588,7 +364698,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 48
+      "n": 49
     },
     {
       "ano": 2024,
@@ -364608,7 +364718,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 169
+      "n": 167
     },
     {
       "ano": 2024,
@@ -364618,7 +364728,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 170
+      "n": 172
     },
     {
       "ano": 2024,
@@ -364638,7 +364748,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 652
+      "n": 655
     },
     {
       "ano": 2024,
@@ -364828,7 +364938,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 10
+      "n": 9
     },
     {
       "ano": 2024,
@@ -364838,7 +364948,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 49
+      "n": 50
     },
     {
       "ano": 2024,
@@ -364848,7 +364958,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 48
+      "n": 47
     },
     {
       "ano": 2024,
@@ -364858,7 +364968,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 203
+      "n": 201
     },
     {
       "ano": 2024,
@@ -365608,7 +365718,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 28
+      "n": 27
     },
     {
       "ano": 2024,
@@ -365868,7 +365978,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 57
+      "n": 55
     },
     {
       "ano": 2024,
@@ -366195,16 +366305,6 @@
       "uf": "SP",
       "partido": "PV",
       "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "capital": false,
-      "n": 1
-    },
-    {
-      "ano": 2024,
-      "uf": "SP",
-      "partido": "PV",
-      "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
@@ -366228,7 +366328,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 17
+      "n": 16
     },
     {
       "ano": 2024,
@@ -366628,7 +366728,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 29
+      "n": 28
     },
     {
       "ano": 2024,
@@ -366638,7 +366738,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 25
+      "n": 24
     },
     {
       "ano": 2024,
@@ -366848,7 +366948,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 33
+      "n": 34
     },
     {
       "ano": 2024,
@@ -366878,7 +366978,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 108
+      "n": 107
     },
     {
       "ano": 2024,
@@ -366918,7 +367018,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 364
+      "n": 362
     },
     {
       "ano": 2024,
@@ -367388,7 +367488,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 19
     },
     {
       "ano": 2024,
@@ -367408,7 +367508,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 59
+      "n": 60
     },
     {
       "ano": 2024,
@@ -367848,7 +367948,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 19
+      "n": 18
     },
     {
       "ano": 2024,
@@ -367888,7 +367988,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 17
     },
     {
       "ano": 2024,
@@ -368518,7 +368618,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 28
+      "n": 29
     },
     {
       "ano": 2024,
@@ -368548,7 +368648,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 160
+      "n": 161
     },
     {
       "ano": 2024,
@@ -368568,7 +368668,7 @@
       "genero": "Feminino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 18
+      "n": 17
     },
     {
       "ano": 2024,
@@ -369428,7 +369528,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 28
+      "n": 27
     },
     {
       "ano": 2024,
@@ -370158,7 +370258,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 6
+      "n": 7
     },
     {
       "ano": 2024,
@@ -370468,7 +370568,7 @@
       "genero": "Masculino",
       "etapa": "Eleitos",
       "capital": false,
-      "n": 9
+      "n": 8
     },
     {
       "ano": 2024,

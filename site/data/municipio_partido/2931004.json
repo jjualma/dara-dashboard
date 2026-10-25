@@ -39,6 +39,15 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2020,
       "partido": "PP",
       "raca": "Branca",
       "genero": "Masculino",
@@ -58,15 +67,6 @@
       "cargo": "Prefeito",
       "ano": 2020,
       "partido": "PSL",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2020,
-      "partido": "PTN/PODE",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -471,7 +471,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",

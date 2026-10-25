@@ -619,7 +619,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 3
+      "n": 2
     },
     {
       "cargo": "Vereador",
@@ -656,6 +656,24 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 5
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PMDB/MDB",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 2
     },
     {
       "cargo": "Vereador",
@@ -709,7 +727,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -754,7 +772,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",

@@ -646,7 +646,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -687,15 +687,6 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PSB",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
       "partido": "PSD",
       "raca": "Branca",
       "genero": "Feminino",
@@ -710,6 +701,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 7
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PSD",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 2
     },
     {
       "cargo": "Vereador",

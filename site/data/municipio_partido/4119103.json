@@ -597,7 +597,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -1267,7 +1267,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -1322,6 +1322,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 7
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "SD/SOLIDARIEDADE",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",

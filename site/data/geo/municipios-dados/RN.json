@@ -11150,9 +11150,9 @@
       "municipio_nome": "Bento Fernandes",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 66.67,
       "pct_populacao": 33.37,
-      "razao": 2.33
+      "razao": 2
     },
     {
       "cargo": "Vereador",
@@ -11172,9 +11172,9 @@
       "municipio_nome": "Bento Fernandes",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 12.77,
-      "razao": 0.87
+      "razao": 1.74
     },
     {
       "cargo": "Vereador",
@@ -23041,9 +23041,9 @@
       "municipio_nome": "Doutor Severiano",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 26.93,
-      "razao": 0.41
+      "razao": 0.83
     },
     {
       "cargo": "Vereador",
@@ -23052,9 +23052,9 @@
       "municipio_nome": "Doutor Severiano",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 55.56,
       "pct_populacao": 23.58,
-      "razao": 0.94
+      "razao": 2.36
     },
     {
       "cargo": "Vereador",
@@ -23085,7 +23085,7 @@
       "municipio_nome": "Doutor Severiano",
       "raca": "Amarela",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 0,
       "razao": null
     },
@@ -23096,9 +23096,9 @@
       "municipio_nome": "Doutor Severiano",
       "raca": "Amarela",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 0,
       "pct_populacao": 0.01,
-      "razao": 3333
+      "razao": 0
     },
     {
       "cargo": "Prefeito",
@@ -24988,9 +24988,9 @@
       "municipio_nome": "Equador",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 3.79,
-      "razao": 0
+      "razao": 2.93
     },
     {
       "cargo": "Vereador",
@@ -25032,9 +25032,9 @@
       "municipio_nome": "Equador",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 66.67,
       "pct_populacao": 23.84,
-      "razao": 3.26
+      "razao": 2.8
     },
     {
       "cargo": "Vereador",
@@ -37858,9 +37858,9 @@
       "municipio_nome": "Janduís",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 10,
       "pct_populacao": 4.13,
-      "razao": 0
+      "razao": 2.42
     },
     {
       "cargo": "Vereador",
@@ -37880,9 +37880,9 @@
       "municipio_nome": "Janduís",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 50,
       "pct_populacao": 27.75,
-      "razao": 1.6
+      "razao": 1.8
     },
     {
       "cargo": "Vereador",
@@ -37891,9 +37891,9 @@
       "municipio_nome": "Janduís",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 20,
       "pct_populacao": 18.35,
-      "razao": 1.82
+      "razao": 1.09
     },
     {
       "cargo": "Vereador",
@@ -37902,9 +37902,9 @@
       "municipio_nome": "Janduís",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 20,
       "pct_populacao": 16.05,
-      "razao": 1.38
+      "razao": 1.25
     },
     {
       "cargo": "Vereador",
@@ -61090,9 +61090,9 @@
       "municipio_nome": "Ouro Branco",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 55.56,
       "pct_populacao": 15.06,
-      "razao": 4.43
+      "razao": 3.69
     },
     {
       "cargo": "Vereador",
@@ -61112,9 +61112,9 @@
       "municipio_nome": "Ouro Branco",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 32.28,
-      "razao": 0.69
+      "razao": 1.03
     },
     {
       "cargo": "Vereador",
@@ -70968,9 +70968,9 @@
       "municipio_nome": "Pendências",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 9.09,
       "pct_populacao": 6.31,
-      "razao": 0
+      "razao": 1.44
     },
     {
       "cargo": "Vereador",
@@ -70979,9 +70979,9 @@
       "municipio_nome": "Pendências",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 9.09,
       "pct_populacao": 31.22,
-      "razao": 0.36
+      "razao": 0.29
     },
     {
       "cargo": "Vereador",
@@ -70990,9 +70990,9 @@
       "municipio_nome": "Pendências",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 9.09,
       "pct_populacao": 28.92,
-      "razao": 0
+      "razao": 0.31
     },
     {
       "cargo": "Vereador",
@@ -71001,9 +71001,9 @@
       "municipio_nome": "Pendências",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 18.18,
       "pct_populacao": 14.63,
-      "razao": 1.52
+      "razao": 1.24
     },
     {
       "cargo": "Vereador",
@@ -71012,9 +71012,9 @@
       "municipio_nome": "Pendências",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 54.55,
       "pct_populacao": 13.42,
-      "razao": 4.97
+      "razao": 4.06
     },
     {
       "cargo": "Vereador",
@@ -72310,9 +72310,9 @@
       "municipio_nome": "Poço Branco",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 33.33,
       "pct_populacao": 32.32,
-      "razao": 1.38
+      "razao": 1.03
     },
     {
       "cargo": "Vereador",
@@ -72332,9 +72332,9 @@
       "municipio_nome": "Poço Branco",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 55.56,
       "pct_populacao": 12.53,
-      "razao": 3.55
+      "razao": 4.43
     },
     {
       "cargo": "Vereador",

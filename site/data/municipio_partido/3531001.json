@@ -489,6 +489,15 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
       "partido": "PP",
       "raca": "Branca",
       "genero": "Feminino",
@@ -583,7 +592,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 3
+      "n": 2
     },
     {
       "cargo": "Vereador",

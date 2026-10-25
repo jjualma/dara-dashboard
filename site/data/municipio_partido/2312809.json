@@ -75,6 +75,15 @@
     {
       "cargo": "Prefeito",
       "ano": 2024,
+      "partido": "PP",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
       "partido": "PSB",
       "raca": "Parda",
       "genero": "Feminino",
@@ -291,7 +300,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Parda",
       "genero": "Feminino",
       "etapa": "Candidaturas",

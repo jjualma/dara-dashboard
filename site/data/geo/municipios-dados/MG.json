@@ -17271,6 +17271,116 @@
       "razao": 0
     },
     {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 12.62,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 12.49,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 22.2,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 21.21,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 15.75,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 15.75,
+      "razao": 6.35
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "3102506",
+      "municipio_nome": "Amparo Do Serra",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3102506",
@@ -87380,9 +87490,9 @@
       "municipio_nome": "Capelinha",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 61.54,
+      "pct_eleitos": 76.92,
       "pct_populacao": 33.42,
-      "razao": 1.84
+      "razao": 2.3
     },
     {
       "cargo": "Vereador",
@@ -87402,9 +87512,9 @@
       "municipio_nome": "Capelinha",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 23.08,
+      "pct_eleitos": 7.69,
       "pct_populacao": 11.43,
-      "razao": 2.02
+      "razao": 0.67
     },
     {
       "cargo": "Vereador",
@@ -192430,9 +192540,9 @@
       "municipio_nome": "Fortuna De Minas",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 66.67,
       "pct_populacao": 28.71,
-      "razao": 1.94
+      "razao": 2.32
     },
     {
       "cargo": "Vereador",
@@ -192441,9 +192551,9 @@
       "municipio_nome": "Fortuna De Minas",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 12.09,
-      "razao": 0
+      "razao": 0.92
     },
     {
       "cargo": "Vereador",
@@ -192452,9 +192562,9 @@
       "municipio_nome": "Fortuna De Minas",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 0,
       "pct_populacao": 11.48,
-      "razao": 1.94
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -229131,116 +229241,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 7.09,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 7.95,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 19.11,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 20.66,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 21.51,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 23.53,
-      "razao": 4.25
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0,
-      "razao": null
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.08,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3130804",
-      "municipio_nome": "Ingaí",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.08,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3130804",
@@ -237970,9 +237970,9 @@
       "municipio_nome": "Itacambira",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 66.67,
       "pct_populacao": 36.31,
-      "razao": 2.14
+      "razao": 1.84
     },
     {
       "cargo": "Vereador",
@@ -237992,9 +237992,9 @@
       "municipio_nome": "Itacambira",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 13.24,
-      "razao": 1.68
+      "razao": 2.52
     },
     {
       "cargo": "Vereador",
@@ -315058,9 +315058,9 @@
       "municipio_nome": "Mesquita",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 0,
       "pct_populacao": 6.57,
-      "razao": 3.38
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -315080,9 +315080,9 @@
       "municipio_nome": "Mesquita",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 55.56,
       "pct_populacao": 29.74,
-      "razao": 1.12
+      "razao": 1.87
     },
     {
       "cargo": "Vereador",
@@ -332240,9 +332240,9 @@
       "municipio_nome": "Mutum",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 63.64,
+      "pct_eleitos": 45.45,
       "pct_populacao": 29.41,
-      "razao": 2.16
+      "razao": 1.55
     },
     {
       "cargo": "Vereador",
@@ -332262,9 +332262,9 @@
       "municipio_nome": "Mutum",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 45.45,
       "pct_populacao": 17.48,
-      "razao": 1.56
+      "razao": 2.6
     },
     {
       "cargo": "Vereador",
@@ -339478,9 +339478,9 @@
       "municipio_nome": "Nova Era",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 10.16,
-      "razao": 0
+      "razao": 1.09
     },
     {
       "cargo": "Vereador",
@@ -339500,9 +339500,9 @@
       "municipio_nome": "Nova Era",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 33.33,
       "pct_populacao": 27.14,
-      "razao": 1.64
+      "razao": 1.23
     },
     {
       "cargo": "Vereador",
@@ -342129,9 +342129,9 @@
       "municipio_nome": "Nova Porteirinha",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 32.31,
-      "razao": 0.34
+      "razao": 0.69
     },
     {
       "cargo": "Vereador",
@@ -342162,9 +342162,9 @@
       "municipio_nome": "Nova Porteirinha",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 22.22,
       "pct_populacao": 12.72,
-      "razao": 2.62
+      "razao": 1.75
     },
     {
       "cargo": "Vereador",
@@ -359960,9 +359960,9 @@
       "municipio_nome": "Paracatu",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 12.5,
+      "pct_eleitos": 6.25,
       "pct_populacao": 28.38,
-      "razao": 0.44
+      "razao": 0.22
     },
     {
       "cargo": "Vereador",
@@ -359982,9 +359982,9 @@
       "municipio_nome": "Paracatu",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 31.25,
+      "pct_eleitos": 37.5,
       "pct_populacao": 11.43,
-      "razao": 2.73
+      "razao": 3.28
     },
     {
       "cargo": "Vereador",
@@ -360609,9 +360609,9 @@
       "municipio_nome": "Pará De Minas",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 5.88,
+      "pct_eleitos": 0,
       "pct_populacao": 22.7,
-      "razao": 0.26
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -360620,9 +360620,9 @@
       "municipio_nome": "Pará De Minas",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 41.18,
+      "pct_eleitos": 47.06,
       "pct_populacao": 22.67,
-      "razao": 1.82
+      "razao": 2.08
     },
     {
       "cargo": "Vereador",
@@ -433110,9 +433110,9 @@
       "municipio_nome": "Sacramento",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 19.21,
-      "razao": 0
+      "razao": 0.58
     },
     {
       "cargo": "Vereador",
@@ -433132,9 +433132,9 @@
       "municipio_nome": "Sacramento",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 88.89,
+      "pct_eleitos": 77.78,
       "pct_populacao": 26.41,
-      "razao": 3.37
+      "razao": 2.95
     },
     {
       "cargo": "Vereador",
@@ -437048,9 +437048,9 @@
       "municipio_nome": "Santa Bárbara Do Tugúrio",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 3.3,
-      "razao": 3.37
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -437070,9 +437070,9 @@
       "municipio_nome": "Santa Bárbara Do Tugúrio",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 23.86,
-      "razao": 0.47
+      "razao": 0.93
     },
     {
       "cargo": "Vereador",
@@ -462898,9 +462898,9 @@
       "municipio_nome": "Santos Dumont",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 7.69,
       "pct_populacao": 7.39,
-      "razao": 0
+      "razao": 1.04
     },
     {
       "cargo": "Vereador",
@@ -462942,9 +462942,9 @@
       "municipio_nome": "Santos Dumont",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 53.85,
+      "pct_eleitos": 46.15,
       "pct_populacao": 22.55,
-      "razao": 2.39
+      "razao": 2.05
     },
     {
       "cargo": "Vereador",
@@ -513399,9 +513399,9 @@
       "municipio_nome": "Serra Dos Aimorés",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 32.82,
-      "razao": 0.34
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -513410,9 +513410,9 @@
       "municipio_nome": "Serra Dos Aimorés",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 55.56,
       "pct_populacao": 30.18,
-      "razao": 1.47
+      "razao": 1.84
     },
     {
       "cargo": "Vereador",
@@ -546300,9 +546300,9 @@
       "municipio_nome": "Varginha",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 20,
+      "pct_eleitos": 33.33,
       "pct_populacao": 16.84,
-      "razao": 1.19
+      "razao": 1.98
     },
     {
       "cargo": "Vereador",
@@ -546322,9 +546322,9 @@
       "municipio_nome": "Varginha",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 60,
+      "pct_eleitos": 46.67,
       "pct_populacao": 25.58,
-      "razao": 2.35
+      "razao": 1.82
     },
     {
       "cargo": "Vereador",

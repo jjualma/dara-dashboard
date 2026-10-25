@@ -13691,9 +13691,9 @@
       "municipio_nome": "Casimiro De Abreu",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 9.09,
       "pct_populacao": 22.4,
-      "razao": 0.81
+      "razao": 0.41
     },
     {
       "cargo": "Vereador",
@@ -13702,9 +13702,9 @@
       "municipio_nome": "Casimiro De Abreu",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 36.36,
+      "pct_eleitos": 45.45,
       "pct_populacao": 19.69,
-      "razao": 1.85
+      "razao": 2.31
     },
     {
       "cargo": "Vereador",
@@ -25742,6 +25742,116 @@
     },
     {
       "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 4.12,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 4.57,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 23.24,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 53.85,
+      "pct_populacao": 23.24,
+      "razao": 2.32
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 7.69,
+      "pct_populacao": 23.1,
+      "razao": 0.33
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 38.46,
+      "pct_populacao": 21.26,
+      "razao": 1.81
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.05,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.03,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.22,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3302601",
+      "municipio_nome": "Mangaratiba",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.18,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
       "ano": 2020,
       "municipio_id": "3302601",
       "municipio_nome": "Mangaratiba",
@@ -29481,116 +29591,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 7.43,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 7.23,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 21.91,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 21.45,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 22.01,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 19.72,
-      "razao": 5.07
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.09,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.08,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.07,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3303104",
-      "municipio_nome": "Natividade",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.01,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "3303104",
@@ -30510,9 +30510,9 @@
       "municipio_nome": "Nilópolis",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 8.33,
+      "pct_eleitos": 16.67,
       "pct_populacao": 22.63,
-      "razao": 0.37
+      "razao": 0.74
     },
     {
       "cargo": "Vereador",
@@ -30532,9 +30532,9 @@
       "municipio_nome": "Nilópolis",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 75,
+      "pct_eleitos": 66.67,
       "pct_populacao": 15.57,
-      "razao": 4.82
+      "razao": 4.28
     },
     {
       "cargo": "Vereador",
@@ -50211,9 +50211,9 @@
       "municipio_nome": "São José Do Vale Do Rio Preto",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 33.01,
-      "razao": 0.67
+      "razao": 0.34
     },
     {
       "cargo": "Vereador",
@@ -50222,9 +50222,9 @@
       "municipio_nome": "São José Do Vale Do Rio Preto",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 77.78,
       "pct_populacao": 31.32,
-      "razao": 2.13
+      "razao": 2.48
     },
     {
       "cargo": "Vereador",
@@ -52582,6 +52582,116 @@
     },
     {
       "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 7.69,
+      "pct_populacao": 5.66,
+      "razao": 1.36
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 6,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 7.69,
+      "pct_populacao": 18.37,
+      "razao": 0.42
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 38.46,
+      "pct_populacao": 18.76,
+      "razao": 2.05
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 7.69,
+      "pct_populacao": 26.02,
+      "razao": 0.3
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 38.46,
+      "pct_populacao": 24.62,
+      "razao": 1.56
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.05,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.04,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.26,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3305505",
+      "municipio_nome": "Saquarema",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.22,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
       "ano": 2020,
       "municipio_id": "3305505",
       "municipio_nome": "Saquarema",
@@ -53568,116 +53678,6 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.58,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 8.93,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 8.98,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 100,
-      "pct_populacao": 25.15,
-      "razao": 3.98
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 24.86,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 16.46,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 15.46,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.02,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.06,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "3305604",
-      "municipio_nome": "Silva Jardim",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.05,
       "razao": 0
     },
     {
@@ -57532,6 +57532,116 @@
     },
     {
       "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 8.03,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 7.58,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 17.4,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 8.33,
+      "pct_populacao": 16.85,
+      "razao": 0.49
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 16.67,
+      "pct_populacao": 26.3,
+      "razao": 0.63
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 75,
+      "pct_populacao": 23.3,
+      "razao": 3.22
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.04,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.04,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.28,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2016,
+      "municipio_id": "3306107",
+      "municipio_nome": "Valença",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.19,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
       "ano": 2020,
       "municipio_id": "3306107",
       "municipio_nome": "Valença",
@@ -58351,9 +58461,9 @@
       "municipio_nome": "Varre-Sai",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 24.51,
-      "razao": 0
+      "razao": 0.45
     },
     {
       "cargo": "Vereador",
@@ -58362,9 +58472,9 @@
       "municipio_nome": "Varre-Sai",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 66.67,
       "pct_populacao": 24.89,
-      "razao": 3.12
+      "razao": 2.68
     },
     {
       "cargo": "Vereador",

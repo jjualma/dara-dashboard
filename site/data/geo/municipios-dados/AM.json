@@ -5859,9 +5859,9 @@
       "municipio_nome": "Barreirinha",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 18.18,
       "pct_populacao": 30.71,
-      "razao": 0.89
+      "razao": 0.59
     },
     {
       "cargo": "Vereador",
@@ -5870,9 +5870,9 @@
       "municipio_nome": "Barreirinha",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 45.45,
+      "pct_eleitos": 54.55,
       "pct_populacao": 32.74,
-      "razao": 1.39
+      "razao": 1.67
     },
     {
       "cargo": "Vereador",
@@ -6541,9 +6541,9 @@
       "municipio_nome": "Benjamin Constant",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 7.69,
+      "pct_eleitos": 0,
       "pct_populacao": 3.18,
-      "razao": 2.42
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -6574,9 +6574,9 @@
       "municipio_nome": "Benjamin Constant",
       "raca": "Indígena",
       "genero": "Masculino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 23.08,
       "pct_populacao": 19.92,
-      "razao": 0.77
+      "razao": 1.16
     },
     {
       "cargo": "Vereador",
@@ -18278,9 +18278,9 @@
       "municipio_nome": "Iranduba",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 7.69,
+      "pct_eleitos": 0,
       "pct_populacao": 3.46,
-      "razao": 2.22
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -18300,9 +18300,9 @@
       "municipio_nome": "Iranduba",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 76.92,
+      "pct_eleitos": 84.62,
       "pct_populacao": 38.8,
-      "razao": 1.98
+      "razao": 2.18
     },
     {
       "cargo": "Vereador",
@@ -24218,9 +24218,9 @@
       "municipio_nome": "Manaquiri",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 9.09,
       "pct_populacao": 2.72,
-      "razao": 0
+      "razao": 3.34
     },
     {
       "cargo": "Vereador",
@@ -24251,9 +24251,9 @@
       "municipio_nome": "Manaquiri",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 0,
       "pct_populacao": 6.3,
-      "razao": 1.44
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -24889,9 +24889,9 @@
       "municipio_nome": "Manaus",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 7.32,
+      "pct_eleitos": 4.88,
       "pct_populacao": 35.84,
-      "razao": 0.2
+      "razao": 0.14
     },
     {
       "cargo": "Vereador",
@@ -24900,9 +24900,9 @@
       "municipio_nome": "Manaus",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 46.34,
+      "pct_eleitos": 48.78,
       "pct_populacao": 33.72,
-      "razao": 1.37
+      "razao": 1.45
     },
     {
       "cargo": "Vereador",
@@ -29509,9 +29509,9 @@
       "municipio_nome": "Novo Aripuanã",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 27.27,
       "pct_populacao": 38.64,
-      "razao": 0.47
+      "razao": 0.71
     },
     {
       "cargo": "Vereador",
@@ -29520,9 +29520,9 @@
       "municipio_nome": "Novo Aripuanã",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 63.64,
+      "pct_eleitos": 54.55,
       "pct_populacao": 41.28,
-      "razao": 1.54
+      "razao": 1.32
     },
     {
       "cargo": "Vereador",
@@ -31489,9 +31489,9 @@
       "municipio_nome": "Presidente Figueiredo",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 23.08,
       "pct_populacao": 36.1,
-      "razao": 0.43
+      "razao": 0.64
     },
     {
       "cargo": "Vereador",
@@ -31522,9 +31522,9 @@
       "municipio_nome": "Presidente Figueiredo",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 7.69,
       "pct_populacao": 9.14,
-      "razao": 1.68
+      "razao": 0.84
     },
     {
       "cargo": "Vereador",

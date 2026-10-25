@@ -835,7 +835,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -980,6 +980,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 5
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "UNIÃO",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",

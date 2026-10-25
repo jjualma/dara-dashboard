@@ -118,15 +118,6 @@
       "n": 1
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "partido": "UNIÃO",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "partido": "PATRIOTA",
@@ -687,7 +678,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -696,7 +687,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",

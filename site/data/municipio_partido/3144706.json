@@ -1155,6 +1155,24 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
+      "partido": "PL",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
       "partido": "PMN/MOBILIZA",
       "raca": "Preta",
       "genero": "Masculino",
@@ -1258,7 +1276,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -1490,15 +1508,6 @@
       "ano": 2024,
       "partido": "REDE",
       "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "REDE",
-      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "n": 1

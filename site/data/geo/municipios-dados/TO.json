@@ -33111,116 +33111,6 @@
       "razao": 0
     },
     {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 4.72,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 5.8,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 32.57,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 32.78,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 11.82,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "pct_eleitos": 100,
-      "pct_populacao": 12.09,
-      "razao": 8.27
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Indígena",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.06,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Indígena",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.12,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Amarela",
-      "genero": "Feminino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.02,
-      "razao": 0
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "municipio_id": "1707652",
-      "municipio_nome": "Figueirópolis",
-      "raca": "Amarela",
-      "genero": "Masculino",
-      "pct_eleitos": 0,
-      "pct_populacao": 0.04,
-      "razao": 0
-    },
-    {
       "cargo": "Vereador",
       "ano": 2016,
       "municipio_id": "1707652",
@@ -34789,9 +34679,9 @@
       "municipio_nome": "Formoso Do Araguaia",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 9.09,
       "pct_populacao": 30.24,
-      "razao": 0
+      "razao": 0.3
     },
     {
       "cargo": "Vereador",
@@ -34800,9 +34690,9 @@
       "municipio_nome": "Formoso Do Araguaia",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 54.55,
+      "pct_eleitos": 45.45,
       "pct_populacao": 30.82,
-      "razao": 1.77
+      "razao": 1.47
     },
     {
       "cargo": "Vereador",
@@ -36758,9 +36648,9 @@
       "municipio_nome": "Goiatins",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 5.12,
-      "razao": 0
+      "razao": 2.17
     },
     {
       "cargo": "Vereador",
@@ -36769,9 +36659,9 @@
       "municipio_nome": "Goiatins",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 26.86,
-      "razao": 0.83
+      "razao": 0.41
     },
     {
       "cargo": "Vereador",
@@ -44678,9 +44568,9 @@
       "municipio_nome": "Lajeado",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 6.4,
-      "razao": 0
+      "razao": 1.74
     },
     {
       "cargo": "Vereador",
@@ -44700,9 +44590,9 @@
       "municipio_nome": "Lajeado",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 44.44,
       "pct_populacao": 37.44,
-      "razao": 1.48
+      "razao": 1.19
     },
     {
       "cargo": "Vereador",
@@ -51289,9 +51179,9 @@
       "municipio_nome": "Monte Santo Do Tocantins",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 32.18,
-      "razao": 0.35
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -51300,9 +51190,9 @@
       "municipio_nome": "Monte Santo Do Tocantins",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 66.67,
       "pct_populacao": 33.76,
-      "razao": 1.32
+      "razao": 1.97
     },
     {
       "cargo": "Vereador",
@@ -51322,9 +51212,9 @@
       "municipio_nome": "Monte Santo Do Tocantins",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 14.02,
-      "razao": 0.79
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -57240,9 +57130,9 @@
       "municipio_nome": "Novo Jardim",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 66.67,
       "pct_populacao": 36.77,
-      "razao": 1.51
+      "razao": 1.81
     },
     {
       "cargo": "Vereador",
@@ -57251,9 +57141,9 @@
       "municipio_nome": "Novo Jardim",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 7.53,
-      "razao": 1.48
+      "razao": 0
     },
     {
       "cargo": "Vereador",

@@ -24108,9 +24108,9 @@
       "municipio_nome": "Barra Do Quaraí",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 3.73,
-      "razao": 2.98
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -24152,9 +24152,9 @@
       "municipio_nome": "Barra Do Quaraí",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 88.89,
       "pct_populacao": 33.36,
-      "razao": 2.33
+      "razao": 2.66
     },
     {
       "cargo": "Vereador",
@@ -73971,9 +73971,9 @@
       "municipio_nome": "Condor",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 20,
       "pct_populacao": 39.68,
-      "razao": 0.56
+      "razao": 0.5
     },
     {
       "cargo": "Vereador",
@@ -73982,9 +73982,9 @@
       "municipio_nome": "Condor",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 80,
       "pct_populacao": 37.74,
-      "razao": 2.06
+      "razao": 2.12
     },
     {
       "cargo": "Vereador",
@@ -152478,9 +152478,9 @@
       "municipio_nome": "Lajeado",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 6.67,
       "pct_populacao": 2.1,
-      "razao": 0
+      "razao": 3.18
     },
     {
       "cargo": "Vereador",
@@ -152522,9 +152522,9 @@
       "municipio_nome": "Lajeado",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 60,
+      "pct_eleitos": 53.33,
       "pct_populacao": 40.1,
-      "razao": 1.5
+      "razao": 1.33
     },
     {
       "cargo": "Vereador",
@@ -286370,9 +286370,9 @@
       "municipio_nome": "Sobradinho",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 8.74,
-      "razao": 1.27
+      "razao": 2.54
     },
     {
       "cargo": "Vereador",
@@ -286392,9 +286392,9 @@
       "municipio_nome": "Sobradinho",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 55.56,
       "pct_populacao": 37.35,
-      "razao": 1.79
+      "razao": 1.49
     },
     {
       "cargo": "Vereador",

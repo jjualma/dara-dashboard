@@ -8389,9 +8389,9 @@
       "municipio_nome": "Arenápolis",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 31.82,
-      "razao": 0.35
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -8400,9 +8400,9 @@
       "municipio_nome": "Arenápolis",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 77.78,
       "pct_populacao": 32.27,
-      "razao": 2.07
+      "razao": 2.41
     },
     {
       "cargo": "Vereador",
@@ -54468,9 +54468,9 @@
       "municipio_nome": "Novo Horizonte Do Norte",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 4.24,
-      "razao": 5.24
+      "razao": 2.62
     },
     {
       "cargo": "Vereador",
@@ -54490,9 +54490,9 @@
       "municipio_nome": "Novo Horizonte Do Norte",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 55.56,
       "pct_populacao": 30.96,
-      "razao": 1.44
+      "razao": 1.79
     },
     {
       "cargo": "Vereador",
@@ -67690,9 +67690,9 @@
       "municipio_nome": "Reserva Do Cabaçal",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 44.44,
       "pct_populacao": 31.57,
-      "razao": 1.06
+      "razao": 1.41
     },
     {
       "cargo": "Vereador",
@@ -67701,9 +67701,9 @@
       "municipio_nome": "Reserva Do Cabaçal",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 13.05,
-      "razao": 0.85
+      "razao": 0
     },
     {
       "cargo": "Vereador",

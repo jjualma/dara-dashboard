@@ -6834,7 +6834,7 @@
       "ano": 2026,
       "uf": "AC",
       "partido": "PSB",
-      "raca": "Branca",
+      "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -6864,7 +6864,7 @@
       "ano": 2026,
       "uf": "AL",
       "partido": "DEMOCRATA",
-      "raca": "Parda",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -6887,6 +6887,16 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "AL",
+      "partido": "PSDB",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -6993,8 +7003,18 @@
     {
       "ano": 2026,
       "uf": "AP",
+      "partido": "PSD",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "AP",
       "partido": "PSDC/DC",
-      "raca": "Parda",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -7063,6 +7083,16 @@
     {
       "ano": 2026,
       "uf": "BA",
+      "partido": "PT",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "BA",
       "partido": "UNIÃO",
       "raca": "Branca",
       "genero": "Masculino",
@@ -7105,6 +7135,16 @@
       "uf": "CE",
       "partido": "NOVO",
       "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "CE",
+      "partido": "NOVO",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -7134,7 +7174,7 @@
       "ano": 2026,
       "uf": "CE",
       "partido": "PSTU",
-      "raca": "Parda",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -7147,6 +7187,16 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "CE",
+      "partido": "PT",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -7186,6 +7236,16 @@
       "partido": "PP",
       "raca": "Branca",
       "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": true,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "DF",
+      "partido": "PRTB",
+      "raca": "Branca",
+      "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": true,
       "n": 1
@@ -7337,6 +7397,16 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "GO",
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -7433,6 +7503,16 @@
     {
       "ano": 2026,
       "uf": "MA",
+      "partido": "PSD",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "MA",
       "partido": "PSTU",
       "raca": "Branca",
       "genero": "Masculino",
@@ -7523,6 +7603,16 @@
     {
       "ano": 2026,
       "uf": "MG",
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "MG",
       "partido": "PSD",
       "raca": "Branca",
       "genero": "Masculino",
@@ -7593,6 +7683,16 @@
     {
       "ano": 2026,
       "uf": "MS",
+      "partido": "PP",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "MS",
       "partido": "PRD",
       "raca": "Branca",
       "genero": "Masculino",
@@ -7683,8 +7783,38 @@
     {
       "ano": 2026,
       "uf": "MT",
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "MT",
       "partido": "PSD",
       "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "MT",
+      "partido": "PTC/AGIR",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 2
+    },
+    {
+      "ano": 2026,
+      "uf": "PA",
+      "partido": "DEMOCRATA",
+      "raca": "Parda",
       "genero": "Feminino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -7723,7 +7853,27 @@
     {
       "ano": 2026,
       "uf": "PA",
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "PA",
       "partido": "PSOL",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "PA",
+      "partido": "PSTU",
       "raca": "Preta",
       "genero": "Feminino",
       "etapa": "Candidaturas",
@@ -7787,6 +7937,16 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "PB",
+      "partido": "PP",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -7863,6 +8023,16 @@
     {
       "ano": 2026,
       "uf": "PE",
+      "partido": "PSD",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "PE",
       "partido": "PSOL",
       "raca": "Branca",
       "genero": "Masculino",
@@ -7908,7 +8078,7 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
-      "n": 2
+      "n": 1
     },
     {
       "ano": 2026,
@@ -7977,6 +8147,16 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "PI",
+      "partido": "PT",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -8043,6 +8223,16 @@
     {
       "ano": 2026,
       "uf": "PR",
+      "partido": "PL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "PR",
       "partido": "PMN/MOBILIZA",
       "raca": "Branca",
       "genero": "Masculino",
@@ -8198,7 +8388,7 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
-      "n": 1
+      "n": 2
     },
     {
       "ano": 2026,
@@ -8214,7 +8404,7 @@
       "ano": 2026,
       "uf": "RN",
       "partido": "PSTU",
-      "raca": "Parda",
+      "raca": "Preta",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,
@@ -8267,6 +8457,16 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "RO",
+      "partido": "PL",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -8343,6 +8543,16 @@
     {
       "ano": 2026,
       "uf": "RR",
+      "partido": "PL",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "RR",
       "partido": "PRB/REPUBLICANOS",
       "raca": "Parda",
       "genero": "Masculino",
@@ -8397,6 +8607,16 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "RS",
+      "partido": "PL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -8467,6 +8687,16 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "SC",
+      "partido": "PL",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
       "capital": false,
       "n": 1
     },
@@ -8553,6 +8783,16 @@
     {
       "ano": 2026,
       "uf": "SE",
+      "partido": "PSD",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "SE",
       "partido": "PSDB",
       "raca": "Parda",
       "genero": "Masculino",
@@ -8613,6 +8853,16 @@
     {
       "ano": 2026,
       "uf": "SP",
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "SP",
       "partido": "PSTU",
       "raca": "Preta",
       "genero": "Feminino",
@@ -8655,6 +8905,16 @@
       "uf": "TO",
       "partido": "DEMOCRATA",
       "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 1
+    },
+    {
+      "ano": 2026,
+      "uf": "TO",
+      "partido": "DEMOCRATA",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "capital": false,

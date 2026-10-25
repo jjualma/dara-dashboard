@@ -615,7 +615,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -1074,6 +1074,15 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
+      "partido": "PP",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
       "partido": "PRB/REPUBLICANOS",
       "raca": "Preta",
       "genero": "Feminino",
@@ -1124,15 +1133,6 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 5
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "n": 1
     },
     {
       "cargo": "Vereador",

@@ -790,7 +790,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 1
+      "n": 2
     },
     {
       "cargo": "Vereador",
@@ -836,15 +836,6 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 3
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PSD",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
     },
     {
       "cargo": "Vereador",

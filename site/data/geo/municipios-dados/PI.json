@@ -34761,6 +34761,116 @@
       "razao": 0
     },
     {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 4.3,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 5.52,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 22.22,
+      "pct_populacao": 34.05,
+      "razao": 0.65
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 66.67,
+      "pct_populacao": 33.78,
+      "razao": 1.97
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 11.11,
+      "pct_populacao": 10.99,
+      "razao": 1.01
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 11.35,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "2202539",
+      "municipio_nome": "Caraúbas Do Piauí",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
       "cargo": "Prefeito",
       "ano": 2016,
       "municipio_id": "2202554",
@@ -126848,9 +126958,9 @@
       "municipio_nome": "São João Da Varjota",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 20.49,
-      "razao": 0
+      "razao": 0.54
     },
     {
       "cargo": "Vereador",
@@ -126870,9 +126980,9 @@
       "municipio_nome": "São João Da Varjota",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 44.44,
       "pct_populacao": 24.76,
-      "razao": 2.69
+      "razao": 1.79
     },
     {
       "cargo": "Vereador",
@@ -126881,9 +126991,9 @@
       "municipio_nome": "São João Da Varjota",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 3.99,
-      "razao": 0
+      "razao": 2.78
     },
     {
       "cargo": "Vereador",

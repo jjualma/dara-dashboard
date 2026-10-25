@@ -742,15 +742,6 @@
       "cargo": "Vereador",
       "ano": 2024,
       "partido": "PP",
-      "raca": "Preta",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PP",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
@@ -908,6 +899,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 2
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PT",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",

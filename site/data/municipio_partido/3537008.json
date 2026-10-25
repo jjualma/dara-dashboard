@@ -516,7 +516,7 @@
     {
       "cargo": "Vereador",
       "ano": 2016,
-      "partido": "PTN/PODE",
+      "partido": "PTN",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -957,15 +957,6 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PL",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
       "partido": "PMDB/MDB",
       "raca": "Preta",
       "genero": "Feminino",
@@ -1016,6 +1007,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 5
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PMDB/MDB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 3
     },
     {
       "cargo": "Vereador",
@@ -1069,7 +1069,7 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 2
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -1124,6 +1124,15 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 5
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PSB",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 1
     },
     {
       "cargo": "Vereador",
@@ -1174,15 +1183,6 @@
       "cargo": "Vereador",
       "ano": 2024,
       "partido": "PSD",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PSD",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
@@ -1394,15 +1394,6 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 4
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "UNIÃO",
-      "raca": "Branca",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 1
     }
   ]
 }

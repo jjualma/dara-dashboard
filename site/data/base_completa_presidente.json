@@ -473,6 +473,16 @@
     {
       "ano": 2026,
       "uf": "BR",
+      "partido": "PRTB",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "capital": false,
+      "n": 2
+    },
+    {
+      "ano": 2026,
+      "uf": "BR",
       "partido": "PSD",
       "raca": "Branca",
       "genero": "Masculino",

@@ -1508,15 +1508,6 @@
       "ano": 2024,
       "partido": "PL",
       "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PL",
-      "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "n": 2
@@ -1600,7 +1591,7 @@
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 1
+      "n": 2
     },
     {
       "cargo": "Vereador",

@@ -579,9 +579,9 @@
       "municipio_nome": "Abaiara",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 35.38,
-      "razao": 0.31
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -590,9 +590,9 @@
       "municipio_nome": "Abaiara",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 55.56,
+      "pct_eleitos": 66.67,
       "pct_populacao": 33.56,
-      "razao": 1.66
+      "razao": 1.99
     },
     {
       "cargo": "Vereador",
@@ -1239,9 +1239,9 @@
       "municipio_nome": "Acarape",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 38.71,
-      "razao": 0.29
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -1250,9 +1250,9 @@
       "municipio_nome": "Acarape",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 77.78,
+      "pct_eleitos": 100,
       "pct_populacao": 35.81,
-      "razao": 2.17
+      "razao": 2.79
     },
     {
       "cargo": "Vereador",
@@ -1261,9 +1261,9 @@
       "municipio_nome": "Acarape",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 9.19,
-      "razao": 1.21
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -19070,9 +19070,9 @@
       "municipio_nome": "Bela Cruz",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 61.54,
+      "pct_eleitos": 69.23,
       "pct_populacao": 35.41,
-      "razao": 1.74
+      "razao": 1.96
     },
     {
       "cargo": "Vereador",
@@ -19092,9 +19092,9 @@
       "municipio_nome": "Bela Cruz",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 7.69,
       "pct_populacao": 10.41,
-      "razao": 1.48
+      "razao": 0.74
     },
     {
       "cargo": "Vereador",
@@ -38628,9 +38628,9 @@
       "municipio_nome": "Fortaleza",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 2.33,
+      "pct_eleitos": 4.65,
       "pct_populacao": 3.63,
-      "razao": 0.64
+      "razao": 1.28
     },
     {
       "cargo": "Vereador",
@@ -38650,9 +38650,9 @@
       "municipio_nome": "Fortaleza",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 39.53,
+      "pct_eleitos": 37.21,
       "pct_populacao": 27.87,
-      "razao": 1.42
+      "razao": 1.34
     },
     {
       "cargo": "Vereador",
@@ -60980,9 +60980,9 @@
       "municipio_nome": "Jaguaribara",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 44.44,
+      "pct_eleitos": 33.33,
       "pct_populacao": 29.94,
-      "razao": 1.48
+      "razao": 1.11
     },
     {
       "cargo": "Vereador",
@@ -61002,9 +61002,9 @@
       "municipio_nome": "Jaguaribara",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 22.22,
       "pct_populacao": 13.89,
-      "razao": 0.8
+      "razao": 1.6
     },
     {
       "cargo": "Vereador",
@@ -77139,9 +77139,9 @@
       "municipio_nome": "Moraújo",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 11.11,
+      "pct_eleitos": 0,
       "pct_populacao": 38.3,
-      "razao": 0.29
+      "razao": 0
     },
     {
       "cargo": "Vereador",
@@ -77161,9 +77161,9 @@
       "municipio_nome": "Moraújo",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 9.44,
-      "razao": 2.35
+      "razao": 3.53
     },
     {
       "cargo": "Vereador",
@@ -84410,9 +84410,9 @@
       "municipio_nome": "Pacoti",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 33.33,
       "pct_populacao": 37.31,
-      "razao": 0.6
+      "razao": 0.89
     },
     {
       "cargo": "Vereador",
@@ -84421,9 +84421,9 @@
       "municipio_nome": "Pacoti",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 33.33,
+      "pct_eleitos": 22.22,
       "pct_populacao": 10.05,
-      "razao": 3.32
+      "razao": 2.21
     },
     {
       "cargo": "Vereador",
@@ -90130,9 +90130,9 @@
       "municipio_nome": "Penaforte",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 44.44,
       "pct_populacao": 32.79,
-      "razao": 2.03
+      "razao": 1.36
     },
     {
       "cargo": "Vereador",
@@ -90152,9 +90152,9 @@
       "municipio_nome": "Penaforte",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 44.44,
       "pct_populacao": 12.36,
-      "razao": 1.8
+      "razao": 3.6
     },
     {
       "cargo": "Vereador",
@@ -100701,9 +100701,9 @@
       "municipio_nome": "Reriutaba",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 36.36,
       "pct_populacao": 15.93,
-      "razao": 1.71
+      "razao": 2.28
     },
     {
       "cargo": "Vereador",
@@ -100712,9 +100712,9 @@
       "municipio_nome": "Reriutaba",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 54.55,
+      "pct_eleitos": 45.45,
       "pct_populacao": 15.38,
-      "razao": 3.55
+      "razao": 2.96
     },
     {
       "cargo": "Vereador",
@@ -108238,6 +108238,116 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.96,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 2.63,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 3.48,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 38.54,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 39.49,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 8.72,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 7,
+      "razao": 14.29
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0,
+      "razao": null
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.03,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.07,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "2312809",
+      "municipio_nome": "Senador Sá",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.04,
       "razao": 0
     },
     {

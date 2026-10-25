@@ -84,6 +84,15 @@
     {
       "cargo": "Prefeito",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2020,
       "partido": "PPS/CIDADANIA",
       "raca": "Preta",
       "genero": "Masculino",
@@ -121,15 +130,6 @@
       "cargo": "Prefeito",
       "ano": 2020,
       "partido": "PSC",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2020,
-      "partido": "PTN/PODE",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -876,6 +876,24 @@
     {
       "cargo": "Vereador",
       "ano": 2020,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 5
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
+      "partido": "PODE",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 11
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2020,
       "partido": "PPS/CIDADANIA",
       "raca": "Parda",
       "genero": "Feminino",
@@ -1097,24 +1115,6 @@
       "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 2
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 5
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2020,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 11
     },
     {
       "cargo": "Vereador",

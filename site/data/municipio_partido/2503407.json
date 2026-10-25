@@ -66,6 +66,15 @@
     {
       "cargo": "Prefeito",
       "ano": 2024,
+      "partido": "PODE",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
       "partido": "PRB/REPUBLICANOS",
       "raca": "Branca",
       "genero": "Masculino",
@@ -79,15 +88,6 @@
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Prefeito",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
       "n": 1
     },
     {
@@ -498,25 +498,16 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
+      "partido": "PODE",
       "raca": "Parda",
       "genero": "Feminino",
       "etapa": "Candidaturas",
-      "n": 1
+      "n": 4
     },
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
+      "partido": "PODE",
       "raca": "Parda",
       "genero": "Masculino",
       "etapa": "Candidaturas",
@@ -525,53 +516,17 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Branca",
-      "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
+      "partido": "PODE",
       "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Candidaturas",
-      "n": 3
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Preta",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
       "n": 1
     },
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
+      "partido": "PODE",
       "raca": "Parda",
-      "genero": "Feminino",
-      "etapa": "Eleitos",
-      "n": 1
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Eleitos",
-      "n": 3
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PRB/REPUBLICANOS",
-      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "n": 2
@@ -579,35 +534,80 @@
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Preta",
       "genero": "Feminino",
-      "etapa": "Candidaturas",
-      "n": 4
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Parda",
-      "genero": "Masculino",
-      "etapa": "Candidaturas",
-      "n": 4
-    },
-    {
-      "cargo": "Vereador",
-      "ano": 2024,
-      "partido": "PTN/PODE",
-      "raca": "Branca",
-      "genero": "Masculino",
       "etapa": "Candidaturas",
       "n": 1
     },
     {
       "cargo": "Vereador",
       "ano": 2024,
-      "partido": "PTN/PODE",
+      "partido": "PRB/REPUBLICANOS",
       "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 4
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "etapa": "Candidaturas",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "etapa": "Candidaturas",
+      "n": 3
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "etapa": "Eleitos",
+      "n": 1
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "etapa": "Eleitos",
+      "n": 3
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "partido": "PRB/REPUBLICANOS",
+      "raca": "Branca",
       "genero": "Masculino",
       "etapa": "Eleitos",
       "n": 2

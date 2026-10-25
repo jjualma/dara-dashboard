@@ -568,9 +568,9 @@
       "municipio_nome": "Abaetetuba",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 26.67,
+      "pct_eleitos": 33.33,
       "pct_populacao": 5.43,
-      "razao": 4.91
+      "razao": 6.14
     },
     {
       "cargo": "Vereador",
@@ -590,9 +590,9 @@
       "municipio_nome": "Abaetetuba",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 60,
+      "pct_eleitos": 53.33,
       "pct_populacao": 35.56,
-      "razao": 1.69
+      "razao": 1.5
     },
     {
       "cargo": "Vereador",
@@ -11018,9 +11018,9 @@
       "municipio_nome": "Bannach",
       "raca": "Preta",
       "genero": "Masculino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 11.11,
       "pct_populacao": 6.28,
-      "razao": 0
+      "razao": 1.77
     },
     {
       "cargo": "Vereador",
@@ -11051,9 +11051,9 @@
       "municipio_nome": "Bannach",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 22.22,
+      "pct_eleitos": 11.11,
       "pct_populacao": 8.46,
-      "razao": 2.63
+      "razao": 1.31
     },
     {
       "cargo": "Vereador",
@@ -18069,9 +18069,9 @@
       "municipio_nome": "Breves",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 23.53,
+      "pct_eleitos": 17.65,
       "pct_populacao": 37.58,
-      "razao": 0.63
+      "razao": 0.47
     },
     {
       "cargo": "Vereador",
@@ -18080,9 +18080,9 @@
       "municipio_nome": "Breves",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 52.94,
+      "pct_eleitos": 58.82,
       "pct_populacao": 40.29,
-      "razao": 1.31
+      "razao": 1.46
     },
     {
       "cargo": "Vereador",
@@ -39090,9 +39090,9 @@
       "municipio_nome": "Jacareacanga",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 27.27,
+      "pct_eleitos": 18.18,
       "pct_populacao": 15.68,
-      "razao": 1.74
+      "razao": 1.16
     },
     {
       "cargo": "Vereador",
@@ -39134,9 +39134,9 @@
       "municipio_nome": "Jacareacanga",
       "raca": "Indígena",
       "genero": "Masculino",
-      "pct_eleitos": 36.36,
+      "pct_eleitos": 45.45,
       "pct_populacao": 29.39,
-      "razao": 1.24
+      "razao": 1.55
     },
     {
       "cargo": "Vereador",
@@ -46308,6 +46308,116 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.4,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 4.8,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 9.09,
+      "pct_populacao": 6.23,
+      "razao": 1.46
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 35.79,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 90.91,
+      "pct_populacao": 39.35,
+      "razao": 2.31
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 7.12,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 6.62,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.03,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.01,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.02,
+      "razao": 0
+    },
+    {
+      "cargo": "Vereador",
+      "ano": 2024,
+      "municipio_id": "1504505",
+      "municipio_nome": "Melgaço",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.03,
       "razao": 0
     },
     {
@@ -55480,9 +55590,9 @@
       "municipio_nome": "Ourém",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 36.36,
+      "pct_eleitos": 45.45,
       "pct_populacao": 37.8,
-      "razao": 0.96
+      "razao": 1.2
     },
     {
       "cargo": "Vereador",
@@ -55502,9 +55612,9 @@
       "municipio_nome": "Ourém",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 45.45,
+      "pct_eleitos": 36.36,
       "pct_populacao": 6.74,
-      "razao": 6.74
+      "razao": 5.39
     },
     {
       "cargo": "Vereador",
@@ -56129,9 +56239,9 @@
       "municipio_nome": "Ourilândia Do Norte",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 15.38,
+      "pct_eleitos": 7.69,
       "pct_populacao": 31.17,
-      "razao": 0.49
+      "razao": 0.25
     },
     {
       "cargo": "Vereador",
@@ -56140,9 +56250,9 @@
       "municipio_nome": "Ourilândia Do Norte",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 53.85,
+      "pct_eleitos": 61.54,
       "pct_populacao": 32.54,
-      "razao": 1.65
+      "razao": 1.89
     },
     {
       "cargo": "Vereador",
@@ -62520,9 +62630,9 @@
       "municipio_nome": "Portel",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 53.33,
+      "pct_eleitos": 60,
       "pct_populacao": 39.98,
-      "razao": 1.33
+      "razao": 1.5
     },
     {
       "cargo": "Vereador",
@@ -62542,9 +62652,9 @@
       "municipio_nome": "Portel",
       "raca": "Branca",
       "genero": "Masculino",
-      "pct_eleitos": 20,
+      "pct_eleitos": 13.33,
       "pct_populacao": 7.53,
-      "razao": 2.66
+      "razao": 1.77
     },
     {
       "cargo": "Vereador",
@@ -71089,9 +71199,9 @@
       "municipio_nome": "Santa Izabel Do Pará",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 6.67,
       "pct_populacao": 33.56,
-      "razao": 0
+      "razao": 0.2
     },
     {
       "cargo": "Vereador",
@@ -71100,9 +71210,9 @@
       "municipio_nome": "Santa Izabel Do Pará",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 66.67,
+      "pct_eleitos": 60,
       "pct_populacao": 40.16,
-      "razao": 1.66
+      "razao": 1.49
     },
     {
       "cargo": "Vereador",
@@ -71749,9 +71859,9 @@
       "municipio_nome": "Santa Luzia Do Pará",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 9.09,
+      "pct_eleitos": 18.18,
       "pct_populacao": 36.11,
-      "razao": 0.25
+      "razao": 0.5
     },
     {
       "cargo": "Vereador",
@@ -71760,9 +71870,9 @@
       "municipio_nome": "Santa Luzia Do Pará",
       "raca": "Parda",
       "genero": "Masculino",
-      "pct_eleitos": 81.82,
+      "pct_eleitos": 72.73,
       "pct_populacao": 36.03,
-      "razao": 2.27
+      "razao": 2.02
     },
     {
       "cargo": "Vereador",
@@ -75709,9 +75819,9 @@
       "municipio_nome": "Santo Antônio Do Tauá",
       "raca": "Parda",
       "genero": "Feminino",
-      "pct_eleitos": 18.18,
+      "pct_eleitos": 9.09,
       "pct_populacao": 37.35,
-      "razao": 0.49
+      "razao": 0.24
     },
     {
       "cargo": "Vereador",
@@ -75731,9 +75841,9 @@
       "municipio_nome": "Santo Antônio Do Tauá",
       "raca": "Branca",
       "genero": "Feminino",
-      "pct_eleitos": 0,
+      "pct_eleitos": 9.09,
       "pct_populacao": 9.37,
-      "razao": 0
+      "razao": 0.97
     },
     {
       "cargo": "Vereador",
@@ -89758,6 +89868,116 @@
       "genero": "Masculino",
       "pct_eleitos": 0,
       "pct_populacao": 0.34,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Preta",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 5.3,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Preta",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 5.97,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Parda",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 32.94,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Parda",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 32.15,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Branca",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 11.81,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Branca",
+      "genero": "Masculino",
+      "pct_eleitos": 100,
+      "pct_populacao": 10.86,
+      "razao": 9.21
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Indígena",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.43,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Indígena",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.45,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Amarela",
+      "genero": "Feminino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.05,
+      "razao": 0
+    },
+    {
+      "cargo": "Prefeito",
+      "ano": 2024,
+      "municipio_id": "1508100",
+      "municipio_nome": "Tucuruí",
+      "raca": "Amarela",
+      "genero": "Masculino",
+      "pct_eleitos": 0,
+      "pct_populacao": 0.05,
       "razao": 0
     },
     {
