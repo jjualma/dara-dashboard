@@ -11,12 +11,12 @@ window.DaraFigs.figFinanciamento = (function () {
   const CARGOS_FINANCIAMENTO = ["Presidente", "Governador", "Senador", "Deputado Federal", "Deputado Estadual/Distrital", "Todos"];
   const ANO_PISO_LEGAL = 2026;
   const ANO_COM_LINHA_DO_TEMPO = 2026;
-  // Janela fixa da linha do tempo: sempre 10/08 a 21/09/2026, marcador a cada 3
+  // Janela fixa da linha do tempo: sempre 10/08 a 24/10/2026, marcador a cada 3
   // dias — independente de quais datas o dado realmente tem. Cada marcador
   // busca o valor acumulado mais recente disponível até aquela data (o dado é
   // um degrau: só muda quando chega receita nova, não existe linha pra todo dia).
   const TIMELINE_INICIO = "2026-08-10";
-  const TIMELINE_FIM = "2026-09-21";
+  const TIMELINE_FIM = "2026-10-24";
   const TIMELINE_PASSO_DIAS = 3;
 
   function gerarCheckpointsFixos() {
@@ -236,7 +236,7 @@ window.DaraFigs.figFinanciamento = (function () {
       const h = painel.append("h4");
       h.append("span").text(titulo);
       h.append("span").style("color", "#888").style("font-size", ".75em").style("font-weight", "400")
-        .text(" — Ref. arquivo TSE (21/09)");
+        .text(" — Ref. arquivo TSE (24/10)");
       if (anoAtual !== ANO_COM_LINHA_DO_TEMPO) {
         painel.append("div").attr("class", "sem-dado-placeholder")
           .text(`A evolução ao longo da campanha está disponível só pra ${ANO_COM_LINHA_DO_TEMPO}.`);
